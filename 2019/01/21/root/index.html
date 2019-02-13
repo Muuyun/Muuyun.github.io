@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="手机,">
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
@@ -89,7 +89,6 @@
 
 
 <meta name="description" content="小米手机获取完整ROOT权限前言一开始，我只是想删除一些系统自带的软件，以及安装一些需要root权限的app，这里就不细说了，可能我比较爱折腾，也比较想更多地了解一下手机。虽然ROOT一般情况下不会对硬件造成危害，但ROOT后可能会导致系统运行不稳定，耗电大，手机发热，支付有风险的情况。 过程一 : 解锁Bootloader和刷机 解锁Bootloader申请链接    http://www.mi">
-<meta name="keywords" content="手机">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Root? Root!">
 <meta property="og:url" content="http://yoursite.com/2019/01/21/root/index.html">
@@ -98,7 +97,7 @@
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://attach.bbs.miui.com/forum/201801/19/004936uaz3d528d2tad7mb.jpg.thumb.jpg">
 <meta property="og:image" content="https://attach.bbs.miui.com/forum/201802/08/113313ikjay777kz7wwanc.jpg.thumb.jpg">
-<meta property="og:updated_time" content="2019-01-29T11:42:51.672Z">
+<meta property="og:updated_time" content="2019-02-12T17:47:33.839Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Root? Root!">
 <meta name="twitter:description" content="小米手机获取完整ROOT权限前言一开始，我只是想删除一些系统自带的软件，以及安装一些需要root权限的app，这里就不细说了，可能我比较爱折腾，也比较想更多地了解一下手机。虽然ROOT一般情况下不会对硬件造成危害，但ROOT后可能会导致系统运行不稳定，耗电大，手机发热，支付有风险的情况。 过程一 : 解锁Bootloader和刷机 解锁Bootloader申请链接    http://www.mi">
@@ -359,8 +358,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/手机/" itemprop="url" rel="index">
-                    <span itemprop="name">手机</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -371,6 +370,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/21/root/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/21/root/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -486,12 +495,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/手机/" rel="tag"><i class="fa fa-tag"></i> 手机</a>
-          
-        </div>
-      
 
       
       
@@ -544,9 +547,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjQyNS8xODk3Mg=="></div>
     </div>
-
   
 
 
@@ -608,21 +609,12 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -856,26 +848,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

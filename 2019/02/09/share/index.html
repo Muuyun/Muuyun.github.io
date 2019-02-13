@@ -96,7 +96,7 @@
 <meta property="og:description" content="Fun 字母雨  感受静谧  Comixify  一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，效果很棒。  earth  a global map of wind, weather, and ocean conditions.  Hololens  Mixed Reality HoloLens Solution for Streamlined Shelf Management.  小p">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/one.jpg">
-<meta property="og:updated_time" content="2019-02-09T17:52:46.645Z">
+<meta property="og:updated_time" content="2019-02-12T17:48:38.436Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Share">
 <meta name="twitter:description" content="Fun 字母雨  感受静谧  Comixify  一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，效果很棒。  earth  a global map of wind, weather, and ocean conditions.  Hololens  Mixed Reality HoloLens Solution for Streamlined Shelf Management.  小p">
@@ -370,6 +370,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/02/09/share/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/02/09/share/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -562,9 +572,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjQyNS8xODk3Mg=="></div>
     </div>
-
   
 
 
@@ -626,21 +634,12 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -874,26 +873,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

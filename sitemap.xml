@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/10/20/hello-world/</loc>
+    
+    <lastmod>2019-02-12T17:48:40.829Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/02/09/share/</loc>
     
-    <lastmod>2019-02-09T17:52:46.645Z</lastmod>
+    <lastmod>2019-02-12T17:48:38.436Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/01/29/Markdown/</loc>
+    
+    <lastmod>2019-02-12T17:47:46.185Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/01/21/root/</loc>
+    
+    <lastmod>2019-02-12T17:47:33.839Z</lastmod>
     
   </url>
   
@@ -19,27 +40,6 @@
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2019-02-01T19:07:27.996Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/01/29/Markdown/</loc>
-    
-    <lastmod>2019-01-29T13:57:10.698Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/10/20/hello-world/</loc>
-    
-    <lastmod>2019-01-29T13:56:08.863Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/01/21/root/</loc>
-    
-    <lastmod>2019-01-29T11:42:51.672Z</lastmod>
     
   </url>
   

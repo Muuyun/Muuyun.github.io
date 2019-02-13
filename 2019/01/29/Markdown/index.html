@@ -96,7 +96,7 @@
 <meta property="og:description" content="Markdown 维基百科  Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。  优点 纯文本，所以兼容性极强，可以用所有文本编辑器打开。 让你专注于文字而不是排版。 格式转换方便，Markdown 的文本">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/259-dcf737a97e71cd73.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/879">
-<meta property="og:updated_time" content="2019-01-29T13:57:10.698Z">
+<meta property="og:updated_time" content="2019-02-12T17:47:46.185Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdowm语法">
 <meta name="twitter:description" content="Markdown 维基百科  Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。  优点 纯文本，所以兼容性极强，可以用所有文本编辑器打开。 让你专注于文字而不是排版。 格式转换方便，Markdown 的文本">
@@ -357,8 +357,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/markdown/" itemprop="url" rel="index">
-                    <span itemprop="name">markdown</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -369,6 +369,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/29/Markdown/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/29/Markdown/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -522,9 +532,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjQyNS8xODk3Mg=="></div>
     </div>
-
   
 
 
@@ -586,21 +594,12 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -834,26 +833,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

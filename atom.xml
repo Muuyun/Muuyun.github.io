@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-09T17:52:46.645Z</updated>
+  <updated>2019-02-12T17:48:38.436Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/02/09/share/"/>
     <id>http://yoursite.com/2019/02/09/share/</id>
     <published>2019-02-09T14:51:47.572Z</published>
-    <updated>2019-02-09T17:52:46.645Z</updated>
+    <updated>2019-02-12T17:48:38.436Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p><a href="http://gogoame.sumbioun.com/" target="_blank" rel="noopener">字母雨</a></p><p> 感受静谧</p></li><li><p><a href="https://comixify.ii.pw.edu.pl/" target="_blank" rel="noopener">Comixify</a></p><p> 一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，效果很棒。</p></li><li><p><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=133.20,32.77,320" target="_blank" rel="noopener">earth</a></p><p> a global map of wind, weather, and ocean conditions.</p></li><li><p><a href="https://www.youtube.com/watch?v=RgMzdJR5d_c" target="_blank" rel="noopener">Hololens</a></p><p> Mixed Reality HoloLens Solution for Streamlined Shelf Management.</p></li><li><p><a href="https://www.cnblogs.com/xueweihan/p/5216012.html" target="_blank" rel="noopener">小printf的编程故事</a></p><p> 作者仿照《小王子》中的情节，生动有趣的阐述了小printf从编程小白到专家的成长历程。</p></li></ol><h1 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h1><ol><li><p><a href="http://fetchrss.com/" target="_blank" rel="noopener">FetchRSS</a></p><p> 将任何网页转为 RSS 的工具。</p></li><li><p><a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub</a></p><p> 直接提供各种 Web 应用的 RSS 供订阅。代码开源，可以自己部署。</p></li><li><p><a href="https://love2.io/" target="_blank" rel="noopener">love2.io</a></p><p> 一个收集开源书籍的网站。</p></li><li><p><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">鸠摩搜书</a></p><p> 一个搜索电子书的网站。</p></li><li><p><a href="http://www.itdaan.com/index.html" target="_blank" rel="noopener">开发者知识库</a></p><p> 搜索IT解决方案。</p></li><li><p><a href="https://webdemo.myscript.com/views/diagram/index.html#/edit" target="_blank" rel="noopener">Diagram</a></p><p> 手绘图，然后保存成 PPT 的在线服务。</p></li></ol><h1 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h1><ol><li><p><a href="https://www.deviantart.com/hiphopium/art/Amatical-742039669" target="_blank" rel="noopener">DeviantArt</a></p><p> 是一个为艺术家展示各自作品、并交流讨论而设计的社交网路服务网站，里面的壁纸是真的不错。</p></li><li><p><a href="https://www.bitcraze.io/category/guest-blogger/" target="_blank" rel="noopener">Crazyflie</a></p><p> 对Crazyflie有兴趣可以看看。</p></li><li><p><a href="http://www.ahololens.com/?cat=3" target="_blank" rel="noopener">A Hololens</a></p><p> Hololens的相关资讯。</p></li></ol><h1 id="人间诗语"><a href="#人间诗语" class="headerlink" title="人间诗语"></a>人间诗语</h1><ul><li><p>谁是哪个引起蝴蝶效应的第一个IP包？</p></li><li><p>非常在意用电情况，会用任何方式去省电。有一次问他是为什么，他的回答让我们都泪流满面：让这个宇宙的熵，增加的慢一些。 –极客</p></li><li><p>站在更高一个层次，俯瞰时，很多问题都可以轻易解决。 –思维</p></li></ul><h1 id="美图"><a href="#美图" class="headerlink" title="美图"></a>美图</h1><p> <img src="/images/one.jpg" alt="岁月静好"></p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="http://yoursite.com/2019/01/29/Markdown/"/>
     <id>http://yoursite.com/2019/01/29/Markdown/</id>
     <published>2019-01-29T07:37:24.867Z</published>
-    <updated>2019-01-29T13:57:10.698Z</updated>
+    <updated>2019-02-12T17:47:46.185Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><blockquote><p>维基百科</p></blockquote><p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。 </p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol><li>纯文本，所以兼容性极强，可以用所有文本编辑器打开。</li><li>让你专注于文字而不是排版。</li><li>格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。</li><li>Markdown 的标记语法有极好的可读性。</li></ol><h2 id="Markdown的简单语法"><a href="#Markdown的简单语法" class="headerlink" title="Markdown的简单语法"></a>Markdown的简单语法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题 </span><br><span class="line"></span><br><span class="line">列表</span><br><span class="line">- 文本1</span><br><span class="line">- 文本2</span><br><span class="line">- 文本3</span><br><span class="line"></span><br><span class="line">1. 文本1</span><br><span class="line">2. 文本2</span><br><span class="line">3. 文本3</span><br><span class="line"></span><br><span class="line">插入链接</span><br><span class="line">[简书](http://www.jianshu.com)</span><br><span class="line">插入图片</span><br><span class="line">![](图片链接地址)</span><br><span class="line"></span><br><span class="line">引用</span><br><span class="line">在你希望引用的文字前面加上 &gt;</span><br><span class="line"></span><br><span class="line">斜体</span><br><span class="line">*一盏灯*</span><br><span class="line">粗体</span><br><span class="line">**一简书**</span><br><span class="line"></span><br><span class="line">表格</span><br><span class="line">| Tables        | Are           | Cool  |</span><br><span class="line">| ------------- |:-------------:| -----:|</span><br><span class="line">| col 3 is      | right-aligned | $1600 |</span><br><span class="line">| col 2 is      | centered      |   $12 |</span><br><span class="line">| zebra stripes | are neat      |    $1 |</span><br></pre></td></tr></table></figure><p><img src="https://upload-images.jianshu.io/upload_images/259-dcf737a97e71cd73.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/879" alt=""></p><p>参考文章：<a href="https://www.jianshu.com/p/q81RER" target="_blank" rel="noopener">https://www.jianshu.com/p/q81RER</a></p>]]></content>
     
@@ -61,7 +61,7 @@
     
     </summary>
     
-      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
+      <category term="河图" scheme="http://yoursite.com/categories/%E6%B2%B3%E5%9B%BE/"/>
     
     
   </entry>
@@ -71,7 +71,7 @@
     <link href="http://yoursite.com/2019/01/21/root/"/>
     <id>http://yoursite.com/2019/01/21/root/</id>
     <published>2019-01-21T09:36:53.904Z</published>
-    <updated>2019-01-29T11:42:51.672Z</updated>
+    <updated>2019-02-12T17:47:33.839Z</updated>
     
     <content type="html"><![CDATA[<h1 id="小米手机获取完整ROOT权限"><a href="#小米手机获取完整ROOT权限" class="headerlink" title="小米手机获取完整ROOT权限"></a>小米手机获取完整ROOT权限</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一开始，我只是想删除一些系统自带的软件，以及安装一些需要root权限的app，这里就不细说了，可能我比较爱折腾，也比较想更多地了解一下手机。虽然ROOT一般情况下不会对硬件造成危害，但ROOT后可能会导致系统运行不稳定，耗电大，手机发热，支付有风险的情况。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><h3 id="一-解锁Bootloader和刷机"><a href="#一-解锁Bootloader和刷机" class="headerlink" title="一 : 解锁Bootloader和刷机"></a>一 : 解锁Bootloader和刷机</h3><ol><li><p>解锁Bootloader申请链接    <a href="http://www.miui.com/unlock/index.html" target="_blank" rel="noopener">http://www.miui.com/unlock/index.html</a><br>小米手机解锁Bootloader教程：<a href="http://www.miui.com/thread-10101861-1-1.html" target="_blank" rel="noopener">http://www.miui.com/thread-10101861-1-1.html</a></p></li><li><p>升级开发版的卡刷/线刷详细教程，以及MIUI ROM最新刷机包下载链接： <a href="http://www.miui.com/shuaji-329.html" target="_blank" rel="noopener">http://www.miui.com/shuaji-329.html</a></p><p><strong>解锁和刷机会清除所有数据，请做好备份！</strong></p><p>MIUI系统备份与恢复的教程：<a href="http://www.miui.com/thread-9605562-1-1.html" target="_blank" rel="noopener">http://www.miui.com/thread-9605562-1-1.html</a></p></li></ol><h3 id="二-：开启ROOT权限"><a href="#二-：开启ROOT权限" class="headerlink" title="二 ：开启ROOT权限"></a>二 ：开启ROOT权限</h3><ol><li>在系统桌面上找到安全中心，并打开。</li><li>点击应用管理—权限—开启ROOT权限。</li><li>然后等待手机重启。</li></ol><p><img src="https://attach.bbs.miui.com/forum/201801/19/004936uaz3d528d2tad7mb.jpg.thumb.jpg" alt=""></p><p>注意：</p><ul><li>稳定版系统不能在授权管理中开启ROOT权限；遇到当前版本撤包，则不能在授权管理中开启ROOT。</li><li>解决方法：您可以在电脑上一键刷入recovery，然后卡刷SU。<br>支持直接获取ROOT权限的版本有开发版,内测版和体验版！</li><li>系统提供的ROOT功能并不是完整的；要获取完整的权限，必须解锁System分区！</li></ul><h3 id="三-：解锁System分区"><a href="#三-：解锁System分区" class="headerlink" title="三 ：解锁System分区"></a>三 ：解锁System分区</h3><p>下载解锁分区软件 <a href="http://www.miui.com/forum.php?mod=attachment&amp;aid=MTY2MDE5NTB8NjVlYzdlYjN8MTU0ODczMzEzMnwwfDEyMjgxMzc5" target="_blank" rel="noopener">Syslock</a>，打开界面中的解锁开关，等待手机重启成功即可生效。</p><p><img src="https://attach.bbs.miui.com/forum/201802/08/113313ikjay777kz7wwanc.jpg.thumb.jpg" alt=""></p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>其实手机Root并没有难，重要的是敢于探索的精神，要学会使用好网上的搜索引擎，新世界的大门将会向你打开！</p><blockquote><p>感谢这位大佬 <a href="http://api.bbs.miui.com/thread-12281379-1-1.html" target="_blank" rel="noopener">http://api.bbs.miui.com/thread-12281379-1-1.html</a></p></blockquote>]]></content>
     
@@ -84,10 +84,8 @@
     
     </summary>
     
-      <category term="手机" scheme="http://yoursite.com/categories/%E6%89%8B%E6%9C%BA/"/>
+      <category term="河图" scheme="http://yoursite.com/categories/%E6%B2%B3%E5%9B%BE/"/>
     
-    
-      <category term="手机" scheme="http://yoursite.com/tags/%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
@@ -96,7 +94,7 @@
     <link href="http://yoursite.com/2018/10/20/hello-world/"/>
     <id>http://yoursite.com/2018/10/20/hello-world/</id>
     <published>2018-10-20T07:37:38.020Z</published>
-    <updated>2019-01-29T13:56:08.863Z</updated>
+    <updated>2019-02-12T17:48:40.829Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo的命令极简单，安装后只需要记住四个常用的即可。执行命令需要Git当前处于blog文件夹根目录下。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><h3 id="Run-server-启动服务器"><a href="#Run-server-启动服务器" class="headerlink" title="Run server(启动服务器)"></a>Run server(启动服务器)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><h3 id="Generate-static-files-生成静态文件"><a href="#Generate-static-files-生成静态文件" class="headerlink" title="Generate static files(生成静态文件)"></a>Generate static files(生成静态文件)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><h3 id="Deploy-to-remote-sites-部署网站。部署网站前，需要预先生成静态文件"><a href="#Deploy-to-remote-sites-部署网站。部署网站前，需要预先生成静态文件" class="headerlink" title="Deploy to remote sites(部署网站。部署网站前，需要预先生成静态文件)"></a>Deploy to remote sites(部署网站。部署网站前，需要预先生成静态文件)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><h3 id="clean-清除缓存文件-db-json-和已生成的静态文件-public"><a href="#clean-清除缓存文件-db-json-和已生成的静态文件-public" class="headerlink" title="clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)"></a>clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -110,7 +108,7 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="河图" scheme="http://yoursite.com/categories/%E6%B2%B3%E5%9B%BE/"/>
     
     
   </entry>

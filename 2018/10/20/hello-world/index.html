@@ -95,7 +95,7 @@
 <meta property="og:site_name" content="苏牧云">
 <meta property="og:description" content="HexoHexo的命令极简单，安装后只需要记住四个常用的即可。执行命令需要Git当前处于blog文件夹根目录下。 常用命令Create a new post1$ hexo new &amp;quot;My New Post&amp;quot; Run server(启动服务器)1$ hexo server Generate static files(生成静态文件)1$ hexo generate Deploy t">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-29T13:56:08.863Z">
+<meta property="og:updated_time" content="2019-02-12T17:48:40.829Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="HexoHexo的命令极简单，安装后只需要记住四个常用的即可。执行命令需要Git当前处于blog文件夹根目录下。 常用命令Create a new post1$ hexo new &amp;quot;My New Post&amp;quot; Run server(启动服务器)1$ hexo server Generate static files(生成静态文件)1$ hexo generate Deploy t">
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -367,6 +367,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/10/20/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/20/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -509,9 +519,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjQyNS8xODk3Mg=="></div>
     </div>
-
   
 
 
@@ -573,21 +581,12 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -821,26 +820,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

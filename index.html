@@ -370,6 +370,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/02/09/share/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/02/09/share/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -520,8 +530,8 @@ Hololens
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/markdown/" itemprop="url" rel="index">
-                    <span itemprop="name">markdown</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -532,6 +542,16 @@ Hololens
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/29/Markdown/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/29/Markdown/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -677,8 +697,8 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/手机/" itemprop="url" rel="index">
-                    <span itemprop="name">手机</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -689,6 +709,16 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/21/root/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/01/21/root/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -830,8 +860,8 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
+                  <a href="/categories/河图/" itemprop="url" rel="index">
+                    <span itemprop="name">河图</span>
                   </a>
                 </span>
 
@@ -842,6 +872,16 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/10/20/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/10/20/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -977,21 +1017,12 @@ Gene
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1214,6 +1245,28 @@ Gene
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
