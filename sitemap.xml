@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/02/16/linux/</loc>
+    
+    <lastmod>2019-02-15T17:15:21.734Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/16/linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</loc>
+    
+    <lastmod>2019-02-15T17:11:09.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/15/linux%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B/</loc>
+    
+    <lastmod>2019-02-15T04:18:33.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/14/hololens1/</loc>
+    
+    <lastmod>2019-02-14T16:47:18.206Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/linux%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</loc>
+    
+    <lastmod>2019-02-13T17:53:00.081Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/10/20/hello-world/</loc>
     
     <lastmod>2019-02-12T17:48:40.829Z</lastmod>

@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[文件系统操作与磁盘管理]]></title>
+    <url>%2F2019%2F02%2F16%2Flinux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%2F</url>
+    <content type="text"><![CDATA[查看磁盘和目录的容量 使用df命令查看磁盘的容量12$ df$ df -h 使用du命令查看目录的容量 1234# 默认同样以 块 的大小展示$ du# 加上-h参数，以更易读的方式展示$ du -h -d 参数指定查看目录的深度1234# 只查看1级目录的信息$ du -h -d 0 ~# 查看2级$ du -h -d 1 ~ 常用参数123du -h #同--human-readable 以K，M，G为单位，提高信息的可读性。du -a #同--all 显示目录中所有文件的大小。du -s #同--summarize 仅显示总计，只列出最后加总的值。 创建虚拟磁盘 用dd命令从标准输入读入用户的输入到标准输出或者一个文件中： 12345# 输出到文件$ dd of=test bs=10 count=1# 输出到标准输出$ dd if=/dev/stdin of=/dev/stdout bs=10 count=1# 注:在打完了这个命令后，继续在终端打字，作为你的输入 bs（block size）用于指定块大小（缺省单位为 Byte，也可为其指定如’K’，’M’，’G’等单位），count用于指定块数量。 将输出的英文字符转换为大写再写入文件：1$ dd if=/dev/stdin of=test bs=10 count=1 conv=ucase 使用 dd 命令创建虚拟镜像文件 从/dev/zero设备创建一个容量为 256M 的空文件：12$ dd if=/dev/zero of=virtual.img bs=1M count=256$ du -h virtual.img 使用 mkfs 命令格式化磁盘（我们这里是自己创建的虚拟磁盘镜像） $ sudo mkfs.ext4 virtual.img 使用 mount 命令挂载磁盘到目录树 mount命令的一般格式如下： 1mount [options] [source] [directory] 一些常用操作： 1mount [-o [操作选项]] [-t 文件系统类型] [-w|--rw|--ro] [文件系统源] [挂载点]]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux-basics]]></title>
+    <url>%2F2019%2F02%2F16%2Flinux%2F</url>
+    <content type="text"><![CDATA[Linux的几个优点： 免费 很多软件原生是在Linux下运行的，庞大的社区支持，生态环境好。 开源，可被定制，开放，多用户的网络操作系统。 相对安全稳定 ## bin 存放二进制可执行文件(ls,cat,mkdir等) boot 存放用于系统引导时使用的各种文件 dev 用于存放设备文件 etc 存放系统配置文件 home 存放所有用户文件的根目录 lib 存放跟文件系统中的程序运行所需要的共享库及内核模块 mnt 系统管理员安装临时文件系统的安装点 opt 额外安装的可选应用程序包所放置的位置 proc 虚拟文件系统，存放当前内存的映射 root 超级用户目录 sbin 存放二进制可执行文件，只有root才能访问 tmp 用于存放各种临时文件 usr 用于存放系统应用程序，比较重要的目录/usr/local 本地管理员软件安装目录 var 用于存放运行时需要改变数据的文件 作者：Java3y链接：https://www.jianshu.com/p/a182a0be4b8a]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[linux压缩解压工具]]></title>
+    <url>%2F2019%2F02%2F15%2Flinux%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%2F</url>
+    <content type="text"><![CDATA[压缩文件linux常见格式：.zip,.rar,.7z,.tar,.gz,.xz,.bz2,.tar.gz,.tar.xz,tar.bz2,.tar.7z zip压缩打包程序使用zip打包文件夹1234$ cd /home/shiyanlou$ zip -r -q -o shiyanlou.zip /home/shiyanlou/Desktop$ du -h shiyanlou.zip$ file shiyanlou.zip -r 参数表示递归打包包含子目录的全部内容， -q 参数表示为安静模式，即不向屏幕输出信息， -o，表示输出文件，需在其后紧跟打包输出文件名。 du ,命令查看打包后文件的大小 设置压缩级别为9和1（9最大，1最小），重新打包：12$ zip -r -9 -q -o shiyanlou_9.zip /home/shiyanlou/Desktop -x ~/*.zip$ zip -r -1 -q -o shiyanlou_1.zip /home/shiyanlou/Desktop -x ~/*.zip -[1-9] 表示压缩级别，1 表示最快压缩但体积大，9 表示体积最小但耗时最久。 -x 是为了排除我们上一次创建的 zip 文件，否则又会被打包进这一次的压缩文件中，注意：这里只能使用绝对路径，否则不起作用。 创建加密 zip 包使用 -e 参数可以创建加密压缩包：1$ zip -r -e -o shiyanlou_encryption.zip /home/shiyanlou/Desktop 如果你想让你在 Linux 创建的 zip 压缩文件在 Windows 上解压后没有任何问题,需要加上 -l参数将LF 转换为 CR+LF1$ zip -r -l -o shiyanlou.zip /home/shiyanlou/Desktop 使用 unzip 命令解压缩 zip 文件将 shiyanlou.zip 解压到当前目录：1$ unzip shiyanlou.zip 使用安静模式，将文件解压到指定目录：1$ unzip -q shiyanlou.zip -d ziptest 如果你不想解压只想查看压缩包的内容你可以使用 -l 参数：1$ unzip -l shiyanlou.zip 通常 Windows 系统上面创建的中文名压缩文件，默认会采用 GBK 编码，而 Linux 上面默认使用的是 UTF-8 编码，如果不加任何处理，直接解压的话可能会出现中文乱码的问题1unzip -O GBK 中文压缩文件.zip tar打包工具 创建一个 tar 包：12$ cd /home/shiyanlou$ tar -cf shiyanlou.tar /home/shiyanlou/Desktop -c 表示创建一个 tar 包文件 -f 用于指定创建的文件名 -v 以可视的的方式输出打包的文件 解包一个文件（-x 参数）到指定路径的已存在目录（-C 参数）： 12$ mkdir tardir$ tar -xf shiyanlou.tar -C tardir 只查看不解包文件 -t 参数：1$ tar -tf shiyanlou.tar 在创建 tar 文件的基础上添加 -z 参数，使用 gzip 来压缩文件： 1$ tar -czf shiyanlou.tar.gz /home/shiyanlou/Desktop 解压 *.tar.gz 文件：1$ tar -xzf shiyanlou.tar.gz 常用命令zip： 打包 ：zip something.zip something （目录请加 -r 参数） 解包：unzip something.zip 指定路径：-d 参数 tar： 打包：tar -cf something.tar something 解包：tar -xf something.tar 指定路径：-C 参数]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hololens-basics]]></title>
+    <url>%2F2019%2F02%2F14%2Fhololens1%2F</url>
+    <content type="text"><![CDATA[如果你用空间锚点spatial anchor将一个全息影像固定在世界中，那么，当你离开这时，系统将会记住它，并在你回来的时候显示。这个被称为持续全息。 同时按住音量的加减键就可以拍照了，不管是不是有应用在运行。 录像是30fps的，并且最长录制5分钟 空间坐标系 所有的3D图形应用都采用笛卡尔积坐标系。 空间坐标系统以真实世界米为一个单位。 坐标系采用右手定则，X向右为正，Y向上为正，Z向内为正。]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>Hololens</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Share]]></title>
     <url>%2F2019%2F02%2F09%2Fshare%2F</url>
     <content type="text"><![CDATA[Fun 字母雨 感受静谧 Comixify 一个波兰团队做了非常好玩的工具，可以把视频自动转成漫画，效果很棒。 earth a global map of wind, weather, and ocean conditions. Hololens Mixed Reality HoloLens Solution for Streamlined Shelf Management. 小printf的编程故事 作者仿照《小王子》中的情节，生动有趣的阐述了小printf从编程小白到专家的成长历程。 工具 FetchRSS 将任何网页转为 RSS 的工具。 RSSHub 直接提供各种 Web 应用的 RSS 供订阅。代码开源，可以自己部署。 love2.io 一个收集开源书籍的网站。 鸠摩搜书 一个搜索电子书的网站。 开发者知识库 搜索IT解决方案。 Diagram 手绘图，然后保存成 PPT 的在线服务。 资料 DeviantArt 是一个为艺术家展示各自作品、并交流讨论而设计的社交网路服务网站，里面的壁纸是真的不错。 Crazyflie 对Crazyflie有兴趣可以看看。 A Hololens Hololens的相关资讯。 人间诗语 谁是哪个引起蝴蝶效应的第一个IP包？ 非常在意用电情况，会用任何方式去省电。有一次问他是为什么，他的回答让我们都泪流满面：让这个宇宙的熵，增加的慢一些。 –极客 站在更高一个层次，俯瞰时，很多问题都可以轻易解决。 –思维 美图]]></content>

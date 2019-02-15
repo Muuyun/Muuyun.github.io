@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content=",,,,,">
 
 
 
@@ -88,17 +88,20 @@
 
 
 
-<meta name="description" content="My mind is in the silent cloud.">
+<meta name="description" content="变量1$ declare tmp  使用 declare 命令创建一个变量名为 tmp 的变量  1$ echo $tmp  读取变量的值  1zsh  创建子shell  1export temp  导出变量temp为环境变量  1gedit hello_shell.sh  创建一个shell脚本文件，第一行  #!/bin/bash 不能省略  1$ PATH=$PATH:/home/shiy">
+<meta name="keywords" content="linux">
 <meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta property="og:title" content="linux环境变量">
+<meta property="og:url" content="http://yoursite.com/about/linux环境变量.html">
 <meta property="og:site_name" content="苏牧云">
-<meta property="og:description" content="My mind is in the silent cloud.">
+<meta property="og:description" content="变量1$ declare tmp  使用 declare 命令创建一个变量名为 tmp 的变量  1$ echo $tmp  读取变量的值  1zsh  创建子shell  1export temp  导出变量temp为环境变量  1gedit hello_shell.sh  创建一个shell脚本文件，第一行  #!/bin/bash 不能省略  1$ PATH=$PATH:/home/shiy">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-29T10:58:03.489Z">
+<meta property="og:image" content="https://doc.shiyanlou.com/linux_base/5-2.png/wm">
+<meta property="og:updated_time" content="2019-02-13T17:53:00.081Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="My mind is in the silent cloud.">
+<meta name="twitter:title" content="linux环境变量">
+<meta name="twitter:description" content="变量1$ declare tmp  使用 declare 命令创建一个变量名为 tmp 的变量  1$ echo $tmp  读取变量的值  1zsh  创建子shell  1export temp  导出变量temp为环境变量  1gedit hello_shell.sh  创建一个shell脚本文件，第一行  #!/bin/bash 不能省略  1$ PATH=$PATH:/home/shiy">
+<meta name="twitter:image" content="https://doc.shiyanlou.com/linux_base/5-2.png/wm">
 
 
 
@@ -128,13 +131,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/about/linux环境变量.html">
 
 
 
 
 
-  <title>tags | 苏牧云</title>
+  <title>linux环境变量 | 苏牧云</title>
   
 
 
@@ -296,7 +299,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
+	<h1 class="post-title" itemprop="name headline">linux环境变量</h1>
 
 
 
@@ -308,14 +311,91 @@
       <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                2 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Hololens/" style="font-size: 12px; color: #ccc">Hololens</a> <a href="/tags/linux/" style="font-size: 30px; color: #111">linux</a>
-            </div>
-          </div>
+          <h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ declare tmp</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>使用 declare 命令创建一个变量名为 tmp 的变量</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ echo $tmp</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>读取变量的值</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zsh</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>创建子shell</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export temp</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>导出变量temp为环境变量</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gedit hello_shell.sh</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>创建一个shell脚本文件，第一行  <code>#!/bin/bash</code> 不能省略</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ PATH=$PATH:/home/shiyanlou/mybin</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>添加环境变量，可以在任意目录执行mybin里面的文件</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ echo &quot;PATH=$PATH:/home/shiyanlou/mybin&quot; &gt;&gt; .zshrc</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>让添加的变量全局有效</p>
+<ul>
+<li><code>&gt;&gt;</code> 表示将标准输出以追加的方式重定向到一个文件中</li>
+<li><code>&gt;</code> 是以覆盖的方式重定向到一个文件中</li>
+</ul>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source .zshrc</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>让环境变量立即生效</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unset temp</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>删除一个环境变量</p>
+</blockquote>
+<h1 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h1><p><img src="https://doc.shiyanlou.com/linux_base/5-2.png/wm" alt=""></p>
+<h2 id="变量类型："><a href="#变量类型：" class="headerlink" title="变量类型："></a>变量类型：</h2><ul>
+<li>用户自定义变量</li>
+<li>Shell本身内建的变量</li>
+<li>从自定义变量导出的环境变量</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命 令</th>
+<th style="text-align:center">说 明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>set</td>
+<td style="text-align:center">显示 Shell 所有变量，包括其内建环境变量，用户自定义变量及导出的环境变量。</td>
+</tr>
+<tr>
+<td>env</td>
+<td style="text-align:center">显示与当前用户相关的环境变量，还可以让命令在指定环境中运行。</td>
+</tr>
+<tr>
+<td>export</td>
+<td style="text-align:center">显示从 Shell 中导出成环境变量的变量，也能通过它将自定义变量导出为环境变量。</td>
+</tr>
+</tbody>
+</table>
+<p>按变量的生存周期来划分，Linux 变量可分为两类：</p>
+<ul>
+<li><p>永久的：需要修改配置文件，变量永久生效；</p>
+</li>
+<li><p>临时的：使用 export 命令行声明即可，变量在关闭 shell 时失效。</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/bashrc</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>存放shell变量</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/profile</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>存放环境变量</p>
+</blockquote>
+<h1 id="搜索文件"><a href="#搜索文件" class="headerlink" title="搜索文件"></a>搜索文件</h1><p>与搜索相关的命令常用的有 <code>whereis，which，find</code>和 <code>locate</code>。</p>
+
         
       </div>
       
@@ -360,8 +440,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -454,6 +543,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#变量"><span class="nav-text">变量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#环境变量"><span class="nav-text">环境变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#变量类型："><span class="nav-text">变量类型：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搜索文件"><span class="nav-text">搜索文件</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
