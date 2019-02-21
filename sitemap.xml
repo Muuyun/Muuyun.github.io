@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/02/21/linux%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2019-02-21T15:24:49.133Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/21/c#%E7%89%B9%E6%80%A7/</loc>
+    
+    <lastmod>2019-02-21T13:43:53.931Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/16/python1/</loc>
+    
+    <lastmod>2019-02-21T13:43:34.209Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/21/C#%20%E5%8F%8D%E5%B0%84/</loc>
+    
+    <lastmod>2019-02-21T13:43:31.342Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/14/hololens1/</loc>
+    
+    <lastmod>2019-02-21T06:01:55.391Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-02-21T05:37:00.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/02/21/%E7%89%A7%E4%BA%91%E9%9B%86-1/</loc>
     
     <lastmod>2019-02-21T05:29:57.347Z</lastmod>
@@ -9,23 +51,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/14/hololens1/</loc>
-    
-    <lastmod>2019-02-18T10:34:37.677Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2019/02/16/linux/</loc>
     
     <lastmod>2019-02-18T05:00:58.564Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/02/16/python1/</loc>
-    
-    <lastmod>2019-02-17T03:57:59.555Z</lastmod>
     
   </url>
   
@@ -51,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/linux%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</loc>
+    <loc>http://yoursite.com/2019/02/14/linux%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
     
     <lastmod>2019-02-13T17:53:00.081Z</lastmod>
     
@@ -82,13 +110,6 @@
     <loc>http://yoursite.com/2019/01/21/root/</loc>
     
     <lastmod>2019-02-12T17:47:33.839Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-02-09T14:39:35.297Z</lastmod>
     
   </url>
   

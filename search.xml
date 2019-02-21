@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux帮助命令和crontab]]></title>
+    <url>%2F2019%2F02%2F21%2Flinux%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[内建命令与外部命令可以用type来区分命令是内建的还是外部的1type + 命令 内建命令是写在bash源码的builtins里面的 外部命令通常放在/bin，/user/bin,/sbin,/usr/sbin等等 crontab语法用于设置周期性被执行的指令。通常，crontab 储存的指令被守护进程激活，crond 为其守护进程，crond 常常在后台运行，每一分钟会检查一次是否有预定的作业需要执行。 通过 crontab 命令，我们可以在固定的间隔时间执行指定的系统指令或 shell script 脚本。时间间隔的单位可以是分钟、小时、日、月、周的任意组合。 crontab 的格式:12345678# Example of job definition:# .---------------- minute (0 - 59)# | .------------- hour (0 - 23)# | | .---------- day of month (1 - 31)# | | | .------- month (1 - 12) OR jan,feb,mar,apr ...# | | | | .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat# | | | | |# * * * * * user-name command to be executed 12$ crontab -e 表示为当前用户添加计划任务$ sudo crontab -e 表示为root用户添加计划任务]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[C# 反射（Reflection）]]></title>
+    <url>%2F2019%2F02%2F21%2FC%23%20%E5%8F%8D%E5%B0%84%2F</url>
+    <content type="text"><![CDATA[反射（Reflection）的用途反射（Reflection）有下列用途： 它允许在运行时查看特性（attribute）信息。 它允许审查集合中的各种类型，以及实例化这些类型。 它允许延迟绑定的方法和属性（property）。 它允许在运行时创建新类型，然后使用这些类型执行一些任务。 查看元数据使用反射（Reflection）可以查看特性（attribute）信息。 System.Reflection 类的 MemberInfo 对象需要被初始化，用于发现与类相关的特性（attribute）。为了做到这点，您可以定义目标类的一个对象，如下：1System.Reflection.MemberInfo info = typeof(MyClass); 下面的程序演示了这点：12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849using System;[AttributeUsage(AttributeTargets.All)]public class HelpAttribute : System.Attribute&#123; public readonly string Url; public string Topic // Topic 是一个命名（named）参数 &#123; get &#123; return topic; &#125; set &#123; topic = value; &#125; &#125; public HelpAttribute(string url) // url 是一个定位（positional）参数 &#123; this.Url = url; &#125; private string topic;&#125;[HelpAttribute(&quot;Information on the class MyClass&quot;)]class MyClass&#123;&#125;namespace AttributeAppl&#123; class Program &#123; static void Main(string[] args) &#123; System.Reflection.MemberInfo info = typeof(MyClass); object[] attributes = info.GetCustomAttributes(true); for (int i = 0; i &lt; attributes.Length; i++) &#123; System.Console.WriteLine(attributes[i]); &#125; Console.ReadKey(); &#125; &#125;&#125; 当上面的代码被编译和执行时，它会显示附加到类 MyClass 上的自定义特性：1HelpAttribute]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>c#</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[C# 特性（Attribute）]]></title>
+    <url>%2F2019%2F02%2F21%2Fc%23%E7%89%B9%E6%80%A7%2F</url>
+    <content type="text"><![CDATA[特性（Attribute）是用于在运行时传递程序中各种元素（比如类、方法、结构、枚举、组件等）的行为信息的声明性标签。可以通过使用特性向程序添加声明性信息。一个声明性标签是通过放置在它所应用的元素前面的方括号（[ ]）来描述的。 .Net 框架提供了两种类型的特性：预定义特性和自定义特性。 预定义特性（Attribute）.Net 框架提供了三种预定义特性： AttributeUsage Conditional Obsolete 创建自定义特性（Attribute）创建并使用自定义特性包含四个步骤： 声明自定义特性 构建自定义特性 在目标程序元素上应用自定义特性 通过反射访问特性 声明自定义特性一个新的自定义特性应派生自 System.Attribute 类。例如： 123456789// 一个自定义特性 BugFix 被赋给类及其成员[AttributeUsage(AttributeTargets.Class |AttributeTargets.Constructor |AttributeTargets.Field |AttributeTargets.Method |AttributeTargets.Property,AllowMultiple = true)]public class DeBugInfo : System.Attribute 在上面的代码中，我们已经声明了一个名为 DeBugInfo 的自定义特性。 构建自定义特性让我们构建一个名为 DeBugInfo 的自定义特性，该特性将存储调试程序获得的信息。它存储下面的信息： bug 的代码编号 辨认该 bug 的开发人员名字 最后一次审查该代码的日期 一个存储了开发人员标记的字符串消息 我们的 DeBugInfo 类将带有三个用于存储前三个信息的私有属性（property）和一个用于存储消息的公有属性（property）。所以 bug 编号、开发人员名字和审查日期将是 DeBugInfo 类的必需的定位（ positional）参数，消息将是一个可选的命名（named）参数。 每个特性必须至少有一个构造函数。必需的定位（ positional）参数应通过构造函数传递。下面的代码演示了 DeBugInfo 类： 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455// 一个自定义特性 BugFix 被赋给类及其成员[AttributeUsage(AttributeTargets.Class |AttributeTargets.Constructor |AttributeTargets.Field |AttributeTargets.Method |AttributeTargets.Property,AllowMultiple = true)]public class DeBugInfo : System.Attribute&#123; private int bugNo; private string developer; private string lastReview; public string message; public DeBugInfo(int bg, string dev, string d) &#123; this.bugNo = bg; this.developer = dev; this.lastReview = d; &#125; public int BugNo &#123; get &#123; return bugNo; &#125; &#125; public string Developer &#123; get &#123; return developer; &#125; &#125; public string LastReview &#123; get &#123; return lastReview; &#125; &#125; public string Message &#123; get &#123; return message; &#125; set &#123; message = value; &#125; &#125;&#125; 应用自定义特性通过把特性放置在紧接着它的目标之前，来应用该特性：1234567891011121314151617181920212223242526[DeBugInfo(45, &quot;Zara Ali&quot;, &quot;12/8/2012&quot;, Message = &quot;Return type mismatch&quot;)][DeBugInfo(49, &quot;Nuha Ali&quot;, &quot;10/10/2012&quot;, Message = &quot;Unused variable&quot;)]class Rectangle&#123; // 成员变量 protected double length; protected double width; public Rectangle(double l, double w) &#123; length = l; width = w; &#125; [DeBugInfo(55, &quot;Zara Ali&quot;, &quot;19/10/2012&quot;, Message = &quot;Return type mismatch&quot;)] public double GetArea() &#123; return length * width; &#125; [DeBugInfo(56, &quot;Zara Ali&quot;, &quot;19/10/2012&quot;)] public void Display() &#123; Console.WriteLine(&quot;Length: &#123;0&#125;&quot;, length); Console.WriteLine(&quot;Width: &#123;0&#125;&quot;, width); Console.WriteLine(&quot;Area: &#123;0&#125;&quot;, GetArea()); &#125;&#125;]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>c#</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[牧云集-1]]></title>
     <url>%2F2019%2F02%2F21%2F%E7%89%A7%E4%BA%91%E9%9B%86-1%2F</url>
     <content type="text"><![CDATA[故事1 新郎，特地和司仪要了话筒，说了一段话，他说他父母婚姻不幸，心里那个自己，从来没有长大过。 从来我不是不爱你，不是一次次想要推开你。不是心有不忿意难平。这世间，离别太多。 太美好的你，怕握不住。 嗯，那个戒指，他配了项链挂在胸口。忽然明白，为什么十年，依旧是他们两个。 或许女孩子从来不卑微，她知道命中注定就是他。 嗯，我一直看见的婚礼都是新娘哭，新郎笑。 今天第一次看见新郎哭得双肩耸动，新娘笑着安慰，帮他抹泪。 很甜！ 故事二 高中时一个同学沉迷网络 时常半夜翻墙出校上网 一日他照例翻墙 翻到一半就拔足狂奔而归 面色古怪，问之不语 从此认真读书，不再上网 学校盛传他见鬼了 后来他考上名校，我们问起这事 他沉默良久，说 “那天父亲来送生活费 舍不得住旅馆，在墙下坐了一夜”]]></content>
@@ -63,12 +96,23 @@
   <entry>
     <title><![CDATA[Hololens-basics]]></title>
     <url>%2F2019%2F02%2F14%2Fhololens1%2F</url>
-    <content type="text"><![CDATA[同时按住音量的加减键就可以拍照了，不管是不是有应用在运行。 录像是30fps的，并且最长录制5分钟 MRTK(Mixed Reality Toolkit) 是微软为我们提供的混合现实开发工具包，旨在帮助我们加速开发混合现实应用程序。 Hololens 的 Bloom 手势呼出主菜单的效果，主菜单是跟随你移动并且使终面朝你。这就是广告牌（Billboarding） + 平滑追踪（Tag-Along）的联合实现。 空间坐标系 所有的3D图形应用都采用笛卡尔积坐标系。 空间坐标系统以真实世界米为一个单位。 坐标系采用右手定则，X向右为正，Y向上为正，Z向内为正。 坐标参考框架在全息渲染中，有些影像需要跟随用户头部的移动而移动，有些影像在用户头部移动时需要始终保持在固定的位置上。 Hololens 为我们提供了两种参考框架，分别是静止参考框架（Stationary frame of reference） 和附加参考框架（Attached frame of reference）。 附加参考框架附加参照框架中，当用户移动或转动头部的时候，内容也会跟着走。当 Hololens 无法获取空间信息时，就只会渲染基于附加参照框架的全息图。例如程序在丢失空间映射时，弹出一个正在扫描空间信息的界面，来帮助用户。 静止参考框架在编写游戏、VR程序时，传统做法是建立一个，绝对世界坐标系（absolute world coordinate system）。在该坐标系中，可以可靠的获取任意两个物体之间的关系，只要不移动物体的位置，它们的相对位置是保持不变的。 然而在 Hololens 中，动态传感器会随着用户的移动而不断的调整对周围世界的扫描。如果仍然采用一个绝对世界坐标系，随着用户的移动，可能就会导致物体的漂移（drift）。例如假设 Hololens 采用绝对世界坐标系，定义房间左侧角落C1，右侧角落为C2，C1(0,0,0),C2(10,0,0)​C1(0,0,0),C2(10,0,0)​，在C1、C2上分别放置一个全息图，当用户在房间移动时，动态传感器重新扫描，发现 C1 到 C2 的距离只有9.9米，这时 C2(9.9,0,0)​ C2(9.9,0,0)​ ，C2的变化就会导致 C2上的全息图的位置变化，导致物体漂移。 空间锚Hololens 采用空间锚（spatial anchors）来解决这个问题。Hololens 在用户放置全息图的位置上放置空间锚，每一个锚都有一个坐标系统，当用户移动导致动态传感器重新扫描时，Hololens 根据需要调整每个锚的位置，来确保锚上的全息图停留在现实世界的固定位置。 Hololens 支持将空间锚持久化保存（Spatial anchor persistence），这样在相同的环境下再次启动程序时可以加载锚，实现全息图的位置记忆功能。 Hololens 还支持空间锚共享（Spatial anchor sharing），通过将空间锚和周围环境的传感器数据从一个HoloLens 传输到另一个HoloLens。两台设备使用共享的空间锚，使得用户可以在相同位置看到一样的东西。 SpectatorView当我们戴上 Hololens 时，一个没有戴上它的人是无法体验到我们所能体验到的奇迹。 SpectatorView（三方视角）允许其他人通过2D屏幕看到 Hololens 用户在他们的世界里看到的东西。SpectatorView（Preview版）提供一种快速和廉价的途径来录制高清的全息影像，而 SpectatorView Pro 版提供了专业质量记录的全景图。 问题关于textmeshpro的错误请将刚刚创建的App文件夹整个删掉，在Unity中，点击菜单栏Window &gt; Package Manager，移除TextMesh Pro，如图所示，然后重新导出解决方案即可。 作者：Jitwxs来源：CSDN原文：https://blog.csdn.net/yuanlaijike/article/category/8389122]]></content>
+    <content type="text"><![CDATA[同时按住音量的加减键就可以拍照了，不管是不是有应用在运行。 录像是30fps的，并且最长录制5分钟 MRTK(Mixed Reality Toolkit) 是微软为我们提供的混合现实开发工具包，旨在帮助我们加速开发混合现实应用程序。 Hololens 的 Bloom 手势呼出主菜单的效果，主菜单是跟随你移动并且使终面朝你。这就是广告牌（Billboarding） + 平滑追踪（Tag-Along）的联合实现。 空间坐标系 所有的3D图形应用都采用笛卡尔积坐标系。 空间坐标系统以真实世界米为一个单位。 坐标系采用右手定则，X向右为正，Y向上为正，Z向内为正。 坐标参考框架在全息渲染中，有些影像需要跟随用户头部的移动而移动，有些影像在用户头部移动时需要始终保持在固定的位置上。 Hololens 为我们提供了两种参考框架，分别是静止参考框架（Stationary frame of reference） 和附加参考框架（Attached frame of reference）。 附加参考框架附加参照框架中，当用户移动或转动头部的时候，内容也会跟着走。当 Hololens 无法获取空间信息时，就只会渲染基于附加参照框架的全息图。例如程序在丢失空间映射时，弹出一个正在扫描空间信息的界面，来帮助用户。 静止参考框架在编写游戏、VR程序时，传统做法是建立一个，绝对世界坐标系（absolute world coordinate system）。在该坐标系中，可以可靠的获取任意两个物体之间的关系，只要不移动物体的位置，它们的相对位置是保持不变的。 然而在 Hololens 中，动态传感器会随着用户的移动而不断的调整对周围世界的扫描。如果仍然采用一个绝对世界坐标系，随着用户的移动，可能就会导致物体的漂移（drift）。例如假设 Hololens 采用绝对世界坐标系，定义房间左侧角落C1，右侧角落为C2，C1(0,0,0),C2(10,0,0)​C1(0,0,0),C2(10,0,0)​，在C1、C2上分别放置一个全息图，当用户在房间移动时，动态传感器重新扫描，发现 C1 到 C2 的距离只有9.9米，这时 C2(9.9,0,0)​ C2(9.9,0,0)​ ，C2的变化就会导致 C2上的全息图的位置变化，导致物体漂移。 空间锚Hololens 采用空间锚（spatial anchors）来解决这个问题。Hololens 在用户放置全息图的位置上放置空间锚，每一个锚都有一个坐标系统，当用户移动导致动态传感器重新扫描时，Hololens 根据需要调整每个锚的位置，来确保锚上的全息图停留在现实世界的固定位置。 Hololens 支持将空间锚持久化保存（Spatial anchor persistence），这样在相同的环境下再次启动程序时可以加载锚，实现全息图的位置记忆功能。 Hololens 还支持空间锚共享（Spatial anchor sharing），通过将空间锚和周围环境的传感器数据从一个HoloLens 传输到另一个HoloLens。两台设备使用共享的空间锚，使得用户可以在相同位置看到一样的东西。 SpectatorView当我们戴上 Hololens 时，一个没有戴上它的人是无法体验到我们所能体验到的奇迹。 SpectatorView（三方视角）允许其他人通过2D屏幕看到 Hololens 用户在他们的世界里看到的东西。SpectatorView（Preview版）提供一种快速和廉价的途径来录制高清的全息影像，而 SpectatorView Pro 版提供了专业质量记录的全景图。 问题关于textmeshpro的错误 请将刚刚创建的App文件夹整个删掉，在Unity中，点击菜单栏Window &gt; Package Manager，移除TextMesh Pro，如图所示，然后重新导出解决方案即可。 作者：Jitwxs来源：CSDN原文：https://blog.csdn.net/yuanlaijike/article/category/8389122]]></content>
       <categories>
         <category>河图</category>
       </categories>
       <tags>
         <tag>Hololens</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[linux环境变量]]></title>
+    <url>%2F2019%2F02%2F14%2Flinux%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%2F</url>
+    <content type="text"><![CDATA[变量1$ declare tmp 使用 declare 命令创建一个变量名为 tmp 的变量 1$ echo $tmp 读取变量的值 1zsh 创建子shell 1export temp 导出变量temp为环境变量 1gedit hello_shell.sh 创建一个shell脚本文件，第一行 #!/bin/bash 不能省略 1$ PATH=$PATH:/home/shiyanlou/mybin 添加环境变量，可以在任意目录执行mybin里面的文件 1$ echo &quot;PATH=$PATH:/home/shiyanlou/mybin&quot; &gt;&gt; .zshrc 让添加的变量全局有效 &gt;&gt; 表示将标准输出以追加的方式重定向到一个文件中 &gt; 是以覆盖的方式重定向到一个文件中 1source .zshrc 让环境变量立即生效 1unset temp 删除一个环境变量 环境变量 变量类型： 用户自定义变量 Shell本身内建的变量 从自定义变量导出的环境变量 命 令 说 明 set 显示 Shell 所有变量，包括其内建环境变量，用户自定义变量及导出的环境变量。 env 显示与当前用户相关的环境变量，还可以让命令在指定环境中运行。 export 显示从 Shell 中导出成环境变量的变量，也能通过它将自定义变量导出为环境变量。 按变量的生存周期来划分，Linux 变量可分为两类： 永久的：需要修改配置文件，变量永久生效； 临时的：使用 export 命令行声明即可，变量在关闭 shell 时失效。 1/etc/bashrc 存放shell变量 1/etc/profile 存放环境变量 搜索文件与搜索相关的命令常用的有 whereis，which，find和 locate。]]></content>
+      <categories>
+        <category>河图</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
