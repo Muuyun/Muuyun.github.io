@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title><![CDATA[C# 反射（Reflection）]]></title>
-    <url>%2F2019%2F02%2F21%2FC%23%20%E5%8F%8D%E5%B0%84%2F</url>
+    <url>%2F2019%2F02%2F21%2Fc%23%E5%8F%8D%E5%B0%84%2F</url>
     <content type="text"><![CDATA[反射（Reflection）的用途反射（Reflection）有下列用途： 它允许在运行时查看特性（attribute）信息。 它允许审查集合中的各种类型，以及实例化这些类型。 它允许延迟绑定的方法和属性（property）。 它允许在运行时创建新类型，然后使用这些类型执行一些任务。 查看元数据使用反射（Reflection）可以查看特性（attribute）信息。 System.Reflection 类的 MemberInfo 对象需要被初始化，用于发现与类相关的特性（attribute）。为了做到这点，您可以定义目标类的一个对象，如下：1System.Reflection.MemberInfo info = typeof(MyClass); 下面的程序演示了这点：12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849using System;[AttributeUsage(AttributeTargets.All)]public class HelpAttribute : System.Attribute&#123; public readonly string Url; public string Topic // Topic 是一个命名（named）参数 &#123; get &#123; return topic; &#125; set &#123; topic = value; &#125; &#125; public HelpAttribute(string url) // url 是一个定位（positional）参数 &#123; this.Url = url; &#125; private string topic;&#125;[HelpAttribute(&quot;Information on the class MyClass&quot;)]class MyClass&#123;&#125;namespace AttributeAppl&#123; class Program &#123; static void Main(string[] args) &#123; System.Reflection.MemberInfo info = typeof(MyClass); object[] attributes = info.GetCustomAttributes(true); for (int i = 0; i &lt; attributes.Length; i++) &#123; System.Console.WriteLine(attributes[i]); &#125; Console.ReadKey(); &#125; &#125;&#125; 当上面的代码被编译和执行时，它会显示附加到类 MyClass 上的自定义特性：1HelpAttribute]]></content>
       <categories>
         <category>河图</category>
