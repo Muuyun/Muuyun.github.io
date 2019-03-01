@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="python,">
+  <meta name="keywords" content="linux,">
 
 
 
@@ -88,21 +88,21 @@
 
 
 
-<meta name="description" content="输入与输出12name = input(&amp;apos;please enter your name: &amp;apos;)print(&amp;apos;hello,&amp;apos;, name) python基础 Python允许用r’’表示’’内部的字符串默认不转义 1234print(&amp;apos;\\\t\\&amp;apos;)\       \print(r&amp;apos;\\\t\\&amp;apos;)\\\t\\  如果">
-<meta name="keywords" content="python">
+<meta name="description" content="命令执行顺序的控制顺序执行多条命令eg:1234#更新软件源里的软件列表$ sudo apt-get update$ sudo apt-get install some-tool //这里some-tool是指具体的软件包，例如：banner$ some-tool 有选择的执行命令eg:1$ which cowsay&amp;gt;/dev/null &amp;amp;&amp;amp; cowsay -f head-i">
+<meta name="keywords" content="linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python-1">
-<meta property="og:url" content="http://yoursite.com/2019/02/16/python1/index.html">
+<meta property="og:title" content="linux命令执行顺序控制与管道">
+<meta property="og:url" content="http://yoursite.com/2019/03/01/linux命令执行顺序控制与管道/index.html">
 <meta property="og:site_name" content="苏牧云">
-<meta property="og:description" content="输入与输出12name = input(&amp;apos;please enter your name: &amp;apos;)print(&amp;apos;hello,&amp;apos;, name) python基础 Python允许用r’’表示’’内部的字符串默认不转义 1234print(&amp;apos;\\\t\\&amp;apos;)\       \print(r&amp;apos;\\\t\\&amp;apos;)\\\t\\  如果">
+<meta property="og:description" content="命令执行顺序的控制顺序执行多条命令eg:1234#更新软件源里的软件列表$ sudo apt-get update$ sudo apt-get install some-tool //这里some-tool是指具体的软件包，例如：banner$ some-tool 有选择的执行命令eg:1$ which cowsay&amp;gt;/dev/null &amp;amp;&amp;amp; cowsay -f head-i">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387245992536e2ba28125cf04f5c8985dbc94a02245e000/0">
-<meta property="og:image" content="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387245979827634fd6204f9346a1ae6358d9ed051666000/0">
-<meta property="og:updated_time" content="2019-02-21T13:43:34.209Z">
+<meta property="og:image" content="https://doc.shiyanlou.com/document-uid1labid63timestamp1544148440172.png/wm">
+<meta property="og:image" content="https://doc.shiyanlou.com/linux_base/8-3.png/wm">
+<meta property="og:updated_time" content="2019-03-01T13:28:58.647Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python-1">
-<meta name="twitter:description" content="输入与输出12name = input(&amp;apos;please enter your name: &amp;apos;)print(&amp;apos;hello,&amp;apos;, name) python基础 Python允许用r’’表示’’内部的字符串默认不转义 1234print(&amp;apos;\\\t\\&amp;apos;)\       \print(r&amp;apos;\\\t\\&amp;apos;)\\\t\\  如果">
-<meta name="twitter:image" content="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387245992536e2ba28125cf04f5c8985dbc94a02245e000/0">
+<meta name="twitter:title" content="linux命令执行顺序控制与管道">
+<meta name="twitter:description" content="命令执行顺序的控制顺序执行多条命令eg:1234#更新软件源里的软件列表$ sudo apt-get update$ sudo apt-get install some-tool //这里some-tool是指具体的软件包，例如：banner$ some-tool 有选择的执行命令eg:1$ which cowsay&amp;gt;/dev/null &amp;amp;&amp;amp; cowsay -f head-i">
+<meta name="twitter:image" content="https://doc.shiyanlou.com/document-uid1labid63timestamp1544148440172.png/wm">
 
 
 
@@ -132,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/02/16/python1/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/01/linux命令执行顺序控制与管道/">
 
 
 
 
 
-  <title>Python-1 | 苏牧云</title>
+  <title>linux命令执行顺序控制与管道 | 苏牧云</title>
   
 
 
@@ -307,7 +307,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/16/python1/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/01/linux命令执行顺序控制与管道/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="苏牧云">
@@ -324,7 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Python-1</h1>
+          <h1 class="post-title" itemprop="name headline">linux命令执行顺序控制与管道</h1>
         
 
         <div class="post-meta">
@@ -336,8 +336,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-16T07:29:13+08:00">
-                2019-02-16
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-01T20:28:02+08:00">
+                2019-03-01
               </time>
             
 
@@ -377,8 +377,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/02/16/python1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/02/16/python1/" itemprop="commentCount"></span>
+                <a href="/2019/03/01/linux命令执行顺序控制与管道/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/03/01/linux命令执行顺序控制与管道/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -406,73 +406,49 @@
       
 
       
-        <h2 id="输入与输出"><a href="#输入与输出" class="headerlink" title="输入与输出"></a>输入与输出</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">name = input(&apos;please enter your name: &apos;)</span><br><span class="line">print(&apos;hello,&apos;, name)</span><br></pre></td></tr></table></figure>
-<h2 id="python基础"><a href="#python基础" class="headerlink" title="python基础"></a>python基础</h2><ol>
-<li><p>Python允许用r’’表示’’内部的字符串默认不转义</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">print(&apos;\\\t\\&apos;)</span><br><span class="line">\       \</span><br><span class="line">print(r&apos;\\\t\\&apos;)</span><br><span class="line">\\\t\\</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如果字符串内部有很多换行，用\n写在一行里不好阅读，为了简化，Python允许用’’’…’’’的格式表示多行内容, <em><code>...</code>是提示符，不是代码的一部分</em></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(r&apos;&apos;&apos;hello,</span><br><span class="line">world&apos;&apos;&apos;)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>一个布尔值只有True、False两种值,布尔值可以用and、or和not运算。  </p>
-</li>
-<li><p>用全部大写的变量名表示常量只是一个习惯上的用法 , eg: PI</p>
-</li>
-<li><p>除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">9 / 3</span><br><span class="line">3.0</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>还有一种除法是//，称为地板除，两个整数的除法仍然是整数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">10 // 3</span><br><span class="line">3</span><br></pre></td></tr></table></figure></p>
-<ol start="6">
-<li>Python的整数没有大小限制，Python的浮点数也没有大小限制，但是超出一定范围就直接表示为inf（无限大）。</li>
-</ol>
-<h2 id="字符编码"><a href="#字符编码" class="headerlink" title="字符编码"></a>字符编码</h2><ul>
-<li>美国ASCII编码</li>
-<li>中国GB2312编码</li>
-<li>Unicode统一编码 -&gt; UTF-8编码(可变长编码)</li>
+        <h1 id="命令执行顺序的控制"><a href="#命令执行顺序的控制" class="headerlink" title="命令执行顺序的控制"></a>命令执行顺序的控制</h1><h2 id="顺序执行多条命令"><a href="#顺序执行多条命令" class="headerlink" title="顺序执行多条命令"></a>顺序执行多条命令</h2><p>eg:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#更新软件源里的软件列表</span><br><span class="line">$ sudo apt-get update</span><br><span class="line">$ sudo apt-get install some-tool //这里some-tool是指具体的软件包，例如：banner</span><br><span class="line">$ some-tool</span><br></pre></td></tr></table></figure></p>
+<h2 id="有选择的执行命令"><a href="#有选择的执行命令" class="headerlink" title="有选择的执行命令"></a>有选择的执行命令</h2><p>eg:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ which cowsay&gt;/dev/null &amp;&amp; cowsay -f head-in ohch~</span><br></pre></td></tr></table></figure></p>
+<p>你如果没有安装cowsay，你可以先执行一次上述命令，你会发现什么也没发生，你再安装好之后你再执行一次上述命令，你也会发现一些惊喜。</p>
+<p>上面的&amp;&amp;就是用来实现选择性执行的，它表示如果前面的命令执行结果（不是表示终端输出的内容，而是表示命令执行状态的结果）返回0则执行后面的，否则不执行，你可以从$?环境变量获取上一次命令的返回结果：</p>
+<p><img src="https://doc.shiyanlou.com/document-uid1labid63timestamp1544148440172.png/wm" alt=""></p>
+<p>||就是与&amp;&amp;相反的控制效果，当上一条命令执行结果为≠0($?≠0)时则执行它后面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ which cowsay&gt;/dev/null || echo &quot;cowsay has not been install, please run &apos;sudo apt-get install cowsay&apos; to install&quot;</span><br></pre></td></tr></table></figure></p>
+<p>流程图：</p>
+<p><img src="https://doc.shiyanlou.com/linux_base/8-3.png/wm" alt=""></p>
+<h1 id="管道"><a href="#管道" class="headerlink" title="管道"></a>管道</h1><p>管道是什么？管道是一种通信机制，通常用于进程间的通信（也可通过socket进行网络通信），它表现出来的形式就是将前面每一个进程的输出(stdout)直接作为下一个进程的输入(stdin)。</p>
+<p>管道又分为匿名管道和具名管道，在使用一些过滤程序时经常会用到的就是匿名管道，在命令行中由<code>|</code>分隔符表示,具名管道简单的说就是有名字的管道，通常只会在源程序中用到具名管道。</p>
+<p>先试用一下管道，比如查看/etc目录下有哪些文件和目录，使用ls命令来查看：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls -al /etc</span><br></pre></td></tr></table></figure></p>
+<p>有太多内容，屏幕不能完全显示，这时候可以使用滚动条或快捷键滚动窗口来查看。不过这时候可以使用管道：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls -al /etc | less</span><br></pre></td></tr></table></figure></p>
+<p>通过管道将前一个命令(ls)的输出作为下一个命令(less)的输入，然后就可以一行一行地看。</p>
+<h2 id="cut-命令，打印每一行的某一字段"><a href="#cut-命令，打印每一行的某一字段" class="headerlink" title="cut 命令，打印每一行的某一字段"></a>cut 命令，打印每一行的某一字段</h2><p>打印/etc/passwd文件中以:为分隔符的第1个字段和第6个字段分别表示用户名和其家目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cut /etc/passwd -d &apos;:&apos; -f 1,6</span><br></pre></td></tr></table></figure></p>
+<p>打印/etc/passwd文件中每一行的前N个字符：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 前五个（包含第五个）</span><br><span class="line">$ cut /etc/passwd -c -5</span><br><span class="line"># 前五个之后的（包含第五个）</span><br><span class="line">$ cut /etc/passwd -c 5-</span><br><span class="line"># 第五个</span><br><span class="line">$ cut /etc/passwd -c 5</span><br><span class="line"># 2到5之间的（包含第五个）</span><br><span class="line">$ cut /etc/passwd -c 2-5</span><br></pre></td></tr></table></figure></p>
+<h2 id="grep-命令，在文本中或-stdin-中查找匹配字符串"><a href="#grep-命令，在文本中或-stdin-中查找匹配字符串" class="headerlink" title="grep 命令，在文本中或 stdin 中查找匹配字符串"></a>grep 命令，在文本中或 stdin 中查找匹配字符串</h2><p>grep命令的一般形式为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep [命令选项]... 用于匹配的表达式 [文件]...</span><br></pre></td></tr></table></figure></p>
+<p>搜索/home/shiyanlou目录下所有包含”shiyanlou”的文本文件，并显示出现在文本中的行号：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ grep -rnI &quot;shiyanlou&quot; ~</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>-r 参数表示递归搜索子目录中的文件</li>
+<li>-n表示打印匹配项行号</li>
+<li>-I表示忽略二进制文件</li>
 </ul>
-<p>在计算机内存中，统一使用Unicode编码，当需要保存到硬盘或者需要传输的时候，就转换为UTF-8编码。</p>
-<p><img src="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387245992536e2ba28125cf04f5c8985dbc94a02245e000/0" alt=""></p>
-<p>浏览网页的时候，服务器会把动态生成的Unicode内容转换为UTF-8再传输到浏览器</p>
-<p><img src="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387245979827634fd6204f9346a1ae6358d9ed051666000/0" alt=""></p>
-<h2 id="Python的字符串"><a href="#Python的字符串" class="headerlink" title="Python的字符串"></a>Python的字符串</h2><p>对于单个字符的编码，Python提供了ord()函数获取字符的整数表示，chr()函数把编码转换为对应的字符：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; ord(&apos;A&apos;)</span><br><span class="line">65</span><br><span class="line">&gt;&gt;&gt; ord(&apos;中&apos;)</span><br><span class="line">20013</span><br><span class="line">&gt;&gt;&gt; chr(66)</span><br><span class="line">&apos;B&apos;</span><br><span class="line">&gt;&gt;&gt; chr(25991)</span><br><span class="line">&apos;文&apos;</span><br></pre></td></tr></table></figure></p>
-<p>由于Python的字符串类型是str，在内存中以Unicode表示，一个字符对应若干个字节。如果要在网络上传输，或者保存到磁盘上，就需要把str变为以字节为单位的bytes。</p>
-<p>Python对bytes类型的数据用带b前缀的单引号或双引号表示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x = b&apos;ABC&apos;</span><br></pre></td></tr></table></figure></p>
-<p>要注意区分’ABC’和b’ABC’，前者是str，后者虽然内容显示得和前者一样，但bytes的每个字符都只占用一个字节。</p>
-<p>以Unicode表示的str通过encode()方法可以编码为指定的bytes，例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; &apos;ABC&apos;.encode(&apos;ascii&apos;)</span><br><span class="line">b&apos;ABC&apos;</span><br><span class="line">&gt;&gt;&gt; &apos;中文&apos;.encode(&apos;utf-8&apos;)</span><br><span class="line">b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;</span><br><span class="line">&gt;&gt;&gt; &apos;中文&apos;.encode(&apos;ascii&apos;)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">UnicodeEncodeError: &apos;ascii&apos; codec can&apos;t encode characters in position 0-1: ordinal not in range(128)</span><br></pre></td></tr></table></figure></p>
-<p>反过来，如果我们从网络或磁盘上读取了字节流，那么读到的数据就是bytes。要把bytes变为str，就需要用decode()方法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; b&apos;ABC&apos;.decode(&apos;ascii&apos;)</span><br><span class="line">&apos;ABC&apos;</span><br><span class="line">&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;.decode(&apos;utf-8&apos;)</span><br><span class="line">&apos;中文&apos;</span><br></pre></td></tr></table></figure></p>
-<p>如果bytes中包含无法解码的字节，decode()方法会报错：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xff&apos;.decode(&apos;utf-8&apos;)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  ...</span><br><span class="line">UnicodeDecodeError: &apos;utf-8&apos; codec can&apos;t decode byte 0xff in position 3: invalid start byte</span><br></pre></td></tr></table></figure></p>
-<p>如果bytes中只有一小部分无效的字节，可以传入errors=’ignore’忽略错误的字节：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; b&apos;\xe4\xb8\xad\xff&apos;.decode(&apos;utf-8&apos;, errors=&apos;ignore&apos;)</span><br><span class="line">&apos;中&apos;</span><br></pre></td></tr></table></figure></p>
-<p>要计算str包含多少个字符，可以用len()函数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; len(&apos;ABC&apos;)</span><br><span class="line">3</span><br><span class="line">&gt;&gt;&gt; len(&apos;中文&apos;)</span><br><span class="line">2</span><br></pre></td></tr></table></figure></p>
-<p>len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; len(b&apos;ABC&apos;)</span><br><span class="line">3</span><br><span class="line">&gt;&gt;&gt; len(b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;)</span><br><span class="line">6</span><br><span class="line">&gt;&gt;&gt; len(&apos;中文&apos;.encode(&apos;utf-8&apos;))</span><br><span class="line">6</span><br></pre></td></tr></table></figure></p>
-<h2 id="格式化"><a href="#格式化" class="headerlink" title="格式化"></a>格式化</h2><p>在Python中，采用的格式化方式和C语言是一致的，用%实现，举例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; &apos;Hello, %s&apos; % &apos;world&apos;</span><br><span class="line">&apos;Hello, world&apos;</span><br><span class="line">&gt;&gt;&gt; &apos;Hi, %s, you have $%d.&apos; % (&apos;Michael&apos;, 1000000)</span><br><span class="line">&apos;Hi, Michael, you have $1000000.&apos;</span><br></pre></td></tr></table></figure></p>
-<table>
-<thead>
-<tr>
-<th>占位符</th>
-<th style="text-align:left">替换内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>%d</td>
-<td style="text-align:left">整数</td>
-</tr>
-<tr>
-<td>%f</td>
-<td style="text-align:left">浮点数</td>
-</tr>
-<tr>
-<td>%s</td>
-<td style="text-align:left">字符串</td>
-</tr>
-<tr>
-<td>%x</td>
-<td style="text-align:left">十六进制整数</td>
-</tr>
-</tbody>
-</table>
-
+<p>当然也可以在匹配字段中使用正则表达式，下面简单的演示：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 查看环境变量中以&quot;yanlou&quot;结尾的字符串</span><br><span class="line">$ export | grep &quot;.*yanlou$&quot;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>$表示一行的末尾</li>
+</ul>
+<h2 id="wc-命令，简单小巧的计数工具"><a href="#wc-命令，简单小巧的计数工具" class="headerlink" title="wc 命令，简单小巧的计数工具"></a>wc 命令，简单小巧的计数工具</h2><p>wc 命令用于统计并输出一个文件中行、单词和字节的数目，比如输出/etc/passwd文件的统计信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wc /etc/passwd</span><br></pre></td></tr></table></figure></p>
+<p>分别只输出行数、单词数、字节数、字符数和输入文本中最长一行的字节数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 行数</span><br><span class="line">$ wc -l /etc/passwd</span><br><span class="line"># 单词数</span><br><span class="line">$ wc -w /etc/passwd</span><br><span class="line"># 字节数</span><br><span class="line">$ wc -c /etc/passwd</span><br><span class="line"># 字符数</span><br><span class="line">$ wc -m /etc/passwd</span><br><span class="line"># 最长行字节数</span><br><span class="line">$ wc -L /etc/passwd</span><br></pre></td></tr></table></figure></p>
+<h2 id="sort-排序命令"><a href="#sort-排序命令" class="headerlink" title="sort 排序命令"></a>sort 排序命令</h2><p>这个命令前面我们也是用过多次，功能很简单就是将输入按照一定方式排序，然后再输出,它支持的排序有按字典排序,数字排序，按月份排序，随机排序，反转排序，指定特定字段进行排序等等。</p>
+<p>默认为字典排序：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat /etc/passwd | sort</span><br></pre></td></tr></table></figure></p>
+<p>反转排序：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat /etc/passwd | sort -r</span><br></pre></td></tr></table></figure></p>
+<p>按特定字段排序：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat /etc/passwd | sort -t&apos;:&apos; -k 3</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>-t参数用于指定字段的分隔符，这里是以”:”作为分隔符；</li>
+<li>-k 字段号用于指定对哪一个字段进行排序。</li>
+</ul>
+<p>这里/etc/passwd文件的第三个字段为数字，默认情况下是以字典序排序的，如果要按照数字排序就要加上-n参数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat /etc/passwd | sort -t&apos;:&apos; -k 3 -n</span><br></pre></td></tr></table></figure></p>
+<h2 id="uniq-去重命令"><a href="#uniq-去重命令" class="headerlink" title="uniq 去重命令"></a>uniq 去重命令</h2><p>uniq命令可以用于过滤或者输出重复行。</p>
+<h3 id="过滤重复行"><a href="#过滤重复行" class="headerlink" title="过滤重复行"></a>过滤重复行</h3><p>我们可以使用history命令查看最近执行过的命令（实际为读取${SHELL}_history文件,如我们环境中的~/.zsh_history文件），不过你可能只想查看使用了哪个命令而不需要知道具体干了什么，那么你可能就会要想去掉命令后面的参数然后去掉重复的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ history | cut -c 8- | cut -d &apos; &apos; -f 1 | uniq</span><br></pre></td></tr></table></figure></p>
+<p>然后经过层层过滤，你会发现确是只输出了执行的命令那一列，不过去重效果好像不明显，仔细看你会发现它确实去重了，只是不那么明显，之所以不明显是因为uniq命令只能去连续重复的行，不是全文去重，所以要达到预期效果，我们先排序：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ history | cut -c 8- | cut -d &apos; &apos; -f 1 | sort | uniq</span><br><span class="line"># 或者$ history | cut -c 8- | cut -d &apos; &apos; -f 1 | sort -u</span><br></pre></td></tr></table></figure></p>
+<p>这就是 Linux/UNIX 哲学吸引人的地方，大繁至简，一个命令只干一件事却能干到最好。</p>
+<h3 id="输出重复行"><a href="#输出重复行" class="headerlink" title="输出重复行"></a>输出重复行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 输出重复过的行（重复的只输出一个）及重复次数</span><br><span class="line">$ history | cut -c 8- | cut -d &apos; &apos; -f 1 | sort | uniq -dc</span><br><span class="line"># 输出所有重复的行</span><br><span class="line">$ history | cut -c 8- | cut -d &apos; &apos; -f 1 | sort | uniq -D</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -522,7 +498,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://yoursite.com/2019/02/16/python1/" title="Python-1">http://yoursite.com/2019/02/16/python1/</a>
+    <a href="http://yoursite.com/2019/03/01/linux命令执行顺序控制与管道/" title="linux命令执行顺序控制与管道">http://yoursite.com/2019/03/01/linux命令执行顺序控制与管道/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -537,7 +513,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i> python</a>
+            <a href="/tags/linux/" rel="tag"><i class="fa fa-tag"></i> linux</a>
           
         </div>
       
@@ -550,8 +526,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/02/16/pycharm/" rel="next" title="pycharm-basics">
-                <i class="fa fa-chevron-left"></i> pycharm-basics
+              <a href="/2019/02/28/vive1/" rel="next" title="HTC VIVE">
+                <i class="fa fa-chevron-left"></i> HTC VIVE
               </a>
             
           </div>
@@ -559,10 +535,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/02/21/牧云集-1/" rel="prev" title="牧云集-1">
-                牧云集-1 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -730,7 +702,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#输入与输出"><span class="nav-text">输入与输出</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python基础"><span class="nav-text">python基础</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字符编码"><span class="nav-text">字符编码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python的字符串"><span class="nav-text">Python的字符串</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#格式化"><span class="nav-text">格式化</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#命令执行顺序的控制"><span class="nav-text">命令执行顺序的控制</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#顺序执行多条命令"><span class="nav-text">顺序执行多条命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有选择的执行命令"><span class="nav-text">有选择的执行命令</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#管道"><span class="nav-text">管道</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#cut-命令，打印每一行的某一字段"><span class="nav-text">cut 命令，打印每一行的某一字段</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#grep-命令，在文本中或-stdin-中查找匹配字符串"><span class="nav-text">grep 命令，在文本中或 stdin 中查找匹配字符串</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#wc-命令，简单小巧的计数工具"><span class="nav-text">wc 命令，简单小巧的计数工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sort-排序命令"><span class="nav-text">sort 排序命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#uniq-去重命令"><span class="nav-text">uniq 去重命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#过滤重复行"><span class="nav-text">过滤重复行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#输出重复行"><span class="nav-text">输出重复行</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
