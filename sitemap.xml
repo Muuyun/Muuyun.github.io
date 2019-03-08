@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/03/02/share-2/</loc>
+    
+    <lastmod>2019-03-08T13:00:07.696Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/09/share/</loc>
+    
+    <lastmod>2019-03-08T12:56:49.639Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/03/08/linux%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/</loc>
+    
+    <lastmod>2019-03-08T12:13:00.788Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/03/03/vive2/</loc>
+    
+    <lastmod>2019-03-04T02:23:22.542Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/02/28/vive1/</loc>
     
-    <lastmod>2019-03-01T13:34:38.702Z</lastmod>
+    <lastmod>2019-03-03T13:08:34.081Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2019/02/25/hololens2/</loc>
     
-    <lastmod>2019-03-01T13:34:36.125Z</lastmod>
+    <lastmod>2019-03-02T13:22:44.483Z</lastmod>
     
   </url>
   
@@ -110,13 +138,6 @@
     <loc>http://yoursite.com/2018/10/20/hello-world/</loc>
     
     <lastmod>2019-02-12T17:48:40.829Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/02/09/share/</loc>
-    
-    <lastmod>2019-02-12T17:48:38.436Z</lastmod>
     
   </url>
   
