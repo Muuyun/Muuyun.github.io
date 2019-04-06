@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[手机硬件]]></title>
+    <url>%2F2019%2F04%2F06%2F%E6%89%8B%E6%9C%BA%E7%A1%AC%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[手机和电脑一样，都是由不同的零部件拼装而成。手机必备的零部件包括：CPU、RAM、ROM、GPU、屏幕、摄像头、电池、传感器、射频芯片等，具体描述如下： CPU 相当手机的大脑，核心的运算能力。 RAM 相当电脑的内存，也叫做运行内存简称运存。 ROM 一般等同于电脑硬盘，用于安装Android系统及存放照片、视频等文档，ROM越大，能存放的东西越多。 GPU 图像处理单元，等同于电脑的显卡。 屏幕 手机的屏幕材质有很多种，屏幕最重要的参数是分辨率。 摄像头 摄像头比较重要的有两个参数，像素数和光圈大小。 电池 电池最重要的参数是容量啦。 传感器 传感器就是手机的耳鼻眼手，能够采集周围环境的各种参数给CPU，使得手机具有真正智能的功能。 射频芯片 手机里边有很多跟射频相关的芯片，决定了手机通信手段的多少和通信能力的强弱。]]></content>
+      <categories>
+        <category>手机</category>
+      </categories>
+      <tags>
+        <tag>手机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[岁月]]></title>
+    <url>%2F2019%2F04%2F06%2F%E5%B2%81%E6%9C%88%2F</url>
+    <content type="text"><![CDATA[《项脊轩志》 明朝历史人物归有光《项脊轩志》写到 “庭有枇把树，吾妻死之年所手植也，今已亭亭如盖矣。” “今伐之，为博小娘子一笑。” “小娘子一笑，恰似吾妻年少时。” “小娘子为吾与吾妻之女，今伐树，为小娘子造出嫁之物，愿伉俪情深，不输吾与吾妻。” 坐井观天 余记童稚时，尝览坐井观天一文。何为青蛙？拘于方寸之地者，余于心常不齿之。后方知世事不易，诸事皆难。乃知浩浩天地下茫茫苍生多为欲做蛙而不得者。此生愿为井中一蛙，不知天之浩渺，不识地之深厚。不问碌碌世事，不叹日月年华。井壁绿意盎然，春也。喜听凉风阵阵，夏也。身着落叶纷纷，秋也。飘落白雪点点，冬也。何谓光辉伟大？何谓声震寰宇？余不知矣。唯知于心中方寸之地，自得其乐，此生亦足矣。 丢番图墓志铭 他生命的六分之一是幸福的童年 再活十二之一，颊上长出了细细的胡须 又过了生命的七分之一才结婚 他过来五年的幸福生活，然后生下来一个儿子，可这孩子光辉灿烂的生命只有他父亲的一半 儿子死后，老人在悲痛中活了四年，结束了尘世的生涯]]></content>
+      <categories>
+        <category>云梦泽</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTC VIVE - 3]]></title>
+    <url>%2F2019%2F04%2F01%2Fvive3%2F</url>
+    <content type="text"><![CDATA[预制体 [status] _Stats：这个是显示统计信息的一个组件（目前仅显示帧率和丢帧数）。它上面还有一个Camera，通过它将GUIText渲染到overlay的纹理上，通过overlay将文字信息显示出来。它的显示效果如下图 Overlay：这个控件的作用是是一个2D的UI界面叠加到场景上面显示出来 VIVE的交互实现方式Extras文件夹里面的SteamVR_GazeTracker是凝视的工具类，SteamVR_LaserPointer是射线的工具类 SteamVR_GazeTracker（凝视）凝视是一种在没有手柄等输入设备的情况下，可以通过眼睛盯着某个物体看来与物体进行交互的体验。我们只需要将个辅组类添加到我们想要凝视的物体上，比如菜单等，就可以实现凝视的功能。 凝视的原理实际上是从头盔的位置发出一条射线判断是否与物体相交来做选中或者交互的。而且因为凝视的精确度不高，所以没有做直接与物体相交，而是在物体的位置创建了一个平面，通过射线与平面相交的交点的位置与物体的距离来大概判断的。这个距离值是可以调的，缺省是0.15到0.4米之间就算选中了。 SteamVR_LaserPointer（激光束）SteamVR_LaserPointer的作用是从指定位置（通常是手柄）发出一条射线，它会将这条射线显示出来，然后也是判断这条视线与场景中的物体是否相交。与凝视不一样的是，它可以精确操作，所以不需要一个辅助平面。用法和凝视也不太一样，需要将这个组件添加发出射线的物体上，比如手柄。]]></content>
+      <categories>
+        <category>云图</category>
+      </categories>
+      <tags>
+        <tag>VR</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux日志系统]]></title>
     <url>%2F2019%2F03%2F29%2Flinux%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F%2F</url>
     <content type="text"><![CDATA[常见的日志常见的日志一般存放在 /var/log 中，我们可以根据服务对象粗略的将日志分为两类 系统日志 应用日志 日志名称 记录信息 alternatives.log 系统的一些更新替代信息记录 apport.log 应用程序崩溃信息记录 apt/history.log 使用 apt-get 安装卸载软件的信息记录 apt/term.log 使用 apt-get 时的具体操作，如 package 的下载、打开等 auth.log 登录认证的信息记录 boot.log 系统启动时的程序服务的日志信息 btmp 错误的信息记录 Consolekit/history 控制台的信息记录 dist-upgrade dist-upgrade 这种更新方式的信息记录 dmesg 启动时，显示屏幕上内核缓冲信息,与硬件有关的信息 dpkg.log dpkg 命令管理包的日志。 faillog 用户登录失败详细信息记录 fontconfig.log 与字体配置有关的信息记录 kern.log 内核产生的信息记录，在自己修改内核时有很大帮助 lastlog 用户的最近信息记录 wtmp 登录信息的记录。wtmp可以找出谁正在进入系统，谁使用命令显示这个文件或信息等 syslog 系统信息记录 因为这两个日志并不是 ASCII 文件而是被编码成了二进制文件，所以我们并不能直接使用 less、cat、more 这样的工具来查看，这两个日志文件是 wtmp，lastlog，我们查看的方法是使用 last 与 lastlog 工具来提取其中的信息。 配置的日志syslog 是一个系统日志记录程序，在早期的大部分 Linux 发行版都是内置 syslog，让其作为系统的默认日志收集工具，虽然随着时代的进步与发展，syslog 已经年老体衰跟不上时代的需求，所以他被 rsyslog 所代替了，较新的 Ubuntu、Fedora 等等都是默认使用 rsyslog 作为系统的日志收集工具 rsyslog的全称是 rocket-fast system for log，它提供了高性能，高安全功能和模块化设计。rsyslog 能够接受各种各样的来源，将其输入，输出的结果到不同的目的地。rsyslog 可以提供超过每秒一百万条消息给目标文件。 这样能实时收集日志信息的程序是有其守护进程的，如 rsyslog 的守护进程便是 rsyslogd 首先我们来看 rsyslog 的配置文件是什么样子的，而 rsyslog 的配置文件有两个， 一个是 /etc/rsyslog.conf 一个是 /etc/rsyslog.d/50-default.conf。 第一个主要是配置的环境，也就是 rsyslog 加载什么模块，文件的所属者等；而第二个主要是配置的 Filter Conditions 123vim /etc/rsyslog.conf vim /etc/rsyslog.d/50-default.conf 转储的日志logrotate 程序是一个日志文件管理工具。用来把旧的日志文件删除，并创建新的日志文件。我们可以根据日志文件的大小，也可以根据其天数来切割日志、管理日志，这个过程又叫做“转储”。 大多数 Linux 发行版使用 logrotate 或 newsyslog 对日志进行管理。logrotate 程序不但可以压缩日志文件，减少存储空间，还可以将日志发送到指定 E-mail，方便管理员及时查看日志。 显而易见，logrotate 是基于 CRON 来运行的，其脚本是 /etc/cron.daily/logrotate；同时我们可以在 /etc/logrotate 中找到其配置文件 1cat /etc/logrotate.conf 1234567891011121314151617# see &quot;man logrotate&quot; for details //可以查看帮助文档# rotate log files weeklyweekly //设置每周转储一次(daily、weekly、monthly当然可以使用这些参数每天、星期，月 )# keep 4 weeks worth of backlogsrotate 4 //最多转储4次# create new (empty) log files after rotating old onescreate //当转储后文件不存在时创建它# uncomment this if you want your log files compressedcompress //通过gzip压缩方式转储（nocompress可以不压缩）# RPM packages drop log rotation information into this directoryinclude /etc/logrotate.d //其他日志文件的转储方式配置文件，包含在该目录下# no packages own wtmp -- we&apos;ll rotate them here/var/log/wtmp &#123; //设置/var/log/wtmp日志文件的转储参数 monthly //每月转储 create 0664 root utmp //转储后文件不存在时创建它，文件所有者为root，所属组为utmp，对应的权限为0664 rotate 1 //最多转储一次&#125;]]></content>
@@ -26,6 +56,14 @@
     <title><![CDATA[鸡尾酒]]></title>
     <url>%2F2019%2F03%2F29%2F%E9%B8%A1%E5%B0%BE%E9%85%92%2F</url>
     <content type="text"><![CDATA[鸡尾酒鸡尾酒的六大基酒皆为烈酒，分别是：金酒（Gin）、威士忌（Whisky）、白兰地（Brandy）、伏特加（Vodka）、朗姆酒（Rum）和龙舌兰酒（Tequila）。 金酒（Gin）：金酒，又称作杜松子酒或琴酒。金酒最早诞生于荷兰，之后因在英国大量生产而闻名世界。金酒的主要原料是大麦芽、稞麦、杜松子。金酒无色，气味清香，口感醇美舒爽，既可以单独饮用，也可以和其他酒混合配制饮用。 威士忌（Whisky）：威士忌是一种只用谷物制成的含酒精饮料。威士忌这个名字来自于盖尔语中的 uisge beatha（生命之水）。威士忌的口感细腻、苦涩、华丽、强烈，酒精度为 40 度左右，通常带有谷物香、果香、烟熏香。 白兰地（Brandy）：白兰地最早来自于荷兰语中的 Brandewijn，意为“烧酒”。白兰地是用葡萄酒加以蒸馏、浓缩制作而成的酒。目前世界上最优的白兰地产地位于法国夏朗德省的干邑（Cognac）及其周围地区。世界著名的白兰地品牌包括轩尼诗（Hennessy）、马爹利（Martell）等。 伏特加（Vodka）：伏特加是俄罗斯传统酒精饮料。经过蒸馏后的伏特加无色透明，味道清淡，饮酒之人感觉不到甜味、苦味、涩味，只能感觉到火焰般的刺激，如此口感使得伏特加独具一格。因此在调制各类鸡尾酒中，伏特加富有绝佳的灵活性、适应性和变通性。 朗姆酒（Rum）：朗姆酒原产于古巴，是古巴的传统酒类。朗姆酒通常用甘蔗或相关产品压榨出糖汁，经过发酵、蒸馏而得。朗姆酒的口感绵软顺口，通常伴有焦糖的香气，是鸡尾酒必不可少的原料之一。 龙舌兰酒（Tequila）：龙舌兰酒是墨西哥的灵魂，是墨西哥的国酒。龙舌兰酒以龙舌兰（agave）这种植物为原料，经过蒸馏制作而成。传统龙舌兰酒的喝法非常特别：迅速舔一口手背虎口处的盐之后，将一小杯龙舌兰一饮而尽，再咬一口柠檬片缓解由酒精带来的辛辣感。龙舌兰也常被用来当做鸡尾酒中的基酒，常见的有玛格丽特（Margarita）、特基拉日出（Tequila Sunrise）等。]]></content>
+      <categories>
+        <category>云梦泽</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[惊艳]]></title>
+    <url>%2F2019%2F03%2F29%2F%E6%83%8A%E8%89%B3%2F</url>
+    <content type="text"><![CDATA[纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。 shuiman shiman 少了u A boy can do everything for girl. He is just kidding. Love must need our patience. 52Hertz (52Hz) 52Hz是一只鲸鱼独特的发声频率，由于他跟别的鲸鱼发声频率不相同，所以他的同伴听不见他的声音，可是他仍然在那独自高歌，等待着他的那个知音人（鲸鱼） 鲸落 一鲸落 万物生 鲸落 是鲸鱼留给大海最后的温柔 Ther 其实是Their的缩写 他们当中没有我 用朱自清的话说就是 “但热闹是他们的 我什么也没有” 夏目漱石曾把i love you翻译成“今夜月色真美”，那如何翻译i love you too呢？风也温柔。 岁月极美，在于它必然的流逝 春花，秋月，夏日，冬雪 ——三毛 miss，miss you leave，leave me 如果我说miss，miss you，你会认为是错过你，还是想念你？ 如果我又说leave，leave me，你会选择离开我，还是留下我？ 微雨的杏花最陶醉， 又何惜玫瑰？ 你可愿清风挽回……]]></content>
       <categories>
         <category>云梦泽</category>
       </categories>
@@ -196,7 +234,7 @@
   </entry>
   <entry>
     <title><![CDATA[两则小故事]]></title>
-    <url>%2F2019%2F02%2F21%2F%E7%89%A7%E4%BA%91%E9%9B%86-1%2F</url>
+    <url>%2F2019%2F02%2F21%2F%E4%B8%A4%E5%88%99%E5%B0%8F%E6%95%85%E4%BA%8B%2F</url>
     <content type="text"><![CDATA[故事1 新郎，特地和司仪要了话筒，说了一段话，他说他父母婚姻不幸，心里那个自己，从来没有长大过。 从来我不是不爱你，不是一次次想要推开你。不是心有不忿意难平。这世间，离别太多。 太美好的你，怕握不住。 嗯，那个戒指，他配了项链挂在胸口。忽然明白，为什么十年，依旧是他们两个。 或许女孩子从来不卑微，她知道命中注定就是他。 嗯，我一直看见的婚礼都是新娘哭，新郎笑。 今天第一次看见新郎哭得双肩耸动，新娘笑着安慰，帮他抹泪。 很甜！ 故事二 高中时一个同学沉迷网络 时常半夜翻墙出校上网 一日他照例翻墙 翻到一半就拔足狂奔而归 面色古怪，问之不语 从此认真读书，不再上网 学校盛传他见鬼了 后来他考上名校，我们问起这事 他沉默良久，说 “那天父亲来送生活费 舍不得住旅馆，在墙下坐了一夜”]]></content>
       <categories>
         <category>云梦泽</category>
