@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-21T07:38:37.791Z</updated>
+  <updated>2019-04-21T07:19:45.211Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hololens-Kinect</title>
-    <link href="http://yoursite.com/2019/04/21/Hololens-Kinect/"/>
-    <id>http://yoursite.com/2019/04/21/Hololens-Kinect/</id>
-    <published>2019-04-21T07:38:37.791Z</published>
-    <updated>2019-04-21T07:38:37.791Z</updated>
-    
-    <content type="html"><![CDATA[<p>Unity scripts to send Kinect data to the Hololens. The kinect joints are displayed as spheres in front of the user.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Unity scripts to send Kinect data to the Hololens. The kinect joints are displayed as spheres in front of the user.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Hololens" scheme="http://yoursite.com/categories/Hololens/"/>
-    
-    
-      <category term="Hololens" scheme="http://yoursite.com/tags/Hololens/"/>
-    
-  </entry>
   
   <entry>
     <title>有趣的思维</title>
@@ -546,6 +520,32 @@
     
     
       <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单的文本处理</title>
+    <link href="http://yoursite.com/2019/03/08/linux%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/"/>
+    <id>http://yoursite.com/2019/03/08/linux简单的文本处理/</id>
+    <published>2019-03-08T11:52:27.142Z</published>
+    <updated>2019-03-29T14:06:20.718Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="tr命令"><a href="#tr命令" class="headerlink" title="tr命令"></a>tr命令</h2><p>tr 命令可以用来删除一段文本信息中的某些文字。或者将其进行转换。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 删除 &quot;hello shiyanlou&quot; 中所有的&apos;o&apos;,&apos;l&apos;,&apos;h&apos;</span><br><span class="line">$ echo &apos;hello shiyanlou&apos; | tr -d &apos;olh&apos;</span><br><span class="line"># 将&quot;hello&quot; 中的ll,去重为一个l</span><br><span class="line">$ echo &apos;hello&apos; | tr -s &apos;l&apos;</span><br><span class="line"># 将输入文本，全部转换为大写或小写输出</span><br><span class="line">$ echo &apos;input some text here&apos; | tr &apos;[:lower:]&apos; &apos;[:upper:]&apos;</span><br><span class="line"># 上面的&apos;[:lower:]&apos; &apos;[:upper:]&apos;你也可以简单的写作&apos;[a-z]&apos; &apos;[A-Z]&apos;,当然反过来将大写变小写也是可以的</span><br></pre></td></tr></table></figure><h2 id="col命令"><a href="#col命令" class="headerlink" title="col命令"></a>col命令</h2><p>col 命令可以将<code>Tab</code>换成对等数量的空格键，或反转这个操作。</p><h3 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">col [option]</span><br></pre></td></tr></table></figure><h3 id="常用的选项有："><a href="#常用的选项有：" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-x</td><td>将Tab转换为空格</td></tr><tr><td>-h</td><td>将空格转换为Tab(默认选项)</td></tr></tbody></table><h2 id="join命令"><a href="#join命令" class="headerlink" title="join命令"></a>join命令</h2><p>join命令可以将将两个文件中包含相同内容的那一行合并在一起。</p><h3 id="常用的选项有：-1"><a href="#常用的选项有：-1" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-t</td><td>指定分隔符，默认为空格</td></tr><tr><td>-i</td><td>忽略大小写的差异</td></tr><tr><td>-1</td><td>指名第一个文件要用哪个字段来对比，默认对比第一个字段</td></tr><tr><td>-2</td><td>指名第二个文件要用哪个字段来对比，默认对比第一个字段</td></tr></tbody></table><p>eg:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ cd /home/shiyanlou</span><br><span class="line"># 创建两个文件</span><br><span class="line">$ echo &apos;1 hello&apos; &gt; file1</span><br><span class="line">$ echo &apos;1 shiyanlou&apos; &gt; file2</span><br><span class="line">$ join file1 file2</span><br><span class="line"># 将/etc/passwd与/etc/shadow两个文件合并，指定以&apos;:&apos;作为分隔符</span><br><span class="line">$ sudo join -t&apos;:&apos; /etc/passwd /etc/shadow</span><br><span class="line"># 将/etc/passwd与/etc/group两个文件合并，指定以&apos;:&apos;作为分隔符, 分别比对第4和第3个字段</span><br><span class="line">$ sudo join -t&apos;:&apos; -1 4 /etc/passwd -2 3 /etc/group</span><br></pre></td></tr></table></figure><h2 id="paste-命令"><a href="#paste-命令" class="headerlink" title="paste 命令"></a>paste 命令</h2><p><code>paste</code>这个命令与<code>join</code> 命令类似，它是在不对比数据的情况下，简单地将多个文件合并一起，以<code>Tab</code>隔开。</p><h3 id="常用的选项有：-2"><a href="#常用的选项有：-2" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-d</td><td>指定合并的分隔符，默认为Tab</td></tr><tr><td>-s</td><td>不合并到一行，每个文件为一行</td></tr></tbody></table><h3 id="操作举例："><a href="#操作举例：" class="headerlink" title="操作举例："></a>操作举例：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ echo hello &gt; file1</span><br><span class="line">$ echo shiyanlou &gt; file2</span><br><span class="line">$ echo www.shiyanlou.com &gt; file3</span><br><span class="line">$ paste -d &apos;:&apos; file1 file2 file3</span><br><span class="line">$ paste -s file1 file2 file3</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;tr命令&quot;&gt;&lt;a href=&quot;#tr命令&quot; class=&quot;headerlink&quot; title=&quot;tr命令&quot;&gt;&lt;/a&gt;tr命令&lt;/h2&gt;&lt;p&gt;tr 命令可以用来删除一段文本信息中的某些文字。或者将其进行转换。&lt;/p&gt;
+&lt;figure class=&quot;highlight
+      
+    
+    </summary>
+    
+      <category term="云图" scheme="http://yoursite.com/categories/%E4%BA%91%E5%9B%BE/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
