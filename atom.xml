@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-21T07:19:45.211Z</updated>
+  <updated>2019-04-30T12:59:28.260Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Computer-basic</title>
+    <link href="http://yoursite.com/2019/04/30/Computer-basic/"/>
+    <id>http://yoursite.com/2019/04/30/Computer-basic/</id>
+    <published>2019-04-30T12:13:24.347Z</published>
+    <updated>2019-04-30T12:59:28.260Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="电脑硬件"><a href="#电脑硬件" class="headerlink" title="电脑硬件"></a>电脑硬件</h3><blockquote><p>电脑硬件主要包含：机箱，主板，总线，电源，硬盘，存储控制器，界面卡，可携储存装置，内置存储器，输入设备，输出设备, CPU风扇，蜂鸣器等</p></blockquote><p>选购电脑最重要的参数包括：CPU、内存、硬盘、显卡配置。</p><ul><li>CPU: 这个主要取决于频率和二级缓存，频率越高、二级缓存越大，速度越快，现在的CPU有三级缓存、四级缓存等，都影响相应速度。目前主流的CPU是Intel和AMD,买电脑时大多数人更倾向选择Intel Core系列的i3，i5，i7，可以根据自身电脑的使用场景选择。</li></ul><ul><li>内存: 内存的存取速度取决于接口、颗粒数量多少与储存大小（包括内存的接口，如：SDRAM133，DDR333，DDR2-533，DDR2-800,DDR3-1333），一般来说，内存越大，处理数据能力越强，速度就越快。</li></ul><ul><li>主板: 主要还是处理芯片，如：笔记本i965比i945芯片处理能力更强，i945比i910芯片在处理数据的能力又更强些，依此类推。</li></ul><ul><li>硬盘: 硬盘的转速（分：高速硬盘和低速硬盘，高速硬盘一般用在大型服务器中，如：10000转，15000转；低速硬盘用在一般电脑中，包括笔记本电脑），台式机电脑一般用7200转，笔记本电脑一般用5400转，这主要是考虑功耗和散热原因。 硬盘速度又因接口不同，速率不同，一般而言，分IDE和SATA（也就是常说的串口）接口，早前的硬盘多是IDE接口，相比之下，存取速度比SATA接口的要慢些。另一方面，目前趋势更倾向于读写很快的SSD固态硬盘，价格和容量将来也会分别降低和提高。</li></ul><ul><li>显卡：这项与运行超大程序软件的响应速度有着直接联系，如运行CAD2007，3DStudio、3DMAX等图形软件，一般来说显存越大越好。显卡除了硬件级别上的区分外，也有共享显存技术的存在，和一般自带显存芯片的不同，就是该“共享显存”技术，需要从内存读取显存，以处理相应程序的需要。或有人称之为：动态显存。这种技术更多用在笔记本电脑中。</li></ul><ul><li>电源 : 这个只要功率足够和稳定性好，稳定的电源是很重要的。</li></ul><p><img src="C:\Users\ZIYO\blog\source\images\nine.jpg" alt=""></p><h3 id="电脑快捷键技巧"><a href="#电脑快捷键技巧" class="headerlink" title="电脑快捷键技巧"></a>电脑快捷键技巧</h3><ul><li>win/Ctrl+Esc　         打开开始菜单</li><li>win + M　                 最小化所有被打开的窗口</li><li>win + d                      桌面</li><li>win + r                       打开运行</li><li>win + e                      “我的电脑”</li><li>win + u                      工具管理 </li><li>win + 左右                 分屏</li><li>win + L                       把电脑锁屏</li><li>win + 1和 Win + 2     按顺序打开相应程序</li><li>win + P                       在显示器与投影间相互切换</li><li>win + shift + 左         移动当前窗口到左边的显示器上</li><li>win + shift + 右         移动当前窗口到右边的显示器上</li><li>win + shift + s           截屏</li></ul><hr><ul><li>F1                               请求帮助</li><li>F5　                           刷新</li><li>F2                               重新命名所选项目</li><li>F10                             激活当前程序菜单条</li></ul><hr><ul><li>ctrl + o                       打开</li><li>ctrl + w                      关闭程序</li><li>ctrl + b                      粗体</li><li>ctrl + u                      下划线 </li><li>ctrl + i                       斜体</li><li>ctrl + y                      恢复键</li><li>ctrl + ]                       放大字体</li><li>ctrl + [                       缩小字体</li><li>ctrl + tab　              在页面上的各框架中切换(加shift反向)</li><li>ctrl + shift + Esc      打开任务管理器</li><li>ctrl + shift + N         新建文件夹</li></ul><hr><ul><li>alt + F4                    关闭项目退出程序</li><li>alt + 空格                打开快捷菜单</li><li>alt + enter              所选项目属性</li><li>alt + Esc                  按照顺序切换</li></ul><hr><ul><li>cmd  calc                打开计算器</li><li>cmd  systeminfo  用于显示关于计算机及其操作系统的详细配置信息</li></ul><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;电脑硬件&quot;&gt;&lt;a href=&quot;#电脑硬件&quot; class=&quot;headerlink&quot; title=&quot;电脑硬件&quot;&gt;&lt;/a&gt;电脑硬件&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;电脑硬件主要包含：机箱，主板，总线，电源，硬盘，存储控制器，界面卡，可携储存装置，内置存储器，输入
+      
+    
+    </summary>
+    
+      <category term="Computer" scheme="http://yoursite.com/categories/Computer/"/>
+    
+    
+      <category term="Computer" scheme="http://yoursite.com/tags/Computer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Share-6</title>
+    <link href="http://yoursite.com/2019/04/27/Share-6/"/>
+    <id>http://yoursite.com/2019/04/27/Share-6/</id>
+    <published>2019-04-27T07:08:28.766Z</published>
+    <updated>2019-04-30T12:54:54.519Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p><a href="https://havetheyfaked.me/" target="_blank" rel="noopener">这张人像照片是伪造的吗？</a></p><p> 现在的人像照片，已经无法确定真人还是假人。有人就收集了几十万张假人的照片，都是算法生成的，然后提供服务。你上传照片，系统返回长相相似的假人照片。</p></li></ol><ol start="2"><li><p>世界上最厚的流体和最久的实验</p><p> 加拿大昆士兰大学的 Pitch Drop实验，是世界历时最久的实验，从1927年开始，到现在还没有结束。该实验由包含在玻璃漏斗中的黑色沥青组成，用来表明沥青实际上不是固体，而是一种非常粘稠的液体，是世界上最厚的流体，粘度约为水的1000亿倍。<br> 沥青从玻璃漏斗里面，慢慢往下滴落。从1930年至今，一共滴下了9滴。最新的一滴是在2014年4月，预计第10滴将在2020年代的某个时候发生。</p></li></ol><ol start="3"><li><p>接听推销电话也能赚钱</p><p> 英国一男子对于推销电话忍无可忍，注册了一个服务收费号码。这种号码要向拨入者收取服务费，常用于心理咨询之类的热线。该男子将这个号码，当作自己的联系电话，留作各种外部服务的联系电话。这个号码的成本是10英镑，如果有人拨打这个号码，会被收取每分钟10便士。据该男子说，两年里面获利了300英镑。</p></li></ol><ol start="4"><li><a href="https://www.balena.io/blog/build-an-environment-and-air-quality-monitor-with-raspberry-pi/" target="_blank" rel="noopener">树莓派搭建空气质量监视器</a><br>本文是树莓派教程，附有示例代码，演示如何搭建一个空气质量监视器（需要自购传感器）。</li></ol><ol start="5"><li>从海平面开始计算，地球最高点是珠穆朗玛峰。但是，地球是一个椭圆，赤道比南北极多出了几十公里。这导致从地心开始计算，最高点是厄瓜多尔的钦博拉索山（ Chimborazo，海拔6268米），这座山在赤道附近，比珠穆朗玛峰高出了2公里。钦博拉索山顶是地球上距离地心最远的地方。</li></ol><ol start="6"><li>Lambda School<br>是美国的一家创业公司，主要业务是编程培训。它的收费模式很独特，学生可以缴纳2万美元学费，也可以不缴纳，直到培训后找到年薪5万美元以上的工作，用工资的17%抵扣学费，抵抗满3万美元为止。如果培训后5年内，都没有找到年薪5万美元以上的工作，可以不缴纳学费。</li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li>当鼠标移动到 VSCode 某一行中，就可以看到当前行的执行结果，类似于 debugger 当前行执行结果页。可以避免重复的敲 console.log 调试：<a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode" target="_blank" rel="noopener">https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode</a> </li></ol><ol start="2"><li>基于浏览器的在线代理软件，可以直接访问 Google、YouTube 等网站，在线测试 ：<a href="https://github.com/EtherDream/jsproxy" target="_blank" rel="noopener">https://github.com/EtherDream/jsproxy</a> </li></ol><ol start="3"><li><a href="https://www.ilovepdf.com/" target="_blank" rel="noopener">I love PDF</a><br> 该网站提供各种免费的 PDF 在线工具，比如合并、拆分、压缩、Office 文件转 PDF、PDF 转图片等。</li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><p><a href="https://eater.net/8bit" target="_blank" rel="noopener">制作一个8位的电脑</a></p></li><li><p><a href="https://github.com/Unity-Technologies/FPSSample" target="_blank" rel="noopener">FPS Sample</a></p><p>This is a fully functional, first person multiplayer shooter game made in<br>Unity and with full source and assets. </p></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://medium.com/@mutendebrian/how-to-secure-your-linux-server-6026cfcdefd8" target="_blank" rel="noopener">加强 Linux 服务器安全的七个步骤</a><br>自己架设 Linux 服务器的时候，按照本文的步骤，可以防止90%以上的攻击。</li></ol><ol start="2"><li><a href="https://mp.weixin.qq.com/s/607vGHT8pAU8Kh7hSK3KmQ" target="_blank" rel="noopener">OpenCV-Python，计算机视觉开发利器 </a></li><li><a href="https://mp.weixin.qq.com/s/qy6YOqM8r3CO-qLgpGdxpw" target="_blank" rel="noopener">VR中如何设计虚拟商品和购物车的大小？</a></li></ol><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ul><li><p>月色与雪色之间，你是第三种绝色。    – 余光中</p></li><li><p>选择平庸虽然稳妥，但绝无色彩。        – 余光中</p></li><li><p>下次你路过，人间已无我。                   – 余光中</p></li></ul><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="C:\Users\ZIYO\blog\source\images\微信图片_20190421160211.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://havetheyfaked.me/&quot; target=&quot;_blank&quot; rel=&quot;
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>有趣的思维</title>
@@ -485,59 +535,6 @@
       
       
         &lt;h2 id=&quot;grep模式匹配命令&quot;&gt;&lt;a href=&quot;#grep模式匹配命令&quot; class=&quot;headerlink&quot; title=&quot;grep模式匹配命令&quot;&gt;&lt;/a&gt;grep模式匹配命令&lt;/h2&gt;&lt;p&gt;&lt;code&gt;grep&lt;/code&gt;命令用于打印输出文本中匹配的模式串，它使用
-      
-    
-    </summary>
-    
-      <category term="云图" scheme="http://yoursite.com/categories/%E4%BA%91%E5%9B%BE/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Unity-basic</title>
-    <link href="http://yoursite.com/2019/03/14/unityAPI/"/>
-    <id>http://yoursite.com/2019/03/14/unityAPI/</id>
-    <published>2019-03-14T12:16:18.908Z</published>
-    <updated>2019-03-29T14:42:30.257Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="D:\_system\DATA\Typora\typora-user-images\1553396496308.png" alt=""></p><p>事件函数</p><p><img src="https://docs.unity3d.com/uploads/Main/monobehaviour_flowchart.svg" alt=""></p><ol><li><p>如何执行的是一个普通方法，那么会等这个普通方法执行完，然后继续向下执行</p></li><li><p>如果调用的是一个协程方法（coroutine)，那么调用完协程方法后，不会等这个方法执行完，就继续向下执行了</p></li></ol><p><img src="C:\Users\ZIYO\blog\source\images\1553397116354.png" alt=""></p><ul><li><p>Mathf.Rad2Deg 弧度转度数</p></li><li><p>Mathf.Deg2Rad 度数转弧度</p></li><li><p>Mathf.Epsilon 非常小的小数</p></li><li><p>Mathf.lnfinity 无限大的数字</p></li><li><p>Mathf.Negativelnfinity 无限小的数字</p></li><li><p>Mathf.PI</p></li><li></li><li><p>Mathf.Lerp 插值运算 速度越来越慢</p></li><li><p>Mathf.MoveTowards 左右远离目标运动 匀速</p></li><li><p>Mathf.PingPong 乒乓球来回运动</p></li></ul><p><img src="C:\Users\ZIYO\blog\source\images\1553397185121.png" alt=""></p><p>UGUI 事件监听</p><ol><li>拖拽</li><li>代码添加</li><li>通过实现接口</li></ol><p>对应UI的接口</p><p><img src="C:\Users\ZIYO\blog\source\images\1553344524868.png" alt=""></p><p>获取游戏物体的四种方式</p><p><img src="C:\Users\ZIYO\blog\source\images\1551964773416.png" alt="1551964773416"></p><hr><ul><li><p>Time.dateTime                    每一帧的时间间隔/1s运行60帧/当前帧运行占用的时间</p></li><li><p>Time.realtimeSinceStartup  从游戏开始到现在的总时间/测性能</p></li><li><p>Time.frameCount                 帧数</p></li><li><p>Time.fixedTime  Time.time  Time.timeSinceLevelLoad  游戏运行的时间</p></li><li><p>Time.timeScale                    时间比例</p></li></ul><hr><ul><li><p>构造方法</p></li><li><p>Instantiate                            克隆原始对象并返回克隆。</p></li><li><p>CreatePrimitive                    使用基本的网格渲染器和适当的碰撞器创建游戏对象。</p></li></ul><hr><ul><li>GameObject                         游戏物体<ul><li>activeSelf                      游戏对象的局部活动状态。</li><li>activeInHierarchy          定义游戏对象在场景中是否处于活动状态。</li><li>tag</li></ul></li></ul><ul><li>AddComponent  添加组件，通过组件获取到的名字为物体的名字，因为物体与组件同属于一个基类</li></ul><hr><ul><li><p>游戏物体查找</p></li><li><p>Game.Find</p></li><li><p>FindObjectsOfType</p></li><li><p>FindWithTag</p></li><li><p>transform.Find</p></li></ul><hr><ul><li><p>Input 输入事件</p></li><li><p>GetKey..</p></li><li><p>GetAxis</p></li><li><p>OnMouse</p></li></ul><hr><ul><li><p>静态方法由类名来调用</p></li><li><p>非静态方法由具体对象来调用 </p></li></ul><hr><ul><li><p>Vector2</p></li><li><p>Vector3</p></li><li><p>operators 数学运算 +-*/ =</p></li></ul><hr><ul><li><p>使用random生成随机数</p></li><li><p>Random.lnitState 初始化，生成一个种子；</p></li></ul><hr><ul><li><p>Quaternion四元数</p></li><li><p>Inspector中的rotation    改变的为欧拉角eulerAngles</p></li><li><p>Scipt中的rotation  得传递四元数</p></li></ul><hr><ul><li><p>Camera</p></li><li><p>mainCamera</p></li><li><p>ScreenPointToRay</p></li><li><p>ScreenToWorldPoint</p></li><li><p>WorldToScreenPoint</p></li></ul><hr><ul><li><p>要持续地移动的话，使用Rigidbody.MovePosition</p></li><li><p>把刚体从一个位置移动到另一个位置 使用Rigidbody.Position</p></li></ul><hr><ul><li>streaming Assets 资源文件 音频  视频</li></ul><hr><ul><li>射线检测 Physics 中的Raycast , RaycastAll</li></ul><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Unity 5.3:</span><br><span class="line">ParticleSystem main = smokePuff.GetComponent&lt;ParticleSystem&gt;();</span><br><span class="line">main.startColor</span><br><span class="line">Unity 5.5+:</span><br><span class="line">ParticleSystem.MainModule main = smokePuff.GetComponent&lt;ParticleSystem&gt;().main;</span><br><span class="line">main.startColor</span><br></pre></td></tr></table></figure><hr><ul><li>SceneManagement 代替 Application</li></ul><hr><ul><li><p>spatial blend 0 2D声音 1 3D声音</p></li><li><p>2D声音不受距离的影响 </p></li></ul><hr><ul><li><p>物体由 形状（mesh) , 材质 ，贴图（Textures外观）</p></li><li><p>Move To View：          移动游戏对象到视图的中心点。</p></li><li><p>Align With View：       移动游戏对象与视图对齐，将选择的对象自动移动到当前视图并以当前视图为中心进行对齐</p></li><li><p>Align View To Select：移动视图与游戏对象对齐，将当前视图对齐到选择的对象，并以游戏对象中心为准进行对齐</p></li></ul><hr><ul><li><p>Pivot           原点(位置点)</p></li><li><p>Center        中心点</p></li><li><p>Global         世界坐标系</p></li><li><p>Local           局部坐标系</p></li></ul><hr><ul><li><p>alt + 鼠标左键  : 观察物体</p></li><li><p>鼠标左键 ：旋转观察视野</p></li><li><p>鼠标左键 ：方向移动观察物体</p></li></ul><hr><ul><li><p>persp 透视视野，近大远小。</p></li><li><p>iso      正交视野</p></li></ul><hr><ul><li><p>ctrl + d 复制之后，按住 ctrl 进行单位化移动</p></li><li><p>v 吸附定点</p></li><li><p>snap setting 进行步长修改</p></li></ul><hr><ul><li><p>object 的select是用来选择它的 prefabs的</p></li><li><p>字体加粗就不会受到prefabs的影响</p></li><li><p>apply相当于把自身修改的属性应用到prefabs上</p></li></ul><hr><ul><li><p>collider碰撞器</p></li><li><p>OnCollisionEnter       检测碰撞</p></li><li><p>OnCollisionExit          碰撞离开</p></li><li><p>OnCollisionStay         碰撞每一帧</p></li><li><p>collision                      碰撞信息的获取</p></li></ul><hr><ul><li><p>Is Trigger 触发器</p></li><li><p>OnTriggerEnter</p></li><li><p>OnTriggerExit</p></li><li><p>OnTriggerStay</p></li></ul><hr><ul><li><p>Unity 四种灯光</p></li><li><p>Directional Light      平行光相当于太阳</p></li><li><p>Point Light               点光源（小灯泡）（这个很有用）</p></li><li><p>Spot Light                手电筒</p></li><li><p>Area Light                区域光</p></li></ul><hr><ul><li><p>baked                烘培</p></li><li><p>realtime             实时运行</p></li><li><p>mixed                烘培+实时运行</p></li><li><p>particle system  粒子系统</p></li></ul><hr><ul><li><p>Gizmos                   辅助线</p></li><li><p>easytouch               插件</p></li><li><p>紫色 材质丢失</p></li><li><p>terrain                     地形</p></li><li><p>Nav Mesh Agent    自动识路</p></li><li><p>rendertext              动态渲染纹理</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;D:\_system\DATA\Typora\typora-user-images\1553396496308.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;事件函数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://docs.unity3d.com/uplo
-      
-    
-    </summary>
-    
-      <category term="云图" scheme="http://yoursite.com/categories/%E4%BA%91%E5%9B%BE/"/>
-    
-    
-      <category term="Unity" scheme="http://yoursite.com/tags/Unity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简单的文本处理</title>
-    <link href="http://yoursite.com/2019/03/08/linux%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/"/>
-    <id>http://yoursite.com/2019/03/08/linux简单的文本处理/</id>
-    <published>2019-03-08T11:52:27.142Z</published>
-    <updated>2019-03-29T14:06:20.718Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="tr命令"><a href="#tr命令" class="headerlink" title="tr命令"></a>tr命令</h2><p>tr 命令可以用来删除一段文本信息中的某些文字。或者将其进行转换。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 删除 &quot;hello shiyanlou&quot; 中所有的&apos;o&apos;,&apos;l&apos;,&apos;h&apos;</span><br><span class="line">$ echo &apos;hello shiyanlou&apos; | tr -d &apos;olh&apos;</span><br><span class="line"># 将&quot;hello&quot; 中的ll,去重为一个l</span><br><span class="line">$ echo &apos;hello&apos; | tr -s &apos;l&apos;</span><br><span class="line"># 将输入文本，全部转换为大写或小写输出</span><br><span class="line">$ echo &apos;input some text here&apos; | tr &apos;[:lower:]&apos; &apos;[:upper:]&apos;</span><br><span class="line"># 上面的&apos;[:lower:]&apos; &apos;[:upper:]&apos;你也可以简单的写作&apos;[a-z]&apos; &apos;[A-Z]&apos;,当然反过来将大写变小写也是可以的</span><br></pre></td></tr></table></figure><h2 id="col命令"><a href="#col命令" class="headerlink" title="col命令"></a>col命令</h2><p>col 命令可以将<code>Tab</code>换成对等数量的空格键，或反转这个操作。</p><h3 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">col [option]</span><br></pre></td></tr></table></figure><h3 id="常用的选项有："><a href="#常用的选项有：" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-x</td><td>将Tab转换为空格</td></tr><tr><td>-h</td><td>将空格转换为Tab(默认选项)</td></tr></tbody></table><h2 id="join命令"><a href="#join命令" class="headerlink" title="join命令"></a>join命令</h2><p>join命令可以将将两个文件中包含相同内容的那一行合并在一起。</p><h3 id="常用的选项有：-1"><a href="#常用的选项有：-1" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-t</td><td>指定分隔符，默认为空格</td></tr><tr><td>-i</td><td>忽略大小写的差异</td></tr><tr><td>-1</td><td>指名第一个文件要用哪个字段来对比，默认对比第一个字段</td></tr><tr><td>-2</td><td>指名第二个文件要用哪个字段来对比，默认对比第一个字段</td></tr></tbody></table><p>eg:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ cd /home/shiyanlou</span><br><span class="line"># 创建两个文件</span><br><span class="line">$ echo &apos;1 hello&apos; &gt; file1</span><br><span class="line">$ echo &apos;1 shiyanlou&apos; &gt; file2</span><br><span class="line">$ join file1 file2</span><br><span class="line"># 将/etc/passwd与/etc/shadow两个文件合并，指定以&apos;:&apos;作为分隔符</span><br><span class="line">$ sudo join -t&apos;:&apos; /etc/passwd /etc/shadow</span><br><span class="line"># 将/etc/passwd与/etc/group两个文件合并，指定以&apos;:&apos;作为分隔符, 分别比对第4和第3个字段</span><br><span class="line">$ sudo join -t&apos;:&apos; -1 4 /etc/passwd -2 3 /etc/group</span><br></pre></td></tr></table></figure><h2 id="paste-命令"><a href="#paste-命令" class="headerlink" title="paste 命令"></a>paste 命令</h2><p><code>paste</code>这个命令与<code>join</code> 命令类似，它是在不对比数据的情况下，简单地将多个文件合并一起，以<code>Tab</code>隔开。</p><h3 id="常用的选项有：-2"><a href="#常用的选项有：-2" class="headerlink" title="常用的选项有："></a>常用的选项有：</h3><table><thead><tr><th>选项</th><th>说明</th></tr></thead><tbody><tr><td>-d</td><td>指定合并的分隔符，默认为Tab</td></tr><tr><td>-s</td><td>不合并到一行，每个文件为一行</td></tr></tbody></table><h3 id="操作举例："><a href="#操作举例：" class="headerlink" title="操作举例："></a>操作举例：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ echo hello &gt; file1</span><br><span class="line">$ echo shiyanlou &gt; file2</span><br><span class="line">$ echo www.shiyanlou.com &gt; file3</span><br><span class="line">$ paste -d &apos;:&apos; file1 file2 file3</span><br><span class="line">$ paste -s file1 file2 file3</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;tr命令&quot;&gt;&lt;a href=&quot;#tr命令&quot; class=&quot;headerlink&quot; title=&quot;tr命令&quot;&gt;&lt;/a&gt;tr命令&lt;/h2&gt;&lt;p&gt;tr 命令可以用来删除一段文本信息中的某些文字。或者将其进行转换。&lt;/p&gt;
-&lt;figure class=&quot;highlight
       
     
     </summary>
