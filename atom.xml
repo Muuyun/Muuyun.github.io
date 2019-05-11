@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-30T14:22:33.756Z</updated>
+  <updated>2019-05-11T15:08:49.457Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Share-7</title>
+    <link href="http://yoursite.com/2019/05/11/Share-7/"/>
+    <id>http://yoursite.com/2019/05/11/Share-7/</id>
+    <published>2019-05-11T13:25:15.151Z</published>
+    <updated>2019-05-11T15:08:49.457Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p><a href="http://zy2071.com/Fun/todayJueJin.html" target="_blank" rel="noopener">今日掘金</a></p></li><li><p>色域</p><p><img src="\images\eleven.jpg" alt=""></p></li><li><p>购买显示设备或拍摄视频的时候，经常会遇到分辨率的术语，它们是什么意思呢？</p><blockquote><ul><li>720p: 1280 x 720, 称为 HD（中文译为”高清”）</li><li>1080p: 1920 x 1080, 称为 FULL HD（中文称为全高清）</li><li>1440p: 2560 x 1440, 称为 QHD 或 Quad HD，即4倍的HD</li><li>2160p: 3840 x 2160, 称为 4K</li><li>4320p: 7680 x 4320, 称为 8K</li></ul></blockquote></li><li><p>算法</p><ul><li><p>忘记行李箱密码的时候，只记得前两位是33，后两位忘记，于是3300,3301, 3302一直试：穷举</p></li><li><p>大姨妈有时候迟到或早来一两天：容错</p></li><li><p>分不清方向不知道路，先朝一个方向走，边走边看，后来发现这个方向是错的，返回原来的地方，朝另外一个方向走：回溯</p></li><li><p>我先把我今天的工作做好，别人的我先不管：贪心算法</p></li><li><p>给小朋友排队的时候：冒泡排序（许多人也会选择用快速排序，插入排序，再次申明：这个不适合人数多的情况，不然会乱掉）</p></li><li><p>各种心里推断题，1.你最近开心吗？A.开心，去第2题。2.不开心，去第三题，以此类推。这种类型的题目：有向图</p></li><li><p>看知乎评论的时候不是从上到下，而是从下到上，先看最新评论的：逆向排序</p></li><li><p>从A地到B地有N多条路可以走，查地图看那条路的距离最近：最短路径法</p></li><li><p>钥匙在书包的某个口袋里，首先和妈妈在不同的地方A和B找书包，找到书包了再和妈妈在书包里不同的口袋C和D找钥匙：并行（经指正，这条不属于二分法）</p></li></ul></li><li><p>图像噪点<br>噪点（noise）主要是指CCD（CMOS）将光线作为接收信号并输出的过程中所产生的图像中的粗糙部分，也指图像中不该出现的外来像素，通常由电子干扰产生。看起来就像图像被弄脏了，布满一些细小的糙点。平时拍摄的数码照片如果用个人电脑将拍摄到的高画质图像缩小以后再看的话，也许就注意不到。不过，如果将原图像放大，那么就会出现本来没有的颜色（假色），这种假色就是图像噪音。如图：</p><p><img src="\images\ten.jpg" alt=""></p></li><li><p>VAR<br>VAR的全称为Video Assistant Referee，即视频助理裁判。其实，VAR包含了鹰眼（门线技术），所以VAR应该是视频助理裁判和VAR技术的总称。它的核心在于两个字：回放。只不过这种回放技术更专业，拥有更多角度和数据分析，捕捉到更精确的画面。</p><p>“鹰眼”系统最早出现在网球场，通过8-10个高速摄像机从不同角度同时捕捉网球飞行轨迹，得到基本数据。再通过电脑计算，将这些数据生成三维图像。最后利用即时成像技术，由大屏幕清晰地呈现出网球的运动路线及落点，从而判断球是否出界。</p><p>前几年，足球比赛也逐渐开始将鹰眼技术应用在门线上：利用14台高速摄像机向架设在球场顶部的数据间传送数码照片，经过对数据的分析再把结果传送到裁判所戴的特殊手表上，如果确定球过了门线，手表上就会显示“goal(进球)”。整个过程用时不足一秒。</p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><a href="https://github.com/realdennis/md2pdf" target="_blank" rel="noopener"> Markdown to PDF</a></li><li><a href="http://scholar.chongbuluo.com/" target="_blank" rel="noopener">学术搜索</a></li><li><a href="https://map.bjsubway.com/" target="_blank" rel="noopener">北京地铁</a></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://goalkicker.com/" target="_blank" rel="noopener">Programming Notes for Professionals books</a></li><li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">Git教程</a></li><li><a href="http://c.biancheng.net/cpp/html/3031.html" target="_blank" rel="noopener">一个简单的Windows下的socket程序</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://www.matongxue.com/" target="_blank" rel="noopener">马同学高等数学</a></li><li><a href="https://mp.weixin.qq.com/s/SRa2uG3OpTAM9SXu4uroMQ" target="_blank" rel="noopener">Windows内核主要是C写的,   有500多G</a></li><li><a href="https://sspai.com/post/45881" target="_blank" rel="noopener">从阅读到复习，MarginNote 3 想要重塑你的学习方式</a></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="\images\twelvejpg.jpg" alt=""></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ul><li><p>时间可以伸缩和折叠，唯独不能倒退。你的鹤发或许是我的童颜，而我一次呼吸能抵过你此生的岁月</p></li><li><p>生命既哀亦美，知此足矣。</p></li><li>给时光以生命，而不是给生命以时光。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zy2071.com/Fun/todayJueJin.html&quot; target=&quot;
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Computer-basic</title>
@@ -71,9 +95,9 @@
     <link href="http://yoursite.com/2019/04/21/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%80%9D%E7%BB%B4/"/>
     <id>http://yoursite.com/2019/04/21/有趣的思维/</id>
     <published>2019-04-21T07:11:02.644Z</published>
-    <updated>2019-04-21T07:19:45.211Z</updated>
+    <updated>2019-05-11T13:48:07.717Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>离职</p></blockquote><p>我一般离职的原因不外乎这几个，一、这个公司的业务我已经摸熟了；二、这个团队里常用的技术我已经学到手了；三、这个团队氛围不行；如果你仅仅是因为工资给的不和你心意，你大可不必离职，只要领导觉得你对公司对团队还有价值，你提一下适当的加薪，他肯定不会拒绝你的。</p><blockquote><p>面试</p></blockquote><p> “那要看贵公司平台的覆盖率是否能高于个人职业空间的自我膨胀率，当然最终还是要看员工付出回报率是否能体现线性分布。当个人的职业规划与公司的发展规划重合率低于30％的时候，公司恰恰应该回过来思考其规划的有效性，认真提高人才复用的叠加度，这样员工和企业才能更快、更好地在双赢的基础上合作得更加紧密。”女同学表情平静，非常淡定地回答了我。</p><blockquote><p>法律</p></blockquote><p>我很喜欢法律。我认为法律是人类发明过的最好的东西。你知道什么是人吗？在我眼里，人是神性和动物性的总和。就是它有你想象不到的好，更有你想象不到的恶，没有对错，这就是人。所以说，法律特别可爱。它不管你能好到哪儿，就限制你不能恶到没边儿。它清楚每个人心里都有那么点脏事儿，想想可以，但做出来不行。法律更像人性的低保，是一种强制性的修养。它不像宗教要求你眼高手低，就踏踏实实的告诉你，至少应该是什么样儿。又讲人情，又残酷无情。</p><blockquote><p>车座</p></blockquote><p>“如果对方单身，坐副驾驶席是上选，因为坐那里是对对方的尊敬；如果对方正在谈恋爱，别坐异性的车是上选，因为无论你坐哪儿都是暧昧的；如果对方已成家，先询问一下自己该坐哪儿是上选，因为私家车是家庭的延伸，每个家庭的主人都有不同的癖好，不要随随便便就把可能是主人位的位置给坐了。”</p><blockquote><p>王者</p></blockquote><p>​     王者中有将帅2种高手，将喜欢研究英雄的出装与CD时间差，还有什么技能什么铭文搭配，怎么在打的时候精确释放出来，即技术流高手，这样的人再差也不会低于星耀。</p><p>​     另外一种是帅，即意识流高手，知道什么时候做什么，选深容深度，全队怎么打野发育，怎么对线，怎么开团，如何攻塔，采取什么行动推水晶，怎么样拖后期，团的队友该做什么该事先在什么地方集合与撤退等等。</p><blockquote><p>骂者众，思虑者少，献计者寡，担当者无几</p></blockquote><p>一天，事长向：“進能说说公司目前存在什么題？”100多个人上来抢话筒！又问：“谁能说说背后的原因？”<br>一半的人立马消失！再问：“谁能告诉我解决方案？”不到20人举手！那么有性想动手试一下？结果只剩下了五个人！</p><blockquote><p>教育</p></blockquote><p>有位父亲他对女儿的教育方式比较独特，他从来没有辅导过女儿做功课什么的，就是每天回来跟女儿聊十分钟，只聊四个问题，就完成了他的家庭教育。这四个问题是：</p><p>1，学校有什么好事发生吗？</p><p>2，今天你有什么好的表现？</p><p>3，今天有什么好收获吗？</p><p>4，有什么需要爸爸的帮助吗？</p><p>5，有什么不懂的吗？（目标）</p><p>看似简单的问题背后其实蕴涵着丰富的含义:</p><p>第一个问题其实是在调查女儿的价值观，了解她心里面觉得哪些是好的，哪些是不好的；</p><p>第二个问题实际上是在激励女儿，增加她的自信心；</p><p>第三个问题是让她确认一下具体学到了什么；</p><p>第四个问题则有两层意思，一是我很关心你，二是学习是你自己的事。</p><p>就是这简简单单的四个问题，包含了很多关爱关怀在里面，事实上也证明很有效。</p><ul><li><p>节奏哲学：轻松启动深度工作的方法就是将其转化成一种简单的常规习惯。这也是我目前正在使用的一种深度哲学，比如早晨5点到8点之间用于看书或者写书，8点到9点给孩子穿衣喂奶……每个时间段安排不一样的事情。</p></li><li><p>新闻记者哲学：随时可以插入深度工作，前一秒钟跟朋友聊天，下一秒中就开始码字写作，不管何时何地，总是能迅速转变角色</p></li><li><p>沉没成本：人们在决定是否去做一件事情的时候，不仅要看这件事对自己有没有好处，也要看过去是不是已经在这件事情上有过投入。</p></li><li><p>确认偏误：它是指人们会倾向于寻找能支持自己观点的证据，对支持自己观点的信息更加关注，对反对自己观点的信息进行排斥。</p></li><li><p>幸存偏误：你更容易看到成功，却看不到失败，所以你高估了成功的可能性。</p></li><li><p>马太效应：指强者愈强、弱者愈弱的现象。</p></li><li><p>长尾理论：那些原来不受到重视的销量小但种类多的产品或者服务由于总量巨大，累积起来的总收益超过主流产品。</p></li><li><p>复利效应，说得通俗一点，就是利滚利。</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>离职</p></blockquote><p>我一般离职的原因不外乎这几个，一、这个公司的业务我已经摸熟了；二、这个团队里常用的技术我已经学到手了；三、这个团队氛围不行；如果你仅仅是因为工资给的不和你心意，你大可不必离职，只要领导觉得你对公司对团队还有价值，你提一下适当的加薪，他肯定不会拒绝你的。</p><blockquote><p>面试</p></blockquote><p> “那要看贵公司平台的覆盖率是否能高于个人职业空间的自我膨胀率，当然最终还是要看员工付出回报率是否能体现线性分布。当个人的职业规划与公司的发展规划重合率低于30％的时候，公司恰恰应该回过来思考其规划的有效性，认真提高人才复用的叠加度，这样员工和企业才能更快、更好地在双赢的基础上合作得更加紧密。”女同学表情平静，非常淡定地回答了我。</p><blockquote><p>法律</p></blockquote><p>我很喜欢法律。我认为法律是人类发明过的最好的东西。你知道什么是人吗？在我眼里，人是神性和动物性的总和。就是它有你想象不到的好，更有你想象不到的恶，没有对错，这就是人。所以说，法律特别可爱。它不管你能好到哪儿，就限制你不能恶到没边儿。它清楚每个人心里都有那么点脏事儿，想想可以，但做出来不行。法律更像人性的低保，是一种强制性的修养。它不像宗教要求你眼高手低，就踏踏实实的告诉你，至少应该是什么样儿。又讲人情，又残酷无情。</p><blockquote><p>车座</p></blockquote><p>“如果对方单身，坐副驾驶席是上选，因为坐那里是对对方的尊敬；如果对方正在谈恋爱，别坐异性的车是上选，因为无论你坐哪儿都是暧昧的；如果对方已成家，先询问一下自己该坐哪儿是上选，因为私家车是家庭的延伸，每个家庭的主人都有不同的癖好，不要随随便便就把可能是主人位的位置给坐了。”</p><blockquote><p>王者</p></blockquote><p>​     王者中有将帅2种高手，将喜欢研究英雄的出装与CD时间差，还有什么技能什么铭文搭配，怎么在打的时候精确释放出来，即技术流高手，这样的人再差也不会低于星耀。</p><p>​     另外一种是帅，即意识流高手，知道什么时候做什么，选深容深度，全队怎么打野发育，怎么对线，怎么开团，如何攻塔，采取什么行动推水晶，怎么样拖后期，团的队友该做什么该事先在什么地方集合与撤退等等。</p><blockquote><p>骂者众，思虑者少，献计者寡，担当者无几</p></blockquote><p>一天，事长向：“進能说说公司目前存在什么題？”100多个人上来抢话筒！又问：“谁能说说背后的原因？”<br>一半的人立马消失！再问：“谁能告诉我解决方案？”不到20人举手！那么有性想动手试一下？结果只剩下了五个人！</p><blockquote><p>教育</p></blockquote><p>有位父亲他对女儿的教育方式比较独特，他从来没有辅导过女儿做功课什么的，就是每天回来跟女儿聊十分钟，只聊四个问题，就完成了他的家庭教育。这四个问题是：</p><p>1，学校有什么好事发生吗？</p><p>2，今天你有什么好的表现？</p><p>3，今天有什么好收获吗？</p><p>4，有什么需要爸爸的帮助吗？</p><p>5，有什么不懂的吗？（目标）</p><p>看似简单的问题背后其实蕴涵着丰富的含义:</p><p>第一个问题其实是在调查女儿的价值观，了解她心里面觉得哪些是好的，哪些是不好的；</p><p>第二个问题实际上是在激励女儿，增加她的自信心；</p><p>第三个问题是让她确认一下具体学到了什么；</p><p>第四个问题则有两层意思，一是我很关心你，二是学习是你自己的事。</p><p>就是这简简单单的四个问题，包含了很多关爱关怀在里面，事实上也证明很有效。</p><blockquote><p>推销</p></blockquote><p>最有效的五步推销法<br>第一步，提出一个当今世界的变化趋势<br>第二步，提出会有赢家和输家<br>第三步，描绘美好的未来<br>第四步，介绍克服困难、到达未来所需要的那个关键步骤<br>第五步，提出证据，你能让这一切变成现实</p><blockquote><p>面谈</p></blockquote><p>1.第一印象，西装要七成新，增加亲和力<br>2.投其所好<br>3.带上一个愣头兵做陪衬背景<br>4.旧笔记本和笔必不可少<br>5.保持清新的口气<br>6.把公司的优势，成功案例熟背于心，记住BOSS的手机号码</p><hr><ul><li><p>节奏哲学：轻松启动深度工作的方法就是将其转化成一种简单的常规习惯。这也是我目前正在使用的一种深度哲学，比如早晨5点到8点之间用于看书或者写书，8点到9点给孩子穿衣喂奶……每个时间段安排不一样的事情。</p></li><li><p>新闻记者哲学：随时可以插入深度工作，前一秒钟跟朋友聊天，下一秒中就开始码字写作，不管何时何地，总是能迅速转变角色</p></li><li><p>沉没成本：人们在决定是否去做一件事情的时候，不仅要看这件事对自己有没有好处，也要看过去是不是已经在这件事情上有过投入。</p></li><li><p>确认偏误：它是指人们会倾向于寻找能支持自己观点的证据，对支持自己观点的信息更加关注，对反对自己观点的信息进行排斥。</p></li><li><p>幸存偏误：你更容易看到成功，却看不到失败，所以你高估了成功的可能性。</p></li><li><p>马太效应：指强者愈强、弱者愈弱的现象。</p></li><li><p>长尾理论：那些原来不受到重视的销量小但种类多的产品或者服务由于总量巨大，累积起来的总收益超过主流产品。</p></li><li><p>复利效应，说得通俗一点，就是利滚利。</p></li></ul>]]></content>
     
     <summary type="html">
     
@@ -365,9 +389,9 @@
     <link href="http://yoursite.com/2019/03/29/%E6%83%8A%E8%89%B3/"/>
     <id>http://yoursite.com/2019/03/29/惊艳/</id>
     <published>2019-03-29T14:52:30.267Z</published>
-    <updated>2019-04-21T07:38:14.288Z</updated>
+    <updated>2019-04-30T14:27:10.636Z</updated>
     
-    <content type="html"><![CDATA[<p>纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。</p><hr><p>shuiman</p><p>shiman</p><p>少了u</p><hr><p>A boy can do everything for girl.</p><p>He is just kidding.</p><p>Love must need our patience.</p><hr><p>52Hertz (52Hz)</p><p> 52Hz是一只鲸鱼独特的发声频率，由于他跟别的鲸鱼发声频率不相同，所以他的同伴听不见他的声音，可是他仍然在那独自高歌，等待着他的那个知音人（鲸鱼）</p><hr><p>鲸落</p><p>一鲸落 万物生</p><p>鲸落 是鲸鱼留给大海最后的温柔</p><hr><p>Ther</p><p>其实是Their的缩写  他们当中没有我  用朱自清的话说就是  “但热闹是他们的 我什么也没有”</p><hr><p>夏目漱石曾把i love you翻译成“今夜月色真美”，那如何翻译i love you too呢？<br>风也温柔。</p><hr><p>岁月极美，在于它必然的流逝</p><p>春花，秋月，夏日，冬雪           ——三毛</p><hr><p>miss，miss you</p><p>leave，leave me</p><p>如果我说miss，miss you，你会认为是错过你，还是想念你？</p><p>如果我又说leave，leave me，你会选择离开我，还是留下我？</p><hr><p>微雨的杏花最陶醉，</p><p>又何惜玫瑰？</p><p>你可愿清风挽回……</p><hr><p>匹夫说我 </p><p>生来骄傲 不肯半分折腰 </p><p>生而高贵 亦不能半分低头 </p><p>我将送喜欢的人远走 </p><p>此后情书写给山鬼 </p><p>心事寄予西风</p><hr><p>终是黄粱一场梦，梦碎成空只余殇。</p><hr><p><img src="C:\Users\ZIYO\blog\source\images\seven.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。</p><hr><p>shuiman</p><p>shiman</p><p>少了u</p><hr><p>A boy can do everything for girl.</p><p>He is just kidding.</p><p>Love must need our patience.</p><hr><p>52Hertz (52Hz)</p><p> 52Hz是一只鲸鱼独特的发声频率，由于他跟别的鲸鱼发声频率不相同，所以他的同伴听不见他的声音，可是他仍然在那独自高歌，等待着他的那个知音人（鲸鱼）</p><hr><p>鲸落</p><p>一鲸落 万物生</p><p>鲸落 是鲸鱼留给大海最后的温柔</p><hr><p>Ther</p><p>其实是Their的缩写  他们当中没有我  用朱自清的话说就是  “但热闹是他们的 我什么也没有”</p><hr><p>夏目漱石曾把i love you翻译成“今夜月色真美”，那如何翻译i love you too呢？<br>风也温柔。</p><hr><p>岁月极美，在于它必然的流逝</p><p>春花，秋月，夏日，冬雪           ——三毛</p><hr><p>miss，miss you</p><p>leave，leave me</p><p>如果我说miss，miss you，你会认为是错过你，还是想念你？</p><p>如果我又说leave，leave me，你会选择离开我，还是留下我？</p><hr><p>微雨的杏花最陶醉，</p><p>又何惜玫瑰？</p><p>你可愿清风挽回……</p><hr><p>匹夫说我 </p><p>生来骄傲 不肯半分折腰 </p><p>生而高贵 亦不能半分低头 </p><p>我将送喜欢的人远走 </p><p>此后情书写给山鬼 </p><p>心事寄予西风</p><hr><p>终是黄粱一场梦，梦碎成空只余殇。</p><hr><p><img src="\images\seven.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -518,31 +542,6 @@
     
       <category term="云梦泽" scheme="http://yoursite.com/categories/%E4%BA%91%E6%A2%A6%E6%B3%BD/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>正则表达式基础</title>
-    <link href="http://yoursite.com/2019/03/15/linux%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E7%A1%80/"/>
-    <id>http://yoursite.com/2019/03/15/linux正则表达式基础/</id>
-    <published>2019-03-15T11:46:34.625Z</published>
-    <updated>2019-03-29T14:07:46.276Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="grep模式匹配命令"><a href="#grep模式匹配命令" class="headerlink" title="grep模式匹配命令"></a>grep模式匹配命令</h2><p><code>grep</code>命令用于打印输出文本中匹配的模式串，它使用正则表达式作为模式匹配的条件。<code>grep</code>支持三种正则表达式引擎，分别用三个参数指定：</p><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td>-E</td><td>POSIX扩展正则表达式，ERE</td></tr><tr><td>-G</td><td>POSIX基本正则表达式，BRE</td></tr><tr><td>-P</td><td>Perl正则表达式，PCRE</td></tr></tbody></table><p><code>grep</code>命令的常用参数：</p><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td>-b</td><td>将二进制文件作为文本来进行匹配</td></tr><tr><td>-c</td><td>统计以模式匹配的数目</td></tr><tr><td>-i</td><td>忽略大小写</td></tr><tr><td>-n</td><td>显示匹配文本所在行的行号</td></tr><tr><td>-v</td><td>反选，输出不匹配行的内容</td></tr><tr><td>-r</td><td>递归匹配查找</td></tr><tr><td>-A n</td><td>n为正整数，表示after的意思，除了列出匹配行之外，还列出后面的n行</td></tr><tr><td>-B n</td><td>n为正整数，表示before的意思，除了列出匹配行之外，还列出后面的n行</td></tr><tr><td>–color = auto</td><td>将输出中的匹配项设置为自动颜色显示</td></tr></tbody></table><ul><li>数量</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 将匹配以&apos;z&apos;开头以&apos;o&apos;结尾的所有字符串</span><br><span class="line">$ echo &apos;zero\nzo\nzoo&apos; | grep &apos;z.*o&apos;</span><br><span class="line"># 将匹配以&apos;z&apos;开头以&apos;o&apos;结尾，中间包含一个任意字符的字符串</span><br><span class="line">$ echo &apos;zero\nzo\nzoo&apos; | grep &apos;z.o&apos;</span><br><span class="line"># 将匹配以&apos;z&apos;开头,以任意多个&apos;o&apos;结尾的字符串</span><br><span class="line">$ echo &apos;zero\nzo\nzoo&apos; | grep &apos;zo*&apos;</span><br></pre></td></tr></table></figure><ul><li>选择</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># grep默认是区分大小写的，这里将匹配所有的小写字母</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[a-z]&apos;</span><br><span class="line"># 将匹配所有的数字</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[0-9]&apos;</span><br><span class="line"># 将匹配所有的数字</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[[:digit:]]&apos;</span><br><span class="line"># 将匹配所有的小写字母</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[[:lower:]]&apos;</span><br><span class="line"># 将匹配所有的大写字母</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[[:upper:]]&apos;</span><br><span class="line"># 将匹配所有的字母和数字，包括0-9,a-z,A-Z</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[[:alnum:]]&apos;</span><br><span class="line"># 将匹配所有的字母</span><br><span class="line">$ echo &apos;1234\nabcd&apos; | grep &apos;[[:alpha:]]&apos;</span><br></pre></td></tr></table></figure><h2 id="sed流编辑器"><a href="#sed流编辑器" class="headerlink" title="sed流编辑器"></a>sed流编辑器</h2><p>sed : 用于过滤和转换文本的流编辑器</p><p>sed 命令基本格式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sed [参数]... [执行命令] [输入文件]...</span><br><span class="line"># 形如：</span><br><span class="line">$ sed -i &apos;s/sad/happy/&apos; test # 表示将test文件中的&quot;sad&quot;替换为&quot;happy&quot;</span><br></pre></td></tr></table></figure><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td>-n</td><td>安静模式，只打印受影响的行，默认打印输入数据的全部内容</td></tr><tr><td>-e</td><td>用于在脚本中添加多个执行命令一次执行，在命令行中执行多个命令通常不需要加该参数</td></tr><tr><td>-f  filename</td><td>指定执行filename文件中的命令</td></tr><tr><td>-r</td><td>使用扩展正则表达式，默认为标准正则表达式</td></tr><tr><td>-i</td><td>将直接修改输入文件内容，而不是打印到标准输出设备</td></tr></tbody></table><p>sed执行命令格式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[n1][,n2]command</span><br><span class="line">[n1][~step]command</span><br><span class="line"># 其中一些命令可以在后面加上作用范围，形如：</span><br><span class="line">$ sed -i &apos;s/sad/happy/g&apos; test # g表示全局范围</span><br><span class="line">$ sed -i &apos;s/sad/happy/4&apos; test # 4表示指定行中的第四个匹配字符串</span><br></pre></td></tr></table></figure><p>其中n1,n2表示输入内容的行号，它们之间为<code>,</code>逗号则表示从n1到n2行，如果为<code>～</code>波浪号则表示从n1开始以step为步进的所有行；command为执行动作，下面为一些常用动作指令：</p><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>s</code></td><td>行内替换</td></tr><tr><td><code>c</code></td><td>整行替换</td></tr><tr><td><code>a</code></td><td>插入到指定行的后面</td></tr><tr><td><code>i</code></td><td>插入到指定行的前面</td></tr><tr><td><code>p</code></td><td>打印指定行，通常与<code>-n</code>参数配合使用</td></tr><tr><td><code>d</code></td><td>删除指定行</td></tr></tbody></table><h2 id="AWK文本处理语言"><a href="#AWK文本处理语言" class="headerlink" title="AWK文本处理语言"></a>AWK文本处理语言</h2><p>awk所有的操作都是基于pattern(模式)—action(动作)对来完成的，如下面的形式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pattern &#123;action&#125;</span><br></pre></td></tr></table></figure><table><thead><tr><th>变量名</th><th>说明</th></tr></thead><tbody><tr><td>FILENAME</td><td>当前输入文件名，若有多个文件，则只表示第一个。如果输入是来自标准输入，则为空字符串</td></tr><tr><td>$0</td><td>当前记录的内容</td></tr><tr><td>$N</td><td>N表示字段号，最大值为<code>NF</code>变量的值</td></tr><tr><td>FS</td><td>字段分隔符，由正则表达式表示，默认为” “空格</td></tr><tr><td>RS</td><td>输入记录分隔符，默认为”\n”，即一行为一个记录</td></tr><tr><td>NF</td><td>当前记录字段数</td></tr><tr><td>NR</td><td>已经读入的记录数</td></tr><tr><td>FNR</td><td>当前输入文件的记录数，请注意它与NR的区别</td></tr><tr><td>OFS</td><td>输出字段分隔符，默认为” “空格</td></tr><tr><td>ORS</td><td>输出记录分隔符，默认为”\n”</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;grep模式匹配命令&quot;&gt;&lt;a href=&quot;#grep模式匹配命令&quot; class=&quot;headerlink&quot; title=&quot;grep模式匹配命令&quot;&gt;&lt;/a&gt;grep模式匹配命令&lt;/h2&gt;&lt;p&gt;&lt;code&gt;grep&lt;/code&gt;命令用于打印输出文本中匹配的模式串，它使用
-      
-    
-    </summary>
-    
-      <category term="云图" scheme="http://yoursite.com/categories/%E4%BA%91%E5%9B%BE/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
