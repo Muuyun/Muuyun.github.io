@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-11T15:08:49.457Z</updated>
+  <updated>2019-05-17T15:14:04.250Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Share-8</title>
+    <link href="http://yoursite.com/2019/05/17/Share-8/"/>
+    <id>http://yoursite.com/2019/05/17/Share-8/</id>
+    <published>2019-05-17T13:25:56.219Z</published>
+    <updated>2019-05-17T15:14:04.250Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><a href="https://xritephoto.com/cool-tools" target="_blank" rel="noopener">辨色能力测试</a><br>建议电脑打开，目的是将所有颜色排列成一个由红到紫的过渡，0分为满分。</li><li><p><a href="https://in.reuters.com/article/ukraine-chernobyl-game/chernobyl-comes-back-to-life-in-ukrainian-computer-game-idINKCN1S304J" target="_blank" rel="noopener">切尔诺贝利实境游戏</a><br> 两个乌克兰青年按照实景，建造了切尔诺贝利核电站废墟模型，包括住宅楼，酒店，音乐厅，游乐园和体育场等场景，然后开发了一个游戏《Isotopium：Chernobyl》。玩家可以通过互联网，控制一辆遥控小车，上面带有摄像头，在这个模型城市里面漫游，感觉跟在真实场景完全一样。<br> 游戏的费用是每小时9美元，同时最多只能20人在线，玩家寻找隐藏在各个地点的能量球，来淘汰其他对手，获取游戏胜利。全球目前有62,615人注册参与游戏。</p></li><li><p><a href="https://www.buddhistdoor.org/tc/news/這是全球容納最多骨灰龕的地方樓內安排回應了多種當代大議題值得深思" target="_blank" rel="noopener">世界最大灵骨塔</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201905/bg2019051019.jpg" alt="img"></p><p>台湾新北市，一座白色巨塔矗立在三芝区，外形呈六角形，顶层为宫殿式的望楼塔造型。楼高达二十层的巨塔在翠绿的山峦中尤其突出！这座建筑其实是一个多层式的骨灰盒大楼──龙岩真龙殿生命纪念馆。</p></li><li><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDU1NTE5NA==&amp;mid=2712722451&amp;idx=2&amp;sn=f073744bc298260c41a491344eb0402e&amp;scene=19#wechat_redirect" target="_blank" rel="noopener">发条短信就能拦截骚扰电话，这些实用的运营商指令值得收藏</a></p><p>本文将为你介绍一些实用的短信指令，希望可以帮助你在日常生活中少一点麻烦，多一点便利。</p></li><li><p>windows系统休眠</p><p>介绍windows系统中休眠HIBERNATE和睡眠SLEEP的区别我们常用的是睡眠SLEEP功能，就是电脑经过一定时间后，进入低功耗状态，工作态度保存在内存里，恢复时1-2秒就可以恢复原状态。休眠是把工作状态即所有内存信息写入硬盘，如有2-4G内存，即要写入2-4G的文件到硬盘，然后才能关机，开机恢复要读取2-4G的文件到内存，才能恢复原界面。从这里可以看出睡眠功能比休眠好很多，同样保存电脑当前状态，而且开机启动速度很快，所以在一般情况下完全可以删除休眠文件。</p><p>删除休眠文件: 以管理员运行CMD, <code>POWERCFG -H OFF</code></p><p>恢复休眠功能: 以管理员运行CMD, <code>POWERCFG -H on</code></p></li><li><p>傅立叶变换</p><p><img src="\images\mmexport1545579874891.jpg" alt=""></p><p><img src="\images\mmexport1545578702162.jpg" alt=""></p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><a href="https://miku.tools/" target="_blank" rel="noopener">MikuTools - 工具集合</a></li><li>[北京市公安局推出的姓名查重网站，可以查询某个姓名在北京市有没有重名][(<a href="https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum)]" target="_blank" rel="noopener">https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum)]</a></li><li><a href="https://kindle.51nazhun.pub/" target="_blank" rel="noopener">kindle电子书分享网</a></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://backlog.com/git-tutorial/cn/stepup/stepup2_8.html" target="_blank" rel="noopener">猴子都能懂的git入门</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzU3MTQwNDM0MA==&amp;mid=2247486389&amp;idx=1&amp;sn=90bc2785a2dbc90da07c88cadc7e2b9b&amp;chksm=fce1f2eecb967bf8a82433f701186e711f8b8b4138f643b31348240d3eb2ea5042f845903ade&amp;xtrack=1&amp;scene=0&amp;subscene=91&amp;sessionid=1557729817&amp;clicktime=1557729825&amp;ascene=7&amp;devicetype=android-22&amp;version=27000435&amp;nettype=WIFI&amp;abtest_cookie=BAABAAoACwASABMABgC%2FmR4A3JkeAOGZHgDnmR4A8pkeAACaHgAAAA%3D%3D&amp;lang=zh_CN&amp;pass_ticket=G2xRijFA27aeIxnFYgehU%2BnFtyMcn5ypkOWYnDD08b7%2BOvFG%2BOi8wioPiiLMOfXw&amp;wx_header=1%E7%89%A9%E8%81%94%E7%BD%91%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B" target="_blank" rel="noopener">物联网开发工程师视频教程 </a></li><li><a href="https://medium.com/" target="_blank" rel="noopener">Medium 一个海外的写作阅读平台</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDU1NTE5NA==&amp;mid=2712722484&amp;idx=2&amp;sn=d365f5228bc01241b3e963e1956a1e04&amp;scene=19#wechat_redirect" target="_blank" rel="noopener">47 个无版权素材网站收好，以后不怕视觉中国的律师函</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://mp.weixin.qq.com/s/ckU9g83BipkAqWwasCddcA" target="_blank" rel="noopener">控制梦境，做梦机原理和电路图解</a></li><li><a href="https://mp.weixin.qq.com/s/dT1iLV_vEdcu-_n1FWLvaQ" target="_blank" rel="noopener">我常用的4个备份工具 </a></li><li><a href="http://www.liangxu.cc/88.html?nsukey=yvXWf5rV%2F0gObVL%2F%2BYjw%2F%2FufZEzSkTh3rwNSv1Y%2BPkhF%2B8sSCx%2BfzDTOFFhgdgJ55WCG83kRPn2AebkacQgQFVsE%2FySwzMRaEYJmHsZ2cUX5u6%2BdCGlTPZQcE7EGGndGKRSmHgnjJ8S2OMijjD4YKe0JRzISwlN5E%2B767t3m6V1ynrXyDg8N%2BwWtxqB8n6Ds9yq0tnefq2KI2t9fRFepSQ%3D%3D" target="_blank" rel="noopener">手把手教你安装Linux虚拟机</a></li><li><a href="https://blog.csdn.net/pengnanzheng/article/details/88699214" target="_blank" rel="noopener">游戏开发的专业术语整理</a></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="\images\微信图片_20190517215225.jpg" alt=""></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ol><li>大都好物不坚牢，彩云易散琉璃脆。</li><li>知识点，时间线，逻辑面，维度体。</li><li>STEM:”Science, Technology, Engineering and Mathematics” </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://xritephoto.com/cool-tools&quot; target=&quot;_blank&quot; 
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Share-7</title>
@@ -45,9 +69,9 @@
     <link href="http://yoursite.com/2019/04/30/Computer-basic/"/>
     <id>http://yoursite.com/2019/04/30/Computer-basic/</id>
     <published>2019-04-30T12:13:24.347Z</published>
-    <updated>2019-04-30T14:22:33.756Z</updated>
+    <updated>2019-05-13T02:41:42.775Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="电脑硬件"><a href="#电脑硬件" class="headerlink" title="电脑硬件"></a>电脑硬件</h3><blockquote><p>电脑硬件主要包含：机箱，主板，总线，电源，硬盘，存储控制器，界面卡，可携储存装置，内置存储器，输入设备，输出设备, CPU风扇，蜂鸣器等</p></blockquote><p>选购电脑最重要的参数包括：CPU、内存、硬盘、显卡配置。</p><ul><li>CPU: 这个主要取决于频率和二级缓存，频率越高、二级缓存越大，速度越快，现在的CPU有三级缓存、四级缓存等，都影响相应速度。目前主流的CPU是Intel和AMD,买电脑时大多数人更倾向选择Intel Core系列的i3，i5，i7，可以根据自身电脑的使用场景选择。</li></ul><ul><li>内存: 内存的存取速度取决于接口、颗粒数量多少与储存大小（包括内存的接口，如：SDRAM133，DDR333，DDR2-533，DDR2-800,DDR3-1333），一般来说，内存越大，处理数据能力越强，速度就越快。</li></ul><ul><li>主板: 主要还是处理芯片，如：笔记本i965比i945芯片处理能力更强，i945比i910芯片在处理数据的能力又更强些，依此类推。</li></ul><ul><li>硬盘: 硬盘的转速（分：高速硬盘和低速硬盘，高速硬盘一般用在大型服务器中，如：10000转，15000转；低速硬盘用在一般电脑中，包括笔记本电脑），台式机电脑一般用7200转，笔记本电脑一般用5400转，这主要是考虑功耗和散热原因。 硬盘速度又因接口不同，速率不同，一般而言，分IDE和SATA（也就是常说的串口）接口，早前的硬盘多是IDE接口，相比之下，存取速度比SATA接口的要慢些。另一方面，目前趋势更倾向于读写很快的SSD固态硬盘，价格和容量将来也会分别降低和提高。</li></ul><ul><li>显卡：这项与运行超大程序软件的响应速度有着直接联系，如运行CAD2007，3DStudio、3DMAX等图形软件，一般来说显存越大越好。显卡除了硬件级别上的区分外，也有共享显存技术的存在，和一般自带显存芯片的不同，就是该“共享显存”技术，需要从内存读取显存，以处理相应程序的需要。或有人称之为：动态显存。这种技术更多用在笔记本电脑中。</li></ul><ul><li>电源 : 这个只要功率足够和稳定性好，稳定的电源是很重要的。</li></ul><p><img src="\images\nine.jpg" alt=""></p><h3 id="电脑快捷键技巧"><a href="#电脑快捷键技巧" class="headerlink" title="电脑快捷键技巧"></a>电脑快捷键技巧</h3><ul><li>win/Ctrl+Esc　         打开开始菜单</li><li>win + M　                 最小化所有被打开的窗口</li><li>win + d                      桌面</li><li>win + r                       打开运行</li><li>win + e                      “我的电脑”</li><li>win + u                      工具管理 </li><li>win + 左右                 分屏</li><li>win + L                       把电脑锁屏</li><li>win + 1和 Win + 2     按顺序打开相应程序</li><li>win + P                       在显示器与投影间相互切换</li><li>win + shift + 左         移动当前窗口到左边的显示器上</li><li>win + shift + 右         移动当前窗口到右边的显示器上</li><li>win + shift + s           截屏</li></ul><hr><ul><li>F1                               请求帮助</li><li>F5　                           刷新</li><li>F2                               重新命名所选项目</li><li>F10                             激活当前程序菜单条</li></ul><hr><ul><li>ctrl + o                       打开</li><li>ctrl + w                      关闭程序</li><li>ctrl + b                      粗体</li><li>ctrl + u                      下划线 </li><li>ctrl + i                       斜体</li><li>ctrl + y                      恢复键</li><li>ctrl + ]                       放大字体</li><li>ctrl + [                       缩小字体</li><li>ctrl + tab　              在页面上的各框架中切换(加shift反向)</li><li>ctrl + shift + Esc      打开任务管理器</li><li>ctrl + shift + N         新建文件夹</li></ul><hr><ul><li>alt + F4                    关闭项目退出程序</li><li>alt + 空格                打开快捷菜单</li><li>alt + enter              所选项目属性</li><li>alt + Esc                  按照顺序切换</li></ul><hr><ul><li>cmd  calc                打开计算器</li><li>cmd  systeminfo  用于显示关于计算机及其操作系统的详细配置信息</li></ul><hr>]]></content>
+    <content type="html"><![CDATA[<h3 id="电脑硬件"><a href="#电脑硬件" class="headerlink" title="电脑硬件"></a>电脑硬件</h3><blockquote><p>电脑硬件主要包含：机箱，主板，总线，电源，硬盘，存储控制器，界面卡，可携储存装置，内置存储器，输入设备，输出设备, CPU风扇，蜂鸣器等</p></blockquote><p>选购电脑最重要的参数包括：CPU、内存、硬盘、显卡配置。</p><ul><li>CPU: 这个主要取决于频率和二级缓存，频率越高、二级缓存越大，速度越快，现在的CPU有三级缓存、四级缓存等，都影响相应速度。目前主流的CPU是Intel和AMD,买电脑时大多数人更倾向选择Intel Core系列的i3，i5，i7，可以根据自身电脑的使用场景选择。</li></ul><ul><li>内存: 内存的存取速度取决于接口、颗粒数量多少与储存大小（包括内存的接口，如：SDRAM133，DDR333，DDR2-533，DDR2-800,DDR3-1333），一般来说，内存越大，处理数据能力越强，速度就越快。</li></ul><ul><li>主板: 主要还是处理芯片，如：笔记本i965比i945芯片处理能力更强，i945比i910芯片在处理数据的能力又更强些，依此类推。</li></ul><ul><li>硬盘: 硬盘的转速（分：高速硬盘和低速硬盘，高速硬盘一般用在大型服务器中，如：10000转，15000转；低速硬盘用在一般电脑中，包括笔记本电脑），台式机电脑一般用7200转，笔记本电脑一般用5400转，这主要是考虑功耗和散热原因。 硬盘速度又因接口不同，速率不同，一般而言，分IDE和SATA（也就是常说的串口）接口，早前的硬盘多是IDE接口，相比之下，存取速度比SATA接口的要慢些。另一方面，目前趋势更倾向于读写很快的SSD固态硬盘，价格和容量将来也会分别降低和提高。</li></ul><ul><li>显卡：这项与运行超大程序软件的响应速度有着直接联系，如运行CAD2007，3DStudio、3DMAX等图形软件，一般来说显存越大越好。显卡除了硬件级别上的区分外，也有共享显存技术的存在，和一般自带显存芯片的不同，就是该“共享显存”技术，需要从内存读取显存，以处理相应程序的需要。或有人称之为：动态显存。这种技术更多用在笔记本电脑中。</li></ul><ul><li>电源 : 这个只要功率足够和稳定性好，稳定的电源是很重要的。</li></ul><p><img src="\images\nine.jpg" alt=""></p><h3 id="电脑快捷键技巧"><a href="#电脑快捷键技巧" class="headerlink" title="电脑快捷键技巧"></a>电脑快捷键技巧</h3><ul><li>win/Ctrl+Esc　         打开开始菜单</li><li>win + M　                 最小化所有被打开的窗口</li><li>win + d                      桌面</li><li>win + r                       打开运行</li><li>win + e                      “我的电脑”</li><li>win + u                      工具管理 </li><li>win + 左右                 分屏</li><li>win + L                       把电脑锁屏</li><li>win + i                        打开设置</li><li>win + k                       打开连接</li><li>win + 1和 Win + 2     按顺序打开相应程序</li><li>win + P                       在显示器与投影间相互切换</li><li>win + shift + 左         移动当前窗口到左边的显示器上</li><li>win + shift + 右         移动当前窗口到右边的显示器上</li><li>win + shift + s           截屏</li></ul><hr><ul><li>F1                               请求帮助</li><li>F5　                           刷新</li><li>F2                               重新命名所选项目</li><li>F10                             激活当前程序菜单条</li></ul><hr><ul><li>ctrl + o                       打开</li><li>ctrl + w                      关闭程序</li><li>ctrl + b                      粗体</li><li>ctrl + u                      下划线 </li><li>ctrl + i                       斜体</li><li>ctrl + y                      恢复键</li><li>ctrl + ]                       放大字体</li><li>ctrl + [                       缩小字体</li><li>ctrl + tab　              在页面上的各框架中切换(加shift反向)</li><li>ctrl + shift + Esc      打开任务管理器</li><li>ctrl + shift + N         新建文件夹</li></ul><hr><ul><li>alt + F4                    关闭项目退出程序</li><li>alt + 空格                打开快捷菜单</li><li>alt + enter              所选项目属性</li><li>alt + Esc                  按照顺序切换</li></ul><hr><ul><li>cmd  calc                打开计算器</li><li>cmd  systeminfo  用于显示关于计算机及其操作系统的详细配置信息</li></ul><hr><ul><li><code>Win + Ctrl + D</code>    创建虚拟桌面</li><li><code>Win + Ctrl + F4</code> 关闭当前虚拟桌面</li><li><code>Win + Ctrl + ←</code>    向左切换虚拟桌面</li><li><code>Win + Ctrl + →</code>    向右切换虚拟桌面</li></ul>]]></content>
     
     <summary type="html">
     
@@ -389,9 +413,9 @@
     <link href="http://yoursite.com/2019/03/29/%E6%83%8A%E8%89%B3/"/>
     <id>http://yoursite.com/2019/03/29/惊艳/</id>
     <published>2019-03-29T14:52:30.267Z</published>
-    <updated>2019-04-30T14:27:10.636Z</updated>
+    <updated>2019-05-17T14:34:20.257Z</updated>
     
-    <content type="html"><![CDATA[<p>纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。</p><hr><p>shuiman</p><p>shiman</p><p>少了u</p><hr><p>A boy can do everything for girl.</p><p>He is just kidding.</p><p>Love must need our patience.</p><hr><p>52Hertz (52Hz)</p><p> 52Hz是一只鲸鱼独特的发声频率，由于他跟别的鲸鱼发声频率不相同，所以他的同伴听不见他的声音，可是他仍然在那独自高歌，等待着他的那个知音人（鲸鱼）</p><hr><p>鲸落</p><p>一鲸落 万物生</p><p>鲸落 是鲸鱼留给大海最后的温柔</p><hr><p>Ther</p><p>其实是Their的缩写  他们当中没有我  用朱自清的话说就是  “但热闹是他们的 我什么也没有”</p><hr><p>夏目漱石曾把i love you翻译成“今夜月色真美”，那如何翻译i love you too呢？<br>风也温柔。</p><hr><p>岁月极美，在于它必然的流逝</p><p>春花，秋月，夏日，冬雪           ——三毛</p><hr><p>miss，miss you</p><p>leave，leave me</p><p>如果我说miss，miss you，你会认为是错过你，还是想念你？</p><p>如果我又说leave，leave me，你会选择离开我，还是留下我？</p><hr><p>微雨的杏花最陶醉，</p><p>又何惜玫瑰？</p><p>你可愿清风挽回……</p><hr><p>匹夫说我 </p><p>生来骄傲 不肯半分折腰 </p><p>生而高贵 亦不能半分低头 </p><p>我将送喜欢的人远走 </p><p>此后情书写给山鬼 </p><p>心事寄予西风</p><hr><p>终是黄粱一场梦，梦碎成空只余殇。</p><hr><p><img src="\images\seven.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。</p><hr><p>shuiman</p><p>shiman</p><p>少了u</p><hr><p>A boy can do everything for girl.</p><p>He is just kidding.</p><p>Love must need our patience.</p><hr><p>52Hertz (52Hz)</p><p> 52Hz是一只鲸鱼独特的发声频率，由于他跟别的鲸鱼发声频率不相同，所以他的同伴听不见他的声音，可是他仍然在那独自高歌，等待着他的那个知音人（鲸鱼）</p><hr><p>鲸落</p><p>一鲸落 万物生</p><p>鲸落 是鲸鱼留给大海最后的温柔</p><hr><p>Ther</p><p>其实是Their的缩写  他们当中没有我  用朱自清的话说就是  “但热闹是他们的 我什么也没有”</p><hr><p>夏目漱石曾把i love you翻译成“今夜月色真美”，那如何翻译i love you too呢？<br>风也温柔。</p><hr><p>岁月极美，在于它必然的流逝</p><p>春花，秋月，夏日，冬雪           ——三毛</p><hr><p>miss，miss you</p><p>leave，leave me</p><p>如果我说miss，miss you，你会认为是错过你，还是想念你？</p><p>如果我又说leave，leave me，你会选择离开我，还是留下我？</p><hr><p>微雨的杏花最陶醉，</p><p>又何惜玫瑰？</p><p>你可愿清风挽回……</p><hr><p>匹夫说我 </p><p>生来骄傲 不肯半分折腰 </p><p>生而高贵 亦不能半分低头 </p><p>我将送喜欢的人远走 </p><p>此后情书写给山鬼 </p><p>心事寄予西风</p><hr><p>终是黄粱一场梦，梦碎成空只余殇。</p><hr><p>如果你喜欢一个人，</p><p>一定要告诉她</p><p>不是为了要她报答，</p><p>而是让她在以后黑暗的日子里，</p><p>否定自己的时候，</p><p>想起世界上还有人这么喜欢她</p><p>她并非一无是处。</p><hr><p><img src="\images\seven.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -519,29 +543,6 @@
     
     
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>登天的感觉</title>
-    <link href="http://yoursite.com/2019/03/16/%E7%99%BB%E5%A4%A9%E7%9A%84%E6%84%9F%E8%A7%89/"/>
-    <id>http://yoursite.com/2019/03/16/登天的感觉/</id>
-    <published>2019-03-16T10:45:05.094Z</published>
-    <updated>2019-03-30T14:30:41.822Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="登天的感觉"><a href="#登天的感觉" class="headerlink" title="登天的感觉"></a>登天的感觉</h2><p>上个星期看完了岳晓东的《登天的感觉》，发现心理学其实挺有趣的。为什么我要看这本书呢？因为前个星期张雪峰老师来我们学校，给我们开了场讲座，听他的讲座真的挺有意思的，其实我不想考研，只是抱着听相声的想法去的。期间，张雪峰提到了他最近在看的书，就包括《登天的感觉》，于是我就去图书馆借来看看了。</p><h3 id="内容简介"><a href="#内容简介" class="headerlink" title="内容简介"></a>内容简介</h3><p>“我恨我自己，我实在太愚蠢了”，“我们的爱情还有救吗？”……这些日常生活中随处可见的不起眼问题，却妨碍着我们对幸福的追求。在处理这些心理案例的过程中，作者展现了心理咨询的神奇技巧――原来一个人的人生道路可能因为几句话而改变！日常生活中的大多数问题实际都是心理问题，人生的幸福来自于内心的平静，天堂原本就存在于每个人的心中。本书将带给认真的读者飞翔在云端船的美妙享受――登天的感觉。</p><h3 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h3><p>读完这本书，给我的收获很大，我有时会思考，如果一个人从小就开始接受心理咨询的帮助，不说永远，只说到20岁就好了，那么这个人的人生，我相信，他的人生将风雨无阻，乘风破浪，他的人生也将是自信，灿烂的人生。所以我认为其实每个人都应该学点心理学，让自己变得更会说话，也让自己的心态变得更好，利人又利己。</p><p>接下来谈谈我从书中get到的点：</p><h4 id="我是哈佛最自卑的人（现实疗法）"><a href="#我是哈佛最自卑的人（现实疗法）" class="headerlink" title="我是哈佛最自卑的人（现实疗法）"></a>我是哈佛最自卑的人（现实疗法）</h4><ul><li>宣泄不良情绪</li><li>强化平常感，自我披露</li><li>人越是在比自己成熟或地位高的人面前获得尊重，就越容易消除个人的自卑感</li><li>转移比较对象</li><li>采取具体行动</li></ul><h4 id="我想从哈佛转学（格式塔疗法）"><a href="#我想从哈佛转学（格式塔疗法）" class="headerlink" title="我想从哈佛转学（格式塔疗法）"></a>我想从哈佛转学（格式塔疗法）</h4><ul><li>过去的事情是忘不掉的</li><li>做心理咨询，好似在耍阴阳平衡（心理平衡）的魔术</li></ul><h4 id="我不要上哈佛大学法学院（来询者中心疗法）"><a href="#我不要上哈佛大学法学院（来询者中心疗法）" class="headerlink" title="我不要上哈佛大学法学院（来询者中心疗法）"></a>我不要上哈佛大学法学院（来询者中心疗法）</h4><ul><li>你不尊重他人，他人怎么可能尊重你</li><li>比较利弊</li><li>角色扮演</li></ul><h4 id="问你是否爱我（理性情绪疗法）"><a href="#问你是否爱我（理性情绪疗法）" class="headerlink" title="问你是否爱我（理性情绪疗法）"></a>问你是否爱我（理性情绪疗法）</h4><ul><li>完美主义与自我中心</li><li>提问与反问</li><li>助人自助</li></ul><h4 id="我们的缘分尽了吗（交互分析疗法）"><a href="#我们的缘分尽了吗（交互分析疗法）" class="headerlink" title="我们的缘分尽了吗（交互分析疗法）"></a>我们的缘分尽了吗（交互分析疗法）</h4><ul><li>考虑得失</li><li>依赖心理 - 老是为自己的行为辩护</li></ul><h4 id="走出心灵创伤的深渊（行为疗法）"><a href="#走出心灵创伤的深渊（行为疗法）" class="headerlink" title="走出心灵创伤的深渊（行为疗法）"></a>走出心灵创伤的深渊（行为疗法）</h4><ul><li>封锁自我 - 防卫方式</li><li>心理健康的人总是幸福的</li></ul><p>以上是我从书中get到的点，算是做一个读书笔记吧，虽然写得很草率，不过反正也没人会看到的，哈哈。</p><h2 id="之前学到的心理小知识"><a href="#之前学到的心理小知识" class="headerlink" title="之前学到的心理小知识"></a>之前学到的心理小知识</h2><p>当我感到萎靡不振的时候可以调整一下肢体动作。</p><p>通过脚步间距来判断兴趣感。</p><p>要让朋友回答的更多，就要盯着他们的眼睛。</p><p>可以先让人帮小忙，再让人帮大忙。</p><p>不知道回应什么时，试着重复对方的话。“你为什么问这个问题?”把问题抛给对方。</p><p>导播主要负责群众的热线和信息接入和切断，提醒主播即时插播广告。</p><p><strong>1.      用【我选择，我负责】，代替【我恐惧、我逃避】</strong></p><p><strong>2.      用【把比赛当成练习】，代替【等练好了再参赛】</strong></p><p><strong>3.      用【高配版的自己】，代替【低配版的自己】</strong></p><p><strong>4.      用【往前走走看】，代替【站在原地纠结】</strong></p><p><strong>5.      用【我帮你解决问题】，代替【我替你打工卖命】</strong></p><p><strong>6.      用【温柔的坚持】，代替【激烈的反抗】</strong></p><h2 id="心理小游戏"><a href="#心理小游戏" class="headerlink" title="心理小游戏"></a>心理小游戏</h2><ul><li><p>写下你的墓志铭</p></li><li><p>生命线</p></li></ul><p>在一张白纸上，画上一条箭头直线，然后，在线条的左侧，写上“0”这个数字，在线条右方，箭头旁边，写上你为自己预计的寿数。可以写68，也可以写100。</p><p>摸着这生命线，想象你的未来计划你的未来，然后，返回你的生命线，请你按照你为自己规定的生命长度，找到你目前所在的那个点。比如你打算活七十五岁，你现在只有二十五岁，你就在整个线段的三分之一处，留下1个标志。之后，请在你的标志的左边，即代表这过去岁月的那部分，把对你有着重大影响的事件用笔标出来。</p><p>好事开心的事写在生命线的上面（可以用红色笔写出事情），坏事悲伤的事写在生命线下面（用黑色或者灰色笔写出事情）。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;登天的感觉&quot;&gt;&lt;a href=&quot;#登天的感觉&quot; class=&quot;headerlink&quot; title=&quot;登天的感觉&quot;&gt;&lt;/a&gt;登天的感觉&lt;/h2&gt;&lt;p&gt;上个星期看完了岳晓东的《登天的感觉》，发现心理学其实挺有趣的。为什么我要看这本书呢？因为前个星期张雪峰老师来我们学校
-      
-    
-    </summary>
-    
-      <category term="云梦泽" scheme="http://yoursite.com/categories/%E4%BA%91%E6%A2%A6%E6%B3%BD/"/>
-    
     
   </entry>
   
