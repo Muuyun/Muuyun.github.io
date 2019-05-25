@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-17T15:14:04.250Z</updated>
+  <updated>2019-05-25T05:44:30.756Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Share-9</title>
+    <link href="http://yoursite.com/2019/05/18/Share-9/"/>
+    <id>http://yoursite.com/2019/05/18/Share-9/</id>
+    <published>2019-05-18T13:58:10.058Z</published>
+    <updated>2019-05-25T05:44:30.756Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p>停车场办公</p><p>创业者往往想要使用共享的办公空间，但是大城市的办公空间很贵。旧金山的一个创业者灵机一动，注册了 WePark 公司。他在旧金山的热门区域，选择若干个停车位，付出一整天的停车费，然后摆上桌椅，按小时卖给创业者。创业者就在停车位办公。</p><p>WePark 的优势在于价格，每小时收费 2.25美元。相比之下，WeWork 的办公空间，每天收费50美元加上每月会员费。</p></li><li><p><a href="https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all" target="_blank" rel="noopener">电路图符号解释</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201905/bg2019052415.jpg" alt="img"></p><p>本文介绍基本的电路图符号的含义。</p></li><li><p><a href="https://openai.com/blog/musenet/" target="_blank" rel="noopener">MuseNet</a></p><p>人工智能公司 OpenAI 开发的自动作曲系统，可以指定你想听的音乐家（比如肖邦、莫扎特），然后该系统就会使用10种乐器生成一段4分钟的音乐。现在，OpenAI 每天在网上直播音乐会，旋律都是人工智能生成的。</p></li><li><p><a href="https://developer.download.nvidia.cn/books/HTML/gpugems/gpugems_ch38.html" target="_blank" rel="noopener">WebGL Fluid Simulation</a><br>在浏览器中，实现流体流动效果。（有点像是抽烟时，吐烟的效果）</p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><p><a href="https://www.iloveimg.com/" target="_blank" rel="noopener">I love IMG</a><br> 该网站提供各种在线的图像编辑工具，比如图像缩放、压缩、裁剪、水印等。</p></li><li><p><a href="https://motrix.app/zh-CN/" target="_blank" rel="noopener">Motrix</a></p><p>   一款桌面端下载工具，支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源。</p></li><li><p><a href="https://github.com/Remix-Design/RemixIcon" target="_blank" rel="noopener">RemixIcon</a></p><p>一套免费高质量的开源图标库，目前有1500多枚图标，提供矢量图和字体图标文件，可用于商业用途。</p></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://www.kancloud.cn/wizardforcel/os-world-trip/189759" target="_blank" rel="noopener">开源世界旅行手册</a></li><li><a href="http://billie66.github.io/TLCL/book/index.html" target="_blank" rel="noopener">命令行的艺术</a></li><li><a href="https://www.bilibili.com/video/av21376839" target="_blank" rel="noopener">计算机科学速成课</a></li><li><a href="https://www.microsoft.com/zh-cn/makecode?rtc=1" target="_blank" rel="noopener">Microsoft MakeCode</a><a href="https://www.microsoft.com/zh-cn/makecode?rtc=1" target="_blank" rel="noopener"> </a> 可以给儿童使用的拖拽式编程体验</li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://mp.weixin.qq.com/s/Ywxr8Ue5qwHnA0nAthrXtw" target="_blank" rel="noopener">全程快捷键！硬核小哥超快配图1700页数学笔记，教你上手LaTeX+Inkscape</a></li><li><a href="https://www.zhihu.com/question/34873227" target="_blank" rel="noopener">在浏览器地址栏输入一个URL后回车，背后会进行哪些技术步骤？</a></li><li><a href="http://www.ruanyifeng.com/blog/2019/04/oauth_design.html" target="_blank" rel="noopener">OAuth 2.0 的一个简单解释</a></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="\images\1553102711570.jpg" alt=""></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ul><li><p>谎言分两种。关于过去的事实上的谎言以及关于未来的权利上的谎言。 </p></li><li><p>然而，人们泛称为命运的事情却通常都是自己做出来的蠢事。 </p></li><li><p>谁都无法制裁一件没有发生过的事。</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;停车场办公&lt;/p&gt;
+&lt;p&gt;创业者往往想要使用共享的办公空间，但是大城市的办公空间很贵。旧金山的一个创业者灵机一动，
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Share-8</title>
     <link href="http://yoursite.com/2019/05/17/Share-8/"/>
     <id>http://yoursite.com/2019/05/17/Share-8/</id>
     <published>2019-05-17T13:25:56.219Z</published>
-    <updated>2019-05-17T15:14:04.250Z</updated>
+    <updated>2019-05-18T13:58:12.852Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><a href="https://xritephoto.com/cool-tools" target="_blank" rel="noopener">辨色能力测试</a><br>建议电脑打开，目的是将所有颜色排列成一个由红到紫的过渡，0分为满分。</li><li><p><a href="https://in.reuters.com/article/ukraine-chernobyl-game/chernobyl-comes-back-to-life-in-ukrainian-computer-game-idINKCN1S304J" target="_blank" rel="noopener">切尔诺贝利实境游戏</a><br> 两个乌克兰青年按照实景，建造了切尔诺贝利核电站废墟模型，包括住宅楼，酒店，音乐厅，游乐园和体育场等场景，然后开发了一个游戏《Isotopium：Chernobyl》。玩家可以通过互联网，控制一辆遥控小车，上面带有摄像头，在这个模型城市里面漫游，感觉跟在真实场景完全一样。<br> 游戏的费用是每小时9美元，同时最多只能20人在线，玩家寻找隐藏在各个地点的能量球，来淘汰其他对手，获取游戏胜利。全球目前有62,615人注册参与游戏。</p></li><li><p><a href="https://www.buddhistdoor.org/tc/news/這是全球容納最多骨灰龕的地方樓內安排回應了多種當代大議題值得深思" target="_blank" rel="noopener">世界最大灵骨塔</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201905/bg2019051019.jpg" alt="img"></p><p>台湾新北市，一座白色巨塔矗立在三芝区，外形呈六角形，顶层为宫殿式的望楼塔造型。楼高达二十层的巨塔在翠绿的山峦中尤其突出！这座建筑其实是一个多层式的骨灰盒大楼──龙岩真龙殿生命纪念馆。</p></li><li><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDU1NTE5NA==&amp;mid=2712722451&amp;idx=2&amp;sn=f073744bc298260c41a491344eb0402e&amp;scene=19#wechat_redirect" target="_blank" rel="noopener">发条短信就能拦截骚扰电话，这些实用的运营商指令值得收藏</a></p><p>本文将为你介绍一些实用的短信指令，希望可以帮助你在日常生活中少一点麻烦，多一点便利。</p></li><li><p>windows系统休眠</p><p>介绍windows系统中休眠HIBERNATE和睡眠SLEEP的区别我们常用的是睡眠SLEEP功能，就是电脑经过一定时间后，进入低功耗状态，工作态度保存在内存里，恢复时1-2秒就可以恢复原状态。休眠是把工作状态即所有内存信息写入硬盘，如有2-4G内存，即要写入2-4G的文件到硬盘，然后才能关机，开机恢复要读取2-4G的文件到内存，才能恢复原界面。从这里可以看出睡眠功能比休眠好很多，同样保存电脑当前状态，而且开机启动速度很快，所以在一般情况下完全可以删除休眠文件。</p><p>删除休眠文件: 以管理员运行CMD, <code>POWERCFG -H OFF</code></p><p>恢复休眠功能: 以管理员运行CMD, <code>POWERCFG -H on</code></p></li><li><p>傅立叶变换</p><p><img src="\images\mmexport1545579874891.jpg" alt=""></p><p><img src="\images\mmexport1545578702162.jpg" alt=""></p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><a href="https://miku.tools/" target="_blank" rel="noopener">MikuTools - 工具集合</a></li><li>[北京市公安局推出的姓名查重网站，可以查询某个姓名在北京市有没有重名][(<a href="https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum)]" target="_blank" rel="noopener">https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum)]</a></li><li><a href="https://kindle.51nazhun.pub/" target="_blank" rel="noopener">kindle电子书分享网</a></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://backlog.com/git-tutorial/cn/stepup/stepup2_8.html" target="_blank" rel="noopener">猴子都能懂的git入门</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzU3MTQwNDM0MA==&amp;mid=2247486389&amp;idx=1&amp;sn=90bc2785a2dbc90da07c88cadc7e2b9b&amp;chksm=fce1f2eecb967bf8a82433f701186e711f8b8b4138f643b31348240d3eb2ea5042f845903ade&amp;xtrack=1&amp;scene=0&amp;subscene=91&amp;sessionid=1557729817&amp;clicktime=1557729825&amp;ascene=7&amp;devicetype=android-22&amp;version=27000435&amp;nettype=WIFI&amp;abtest_cookie=BAABAAoACwASABMABgC%2FmR4A3JkeAOGZHgDnmR4A8pkeAACaHgAAAA%3D%3D&amp;lang=zh_CN&amp;pass_ticket=G2xRijFA27aeIxnFYgehU%2BnFtyMcn5ypkOWYnDD08b7%2BOvFG%2BOi8wioPiiLMOfXw&amp;wx_header=1%E7%89%A9%E8%81%94%E7%BD%91%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B" target="_blank" rel="noopener">物联网开发工程师视频教程 </a></li><li><a href="https://medium.com/" target="_blank" rel="noopener">Medium 一个海外的写作阅读平台</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDU1NTE5NA==&amp;mid=2712722484&amp;idx=2&amp;sn=d365f5228bc01241b3e963e1956a1e04&amp;scene=19#wechat_redirect" target="_blank" rel="noopener">47 个无版权素材网站收好，以后不怕视觉中国的律师函</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://mp.weixin.qq.com/s/ckU9g83BipkAqWwasCddcA" target="_blank" rel="noopener">控制梦境，做梦机原理和电路图解</a></li><li><a href="https://mp.weixin.qq.com/s/dT1iLV_vEdcu-_n1FWLvaQ" target="_blank" rel="noopener">我常用的4个备份工具 </a></li><li><a href="http://www.liangxu.cc/88.html?nsukey=yvXWf5rV%2F0gObVL%2F%2BYjw%2F%2FufZEzSkTh3rwNSv1Y%2BPkhF%2B8sSCx%2BfzDTOFFhgdgJ55WCG83kRPn2AebkacQgQFVsE%2FySwzMRaEYJmHsZ2cUX5u6%2BdCGlTPZQcE7EGGndGKRSmHgnjJ8S2OMijjD4YKe0JRzISwlN5E%2B767t3m6V1ynrXyDg8N%2BwWtxqB8n6Ds9yq0tnefq2KI2t9fRFepSQ%3D%3D" target="_blank" rel="noopener">手把手教你安装Linux虚拟机</a></li><li><a href="https://blog.csdn.net/pengnanzheng/article/details/88699214" target="_blank" rel="noopener">游戏开发的专业术语整理</a></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="\images\微信图片_20190517215225.jpg" alt=""></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ol><li>大都好物不坚牢，彩云易散琉璃脆。</li><li>知识点，时间线，逻辑面，维度体。</li><li>STEM:”Science, Technology, Engineering and Mathematics” </li></ol>]]></content>
     
@@ -503,38 +528,6 @@
       
       
         &lt;h3 id=&quot;进程与程序&quot;&gt;&lt;a href=&quot;#进程与程序&quot; class=&quot;headerlink&quot; title=&quot;进程与程序&quot;&gt;&lt;/a&gt;进程与程序&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;程序&lt;/strong&gt;（procedure）：不太精确地说，程序就是执行一系列有逻辑、有顺序结构的指
-      
-    
-    </summary>
-    
-      <category term="云图" scheme="http://yoursite.com/categories/%E4%BA%91%E5%9B%BE/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux软件安装</title>
-    <link href="http://yoursite.com/2019/03/22/linux%E4%B8%8B%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
-    <id>http://yoursite.com/2019/03/22/linux下软件安装/</id>
-    <published>2019-03-22T11:12:49.718Z</published>
-    <updated>2019-03-29T14:07:23.156Z</updated>
-    
-    <content type="html"><![CDATA[<p>通常 Linux 上的软件安装主要有四种方式：</p><ul><li>在线安装</li><li>从磁盘安装deb软件包</li><li>从二进制软件包安装</li><li>从源代码编译安装</li></ul><p><em>如果你在安装一个软件之后，无法立即使用<code>Tab</code>键补全这个命令，你可以尝试先执行<code>source ~/.zshrc</code>，然后你就可以使用补全操作。</em></p><h3 id="apt-get"><a href="#apt-get" class="headerlink" title="apt-get"></a>apt-get</h3><p><code>apt-get</code> 是用于处理 <code>apt</code>包的公用程序集，我们可以用它来在线安装、卸载和升级软件包等，下面列出一些<code>apt-get</code>包含的常用的一些工具：</p><table><thead><tr><th>工具</th><th>说明</th></tr></thead><tbody><tr><td><code>install</code></td><td>其后加上软件包名，用于安装一个软件包</td></tr><tr><td><code>update</code></td><td>从软件源镜像服务器上下载/更新用于更新本地软件源的软件包列表</td></tr><tr><td><code>upgrade</code></td><td>升级本地可更新的全部软件包，但存在依赖问题时将不会升级，通常会在更新之前执行一次<code>update</code></td></tr><tr><td><code>dist-upgrade</code></td><td>解决依赖关系并升级(存在一定危险性)</td></tr><tr><td><code>remove</code></td><td>移除已安装的软件包，包括与被移除软件包有依赖关系的软件包，但不包含软件包的配置文件</td></tr><tr><td><code>autoremove</code></td><td>移除之前被其他软件包依赖，但现在不再被使用的软件包</td></tr><tr><td><code>purge</code></td><td>与remove相同，但会完全移除软件包，包含其配置文件</td></tr><tr><td><code>clean</code></td><td>移除下载到本地的已经安装的软件包，默认保存在/var/cache/apt/archives/</td></tr><tr><td><code>autoclean</code></td><td>移除已安装的软件的旧版本软件包</td></tr></tbody></table><p>下面是一些<code>apt-get</code>常用的参数：</p><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td><code>-y</code></td><td>自动回应是否安装软件包的选项，在一些自动化安装脚本中使用这个参数将十分有用</td></tr><tr><td><code>-s</code></td><td>模拟安装</td></tr><tr><td><code>-q</code></td><td>静默安装方式，指定多个<code>q</code>或者<code>-q=#</code>,#表示数字，用于设定静默级别，这在你不想要在安装软件包时屏幕输出过多时很有用</td></tr><tr><td><code>-f</code></td><td>修复损坏的依赖关系</td></tr><tr><td><code>-d</code></td><td>只下载不安装</td></tr><tr><td><code>--reinstall</code></td><td>重新安装已经安装但可能存在问题的软件包</td></tr><tr><td><code>--install-suggests</code></td><td>同时安装APT给出的建议安装的软件包</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 更新软件源</span><br><span class="line">$ sudo apt-get update</span><br><span class="line"># 升级没有依赖问题的软件包</span><br><span class="line">$ sudo apt-get upgrade</span><br><span class="line"># 升级并解决依赖关系</span><br><span class="line">$ sudo apt-get dist-upgrade</span><br><span class="line">#搜索软件仓库里面有没有该软件</span><br><span class="line">sudo apt-cache search softname1 softname2 softname3……</span><br></pre></td></tr></table></figure><h3 id="使用dpkg从本地磁盘安装deb软件包"><a href="#使用dpkg从本地磁盘安装deb软件包" class="headerlink" title="使用dpkg从本地磁盘安装deb软件包"></a>使用dpkg从本地磁盘安装deb软件包</h3><p>我们经常可以在网络上见到以<code>deb</code>形式打包的软件包，就需要使用<code>dpkg</code>命令来安装。</p><p><code>dpkg</code>常用参数介绍：</p><table><thead><tr><th>参数</th><th>说明</th></tr></thead><tbody><tr><td><code>-i</code></td><td>安装指定deb包</td></tr><tr><td><code>-R</code></td><td>后面加上目录名，用于安装该目录下的所有deb安装包</td></tr><tr><td><code>-r</code></td><td>remove，移除某个已安装的软件包</td></tr><tr><td><code>-I</code></td><td>显示<code>deb</code>包文件的信息</td></tr><tr><td><code>-s</code></td><td>显示已安装软件的信息</td></tr><tr><td><code>-S</code></td><td>搜索已安装的软件包</td></tr><tr><td><code>-L</code></td><td>显示已安装软件包的目录信息</td></tr></tbody></table><p>使用<code>dpkg -L</code>查看<code>deb</code>包目录信息</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo dpkg -L emacs24</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;通常 Linux 上的软件安装主要有四种方式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在线安装&lt;/li&gt;
-&lt;li&gt;从磁盘安装deb软件包&lt;/li&gt;
-&lt;li&gt;从二进制软件包安装&lt;/li&gt;
-&lt;li&gt;从源代码编译安装&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;如果你在安装一个软件之后，无法立即使用
       
     
     </summary>
