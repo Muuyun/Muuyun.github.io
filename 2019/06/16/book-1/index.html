@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="book,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="苏牧云" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="第1章  浏览器生成消息浏览器的第一步工作就是对URL进行解析 1条请求消息中只能写1个URI。如果需要获取多个文件，必须对每个文件单独发送1条请求。 IP地址的主机号 全0: 表示整个子网 全1:  表示向子网上所有设备发送包，即“广播” Socket库是用于调用网络功能的程序组件集合。 根据域名查询IP地址时，浏览器会使用Socket库中的解析器 DNS服务器会从域名与IP地址的对照表中查找相">
+<meta name="keywords" content="book">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网络是怎样连接的">
+<meta property="og:url" content="http://yoursite.com/2019/06/16/book-1/index.html">
+<meta property="og:site_name" content="苏牧云">
+<meta property="og:description" content="第1章  浏览器生成消息浏览器的第一步工作就是对URL进行解析 1条请求消息中只能写1个URI。如果需要获取多个文件，必须对每个文件单独发送1条请求。 IP地址的主机号 全0: 表示整个子网 全1:  表示向子网上所有设备发送包，即“广播” Socket库是用于调用网络功能的程序组件集合。 根据域名查询IP地址时，浏览器会使用Socket库中的解析器 DNS服务器会从域名与IP地址的对照表中查找相">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-06-16T06:00:13.428Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="网络是怎样连接的">
+<meta name="twitter:description" content="第1章  浏览器生成消息浏览器的第一步工作就是对URL进行解析 1条请求消息中只能写1个URI。如果需要获取多个文件，必须对每个文件单独发送1条请求。 IP地址的主机号 全0: 表示整个子网 全1:  表示向子网上所有设备发送包，即“广播” Socket库是用于调用网络功能的程序组件集合。 根据域名查询IP地址时，浏览器会使用Socket库中的解析器 DNS服务器会从域名与IP地址的对照表中查找相">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/06/16/book-1/">
+
+
+
+
+
+  <title>网络是怎样连接的 | 苏牧云</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">苏牧云</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/16/book-1/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="苏牧云">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="苏牧云">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">网络是怎样连接的</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-16T13:55:36+08:00">
+                2019-06-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Book事务所/" itemprop="url" rel="index">
+                    <span itemprop="name">Book事务所</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/06/16/book-1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/16/book-1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="第1章-浏览器生成消息"><a href="#第1章-浏览器生成消息" class="headerlink" title="第1章  浏览器生成消息"></a>第1章  浏览器生成消息</h1><p>浏览器的第一步工作就是对URL进行解析</p>
+<p>1条请求消息中只能写1个URI。如果需要获取多个文件，必须对每个文件单独发送1条请求。</p>
+<p>IP地址的主机号</p>
+<p>全0: 表示整个子网</p>
+<p>全1:  表示向子网上所有设备发送包，即“广播”</p>
+<p>Socket库是用于调用网络功能的程序组件集合。</p>
+<p>根据域名查询IP地址时，浏览器会使用Socket库中的解析器</p>
+<p>DNS服务器会从域名与IP地址的对照表中查找相应的记录，并返回IP地址</p>
+<p>向操作系统内部的协议栈发出委托时，需要按照指定的顺序来调用Socket库中的程序组件</p>
+<p>应用程序是通过“描述符”这一类似号码牌的东西来识别套接字的</p>
+<p>描述符:  应用程序用来识别套接字的机制</p>
+<p>IP地址和端口号:  客户端和服务器之间用来识别对方套接字的机制</p>
+<h1 id="第2章-用电信号传输TCP-IP数据"><a href="#第2章-用电信号传输TCP-IP数据" class="headerlink" title="第2章  用电信号传输TCP/IP数据"></a>第2章  用电信号传输TCP/IP数据</h1><p>浏览器，邮件等一般应用程序收发数据时用TCP；</p>
+<p>DNS查询等收发较短的控制数据时用UDP</p>
+<p>协议栈是根据套接字中记录的控制信息来工作的</p>
+<p>创建套接字时，首先分配一个套接字所需的内存空间，然后向其中写入初始状态</p>
+<p>通信操作中使用的控制信息分为两类。</p>
+<p>\1.  头部中记录的信息</p>
+<p>\2.  套接字(协议栈中的内存空间)中记录的信息</p>
+<p>连接操作的第一步是在TCP模块处创建表示连接控制信息的头部</p>
+<p>通过TCP头部中的发送方和接收方端口号可以找到要连接的套接字</p>
+<p>MTU:  一个网络包的最大长度，以太网中一般为1500字节</p>
+<p>MSS:  除去头部之后，一个网络包所能容纳的TCP数据的最大长度</p>
+<p>通过序号和ACK号可以确认接收方是否收到了网络包</p>
+<p>IP模块负责添加如下两个头部。</p>
+<p>\1.  MAC头部:  以太网用的头部，包含MAC头部</p>
+<p>2  IP头部:  IP用的头部，包含IP地址</p>
+<p>IP头部的“接收方IP地址”填写通信对象的IP地址</p>
+<p>发送方IP地址需要判断发送所使用的网卡，并填写该网卡的IP地址</p>
+<p>IP模块根据路由表Gateway栏的内容判断应该把包发送给谁</p>
+<p>查询MAC地址需要使用ARP</p>
+<p>网卡的ROM中保存着全世界唯一的MAC地址，这是在生产网卡时写入的</p>
+<p>网卡保存的MAC地址会由网卡驱动程序读取并分配给MAC模块</p>
+<p>网卡的MAC模块会生成通用信号，然后由PHY(MAU)模块转换成可在网线中传输的格式，并通过网线发送出去</p>
+<h1 id="第3章-从网线到网络设备"><a href="#第3章-从网线到网络设备" class="headerlink" title="第3章  从网线到网络设备"></a>第3章  从网线到网络设备</h1><p>集线器将信号发送给所以连接在它上面的线路</p>
+<p>IP 是地址，有定位功能；MAC 是身份证，无</p>
+<p>定位功能；CIDR 可以用来判断是不是本地人；</p>
+<p>IP 分公有的 IP 和私有的 IP。</p>
+<p>DHCP 协议主要是用来给客户租用 IP 地址，</p>
+<p>和房产中介很像，要商谈、签约、续租，广播</p>
+<p>还不能“抢单”；</p>
+<p>DHCP 协议能给客户推荐“装修队”PXE，能</p>
+<p>够安装操作系统，这个在云计算领域大有用处</p>
+<p>。</p>
+<p>交换机端口的MAC模块不具有MAC地址。</p>
+<p>交换机根据MAC地址表查找MAC地址，然后将信号发送到相应的端口。</p>
+<p>交换机的全双工模式可以同时发送和接收信号</p>
+<p>路由器的各个端口都具有MAC地址和IP地址</p>
+<p>广播地址(broadcast address)是一种特殊的地址，将广播地址设为接收方地址时，包会发送到网络中所有的设备。MAC地址中的FF:FF:FF:FF:FF:FF和IP地址中的255.255.255.255都是广播地址。</p>
+<p>路由器根据“IP地址”判断转发目标</p>
+<p>路由器会忽略主机号，只匹配网络号</p>
+<p>路由表的子网掩码列只表示在匹配网络包目标地址时需要对比的比特数量</p>
+<p>路由器的端口都具有MAC地址，只接收与自身地址匹配的包，遇到不匹配的包则直接丢弃</p>
+<p>通过路由器转发的网络包，其接收方MAC地址为路由器端口的MAC地址</p>
+<p>路由表中子网掩码为0.0.0.0的记录表示“默认路由”</p>
+<p>路由器判断下一个转发目标的方法如下。</p>
+<p>如果路由表的网关列内容为IP地址，则该地址就是下一个转发目标。如果路由表的网关列内容为空，则IP头部中的接收方IP地址就是下一个转发目标。</p>
+<p>路由器也会使用ARP来查询下一个转发目标的MAC地址。</p>
+<p>IP(路由器)负责将包送达通信对象这一整体过程，而其中将包传输到下一个路由器的过程则是由以太网(交换机)来负责的。</p>
+<h1 id="第4章-通过接入网进入互联网内部"><a href="#第4章-通过接入网进入互联网内部" class="headerlink" title="第4章 通过接入网进入互联网内部"></a>第4章 通过接入网进入互联网内部</h1><p>ADSL的线路费用包含在电话费中，光纤的线路费用包含在上网费中，因此光纤的上网费高，电话费便宜。</p>
+<p>电信号和光信号传播的速度大体上相同，之所以电缆不如光纤通信速率高，是因为电信号在提升通信速率的同时，其衰减率也会提高(信号在传播过程中减弱，导致信号无法传到目的地。相对地，光信号本来的衰減率就很低，提高通信速率也并不会提高衰减率。此外，光纤还不受电磁噪声的影响，因此光纤能够进行高速通信。</p>
+<p>互联网接入路由器会在网络包前面加上MAC头部，PPPoE头部，PPP头部总共三种头部，然后发送给ADSL Modem(PPPoE方式下)</p>
+<p>ADSL Modem 将包拆分成信元，并转换成电信号发送给分离器</p>
+<p>DSLAM具有ATM接口，和后方路由器收发数据时使用的是原始网络包拆分后的ATM信元形式。</p>
+<p>BAS负责将ATM信元还原成网络包并转发到互联网内部</p>
+<p>PPPoE是将PPP消息装入以太网包进行传输的方式</p>
+<p>互联网接入路由器通过PPPoE的发现机制查询BAS的MAC地址</p>
+<p>BAS下发的TCP/IP参数会被配置到互联网接入路由器的BAS端的端口上，这样路由器就完成接入互联网的准备了</p>
+<p>BAS在收到用户路由器发送的网络包之后，会去掉MAC头部和PPPoE头部，然后用隧道机制包发送给网络运营商的路由器</p>
+<p>一对一连接的端口可以不分配IP地址，这种方式称为无编号。</p>
+<p>PPPoA方式不添加MAC头部和PPPoE头部，而是直接将PPP消息包装入信元中。</p>
+<p>还有一种DHCP方式，它不使用PPP，而是将以太网包直接转换成ADSL信号发送给DSLAM</p>
+<p>网络包通过接入网之后，到达运营商POP的路由器</p>
+<p>互联网内部使用BGP机制在运营商之间交换路由信息</p>
+<p>私有地址的规则其实并不复杂，在内网中可用作私有地址的范围仅限以下这些。</p>
+<p>10.0.0.0~10.255.255.255</p>
+<p>172.16.0.0~172.31.255.255</p>
+<p>192.168.0.0~192.168.255.255</p>
+<h1 id="第5章-服务器端的局域网中有什么玄机"><a href="#第5章-服务器端的局域网中有什么玄机" class="headerlink" title="第5章 服务器端的局域网中有什么玄机"></a>第5章 服务器端的局域网中有什么玄机</h1><p>包过滤的方式的防火墙可根据接收方IP地址，发送方IP地址，接收方端口号，发送方端口号，控制位等信息来判断是否允许某个包通过</p>
+<h1 id="第6章-请求到达Web服务器，响应返回浏览器"><a href="#第6章-请求到达Web服务器，响应返回浏览器" class="headerlink" title="第6章 请求到达Web服务器，响应返回浏览器"></a>第6章 请求到达Web服务器，响应返回浏览器</h1><p>使用描述符来指代套接字的原因如下。</p>
+<p>\1. 等待连接的套接字中没有客户端IP地址和端口号</p>
+<p>\2. 使用描述符这一种信息比较简单</p>
+<p>网卡的MAC模块将网络包从信号还原为数字信息，校验FCS并存入缓冲区</p>
+<p>网卡驱动会根据MAC头部判断协议类型，并将包交给相应的协议栈</p>
+<p>协议栈的IP模块会检查IP头部，1. 判断是不是发给自己的；2. 判断网络包是否经过分片；3. 将包转交给TCP模块或UDP模块</p>
+<p>如果收到的是发起连接的包，则TCP模块会 1. 确认TCP头部的控制位SYN； 2. 检查接收方端口号； 3.为相应的等待连接套接字复制一个新的副本； 4. 记录发送方IP地址和端口号等信息</p>
+<p>收到数据包时，TCP模块会 1.根据收到的包的发送方IP地址，发送方端口号，接收方IP地址，接收方端口号找到相对应的套接字； 2. 将数据拼合起来并保存在接收缓冲区中； 3. 向客户端返回ACK</p>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+      
+        
+      
+    </div>
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>能给我充充电吗？</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="苏牧云 WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    苏牧云
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://yoursite.com/2019/06/16/book-1/" title="网络是怎样连接的">http://yoursite.com/2019/06/16/book-1/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/book/" rel="tag"><i class="fa fa-tag"></i> book</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/16/Second-hand car/" rel="next" title="Second-hand car">
+                <i class="fa fa-chevron-left"></i> Second-hand car
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/16/book-2/" rel="prev" title="程序是怎样跑起来的">
+                程序是怎样跑起来的 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="苏牧云">
+            
+              <p class="site-author-name" itemprop="name">苏牧云</p>
+              <p class="site-description motion-element" itemprop="description">My mind is in the silent cloud.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">56</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Muuyun" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://zzkdev.github.io/" title="zzkdev" target="_blank">zzkdev</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#第1章-浏览器生成消息"><span class="nav-text">第1章  浏览器生成消息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第2章-用电信号传输TCP-IP数据"><span class="nav-text">第2章  用电信号传输TCP/IP数据</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第3章-从网线到网络设备"><span class="nav-text">第3章  从网线到网络设备</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第4章-通过接入网进入互联网内部"><span class="nav-text">第4章 通过接入网进入互联网内部</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第5章-服务器端的局域网中有什么玄机"><span class="nav-text">第5章 服务器端的局域网中有什么玄机</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第6章-请求到达Web服务器，响应返回浏览器"><span class="nav-text">第6章 请求到达Web服务器，响应返回浏览器</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">苏牧云</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+</html>
