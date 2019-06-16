@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/06/16/thinking/</loc>
+    
+    <lastmod>2019-06-16T13:31:33.355Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/06/16/network-1/</loc>
+    
+    <lastmod>2019-06-16T12:42:41.569Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/06/16/interview/</loc>
     
     <lastmod>2019-06-16T09:00:43.008Z</lastmod>
@@ -257,13 +271,6 @@
     <loc>http://yoursite.com/2019/06/16/book-4/</loc>
     
     <lastmod>2019-06-16T08:20:04.345Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/06/16/thinking/</loc>
-    
-    <lastmod>2019-06-16T07:45:41.463Z</lastmod>
     
   </url>
   
