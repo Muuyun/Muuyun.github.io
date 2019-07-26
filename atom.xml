@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-03T14:15:09.102Z</updated>
+  <updated>2019-07-25T12:09:52.190Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>漫画算法——小灰的算法之旅</title>
+    <link href="http://yoursite.com/2019/07/25/%E6%BC%AB%E7%94%BB%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2019/07/25/漫画算法/</id>
+    <published>2019-07-25T12:08:22.192Z</published>
+    <updated>2019-07-25T12:09:52.190Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法概述"><a href="#算法概述" class="headerlink" title="算法概述"></a>算法概述</h1><ul><li><p>什么是算法<br>在计算机领域里,算法是一系列程序指令,用于处理特定的运算和逻辑问题。<br>衡量算法优劣的主要标准是时间复杂度和空间复杂度。</p></li><li><p>什么是数据结构<br>数据结构是数据的组织、管理和存储格式,其使用目的是为了高效地访问和修改<br>数据。<br>数据结构包含数组、链表这样的线性数据结构,也包含树、图这样的复杂数据<br>结构</p></li><li><p>什么是时间复杂度<br>时间复杂度是对一个算法运行时间长短的量度,用大O表示,记作T(n)=O(f(n))<br>常见的时间复杂度按照从低到高的顺序,包括O(1)、O(logn)、O(n)、O(nlogn)、O(n<sup>2</sup>)等。</p></li><li><p>什么是空间复杂度<br>空间复杂度是对一个算法在运行过程中临时占用存储空间大小的量度,用大O表示,记作S(n)=O(f(n))<br>常见的空间复杂度按照从低到高的顺序,包括O(1)、O(n)、O(n<sup>2</sup>)等。其中递归算法的空间复杂度和递归深度成正比。</p></li></ul><h1 id="数据结构基础"><a href="#数据结构基础" class="headerlink" title="数据结构基础"></a>数据结构基础</h1><ul><li><p>什么是数组<br>数组是由有限个相同类型的变量所组成的有序集合,它的物理存储方式是顺序存储,访问方式是随机访问。利用下标查找数组元素的时间复杂度是O(1),中间插入、删除数组元素的时间复杂度是O(n)</p></li><li><p>什么是链表<br>链表是一种链式数据结构,由若干节点组成,每个节点包含指向下一节点的指针。链表的物理存储方式是随机存储,访问方式是顺序访问。查找链表节点的时间复杂度是O(n),中间插入、删除节点的时间复杂度是O(1)。</p></li><li><p>什么是栈<br>栈是一种线性逻辑结构,可以用数组实现,也可以用链表实现。栈包含入栈和出栈操作,遵循先入后出的原则(FILO)</p></li><li><p>什么是队列<br>队列也是一种线性逻辑结构,可以用数组实现,也可以用链表实现。队列包含入队<br>和出队操作,遵循先入先出的原则(FIFO)。</p></li><li><p>什么是散列表<br>散列表也叫哈希表,是存储 Key-Value映射的集合。对于某一个Key,散列表可以在接<br>近O(1)的时间内进行读写操作。散列表通过哈希函数实现Key和数组下标的转换,通过开放寻址法和链表法来解决哈希冲突。</p></li></ul><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><ul><li><p>什么是树<br>树是n个节点的有限集,有且仅有一个特定的称为根的节点。当n&gt;1时,其余节点可<br>分为m个互不相交的有限集,每一个集合本身又是一个树,并称为根的子树。</p></li><li><p>什么是二叉树<br>二叉树是树的一种特殊形式,每一个节点最多有两个孩子节点。二叉树包含完全<br>又树和满二叉树两种特殊形式。</p></li><li><p>二叉树的遍历方式有几种<br>根据遍历节点之间的关系,可以分为前序遍历、中序遍历、后序遍历、层序遍历这4<br>种方式从更宏观的角度划分,可以划分为深度优先遍历和广度优先遍历两大类。</p></li><li><p>什么是二叉堆<br>二叉堆是一种特殊的满二叉树,分为最大堆和最小堆。<br>在最大堆中,任何一个父节点的值,都大于或等于它左、右孩子节点的值。<br>在最小堆中,任何一个父节点的值,都小于或等于它左、右孩子节点的值。</p></li><li><p>什么是优先队列<br>优先队列分为最大优先队列和最小优先队列。<br>在最大优先队列中,无论入队顺序如何,当前最大的元素都会优先出队,这是基于<br>最大堆实现的。<br>在最小优先队列中,无论入队顺序如何,当前最小的元素都会优先出队,这是基于<br>最小堆实现的。</p></li></ul><h1 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h1><ul><li><img src="https://i.loli.net/2019/07/24/5d386b0d0854f29334.png" alt="UTOOLS1563978508489.png"></li></ul><h1 id="面试中的算法"><a href="#面试中的算法" class="headerlink" title="面试中的算法"></a>面试中的算法</h1><ol><li><p>如何判断链表是否为有环链表？</p><p>创建两个指针，类似跑道的追及问题。</p></li><li><p>实现一个栈，该栈带有出栈（pop），入栈（push），取最小元素（getMin）3个方法。要保证这3个方法的时间复杂度都是O(1)</p><p>设置备胎栈，用于辅助栈A</p></li><li><p>如何求出最大公约数？</p><p>把辗转相除法和更相减损术的优势结合起来，在更相减损术的基础上使用移位运算(/2)。</p></li><li><p>判断一个正整数是否是2的整数次幂</p><p>用原数值（2的整数次幂）和它减1的结果进行</p></li><li><p>求无序数组排序后的任意两个相邻元素的最大差值</p><p>利用计数排序/桶排序的空缺</p></li><li><p>用栈实现队列</p><p>设置备胎栈，用于辅助栈A</p></li><li><p>寻找全排列的下一个数</p><p>运用字典序算法</p><ul><li>从后向前查看逆序区域，找到逆序区域的前一位，也就是数字置换的边界</li><li>让逆序区域的前一位和逆序区域中大于它的最小的数字交换位置</li><li>把原来的逆序区域转为顺序状态</li></ul></li><li><p>删去k个数字后的最小值</p><p>贪心算法：求得局部最优解，最终得到全局最优解的思想</p><p>把原整数的所有数字从左到右进行比较，如果发现某一位数字大于它右面的数字，那么在删除该数字后，必然会使该数位的值降低</p></li><li><p>如何实现大整数相加</p><p>为大整数建立两个临时数组</p></li><li><p>如何求解金矿问题</p><p>运用动态规划的核心思想（自底向上求解）</p></li><li><blockquote><p>在一个无序数组里有99个不重复的正整数，范围是1 ~ 100，唯独缺少1个1 ~ 100 中的整数。如何找出这个缺失的整数？</p></blockquote><p>  先算出1 ~ 100 的累加和，然后再依次减去数组里的所有元素，最后的差值就是所缺少的整数。</p><blockquote><p>在一个无序数组里有若干个不重复的正整数，范围是1 ~ 100，其中99个整数都出现了偶数次，只有1个整数出现了奇数次，如何找到这个出现奇数次的整数？</p></blockquote><p> 把数组里的所有元素进行异或运算，最后得到的就是那个缺失的整数</p><blockquote><p>在一个无序数组里有若干个不重复的正整数，范围是1 ~ 100，其中98个整数都出现了偶数次，只有2个整数出现了奇数次，如何找到这2个出现奇数次的整数？</p></blockquote><p>  把数组元素依次进行异或运算，得到的结果是2个出现了奇数次的整数的异或运算结果，在这个结果中至少有1个二进制位是1</p></li></ol><h1 id="算法的实际应用"><a href="#算法的实际应用" class="headerlink" title="算法的实际应用"></a>算法的实际应用</h1><ol><li>关于用户标签的需求：Bitmap算法（位图算法）</li><li>关于用户信息的需求：LRU算法（Least Recently Used）：哈希链表</li><li>关于迷宫寻路的需求：A星寻路算法</li><li>关于红包的需求： 二倍均值法 每次抢到的金额 = 随机区间[0.01，m/n * 2 - 0.01]元</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;算法概述&quot;&gt;&lt;a href=&quot;#算法概述&quot; class=&quot;headerlink&quot; title=&quot;算法概述&quot;&gt;&lt;/a&gt;算法概述&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;什么是算法&lt;br&gt;在计算机领域里,算法是一系列程序指令,用于处理特定的运算和逻辑问题。&lt;br&gt;衡量算法优劣
+      
+    
+    </summary>
+    
+      <category term="Book事务所" scheme="http://yoursite.com/categories/Book%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="book" scheme="http://yoursite.com/tags/book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Share-14</title>
+    <link href="http://yoursite.com/2019/07/19/share-14/"/>
+    <id>http://yoursite.com/2019/07/19/share-14/</id>
+    <published>2019-07-19T05:29:39.234Z</published>
+    <updated>2019-07-26T06:43:17.058Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li>四大会计师事务所指世界上著名的四个会计师事务所：<a href="https://baike.baidu.com/item/普华永道/2676691" target="_blank" rel="noopener">普华永道</a>（<a href="https://baike.baidu.com/item/PwC/3690" target="_blank" rel="noopener">PwC</a>）、<a href="https://baike.baidu.com/item/德勤/3104290" target="_blank" rel="noopener">德勤</a>（<a href="https://baike.baidu.com/item/DTT/9976844" target="_blank" rel="noopener">DTT</a>）、<a href="https://baike.baidu.com/item/毕马威/6780184" target="_blank" rel="noopener">毕马威</a>（<a href="https://baike.baidu.com/item/KPMG" target="_blank" rel="noopener">KPMG</a>）、<a href="https://baike.baidu.com/item/安永/2169" target="_blank" rel="noopener">安永</a>（<a href="https://baike.baidu.com/item/EY/8542822" target="_blank" rel="noopener">EY</a>）。</li></ol><ol start="2"><li><p><a href="http://spaceengine.org/" target="_blank" rel="noopener">宇宙模拟器</a></p><p>SpaceEngine 是 Steam 上面的一个软件，提供 3D 虚拟宇宙的模拟器。用户可以探索行星和星系，并观察你喜欢的任何天体现象。最新版本收费，老版本免费。</p></li></ol><ol start="3"><li><p><a href="https://viewing.nyc/check-out-this-map-of-the-human-body-drawn-in-a-nyc-subway-map-style/" target="_blank" rel="noopener">人体风格的纽约地铁图</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062004.jpg" alt="img"></p><p>纽约一位五官科医生，将纽约地铁图画成人体解剖图的形式。</p></li></ol><ol start="4"><li><p>ECMO </p><p>ECMO是”体外膜氧合”的缩写（台湾译成”叶克膜”），是一套医疗系统，用于心脏或肺部失去功能的危重病人，在体外完成血液的氧合。</p><p>通俗地说，就是将血液引出体外，通过机器将血液里面的废物除去，把氧气加进去，然后再输入体内，充当体外临时的心脏和肺。</p><p>ECMO 不是永久性措施，而是一个过渡措施，为病人争取时间，等待心脏或肺的移植。病人必须住在 ICU（重症护理病房），时刻监控，离开 ICU 就会死。</p></li></ol><ol start="5"><li><p><a href="https://justyy.com/archives/3418" target="_blank" rel="noopener">家庭称谓计算器</a></p><p>中国家庭关系称谓很麻烦，所以这个作者就开发了一个家庭关系称呼查讯工具</p><p><img src="https://justyy.com/wp-content/uploads/2016/08/chinese-family-tree-names.jpg" alt="chinese-family-tree-names 家庭关系称呼查讯 - 家庭称谓计算器 - 女儿的儿子的哥哥的老婆叫啥? I.T. 在线工具 "></p></li></ol><ol start="6"><li><p><a href="https://www.cnblogs.com/xueweihan/p/11137057.html" target="_blank" rel="noopener">喵星人教你 HTTP 状态码</a></p><p><img src="https://i.loli.net/2019/07/26/5d3aa0faa343888300.png" alt="UTOOLS1564123385501.png"></p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><p><a href="http://demo.misterma.com/ocr/" target="_blank" rel="noopener">多功能图像识别</a></p></li><li><p><a href="https://ps.gaoding.com/#/" target="_blank" rel="noopener">一款在线 PS 软件，支持 PSD、Skecth 等格式</a></p></li><li><p><a href="https://www.appinn.com/hat-sh/" target="_blank" rel="noopener">Hat.sh</a> 是一款简单易用的文件加密解密工具，打开浏览器就能用，本地加密解密。</p><p><img src="https://img3.appinn.net/images/201906/photo_2019-06-11_17-32-58.jpg!o" alt="Hat.sh - 开源、免费、快速、安全的文件加密解密工具[Web] 2"></p></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://sspai.com/post/55255" target="_blank" rel="noopener">影视飓风音乐资源大公开</a></li><li><a href="https://sou-yun.cn/index.aspx" target="_blank" rel="noopener">搜韵——诗词门户网站</a></li><li><a href="https://www.cnblogs.com/xueweihan/p/11062960.html" target="_blank" rel="noopener">想做前端开发？推荐几个必备珍品组件库</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://mp.weixin.qq.com/s/AJpWuJt707UQIHom8N557Q" target="_blank" rel="noopener">所见即所触，教AI实现触觉和视觉的信息交互</a></li><li><a href="https://juejin.im/post/5d1b2a656fb9a07edc0b7058" target="_blank" rel="noopener">Kubernetes 儿童插图指南</a> —— 献给所有试图向孩子们解释软件工程的家长</li><li><a href="https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP" target="_blank" rel="noopener">阿里前端委员会主席圆心：前端路上的思考</a></li><li><a href="https://sspai.com/post/55743" target="_blank" rel="noopener">如何租到一套满意的房子？这些是我们的经验</a></li></ol><h1 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h1><ol><li><p>机器学习可以分成三大类：监督学习、无监督学习（unsupervisedlearning）以及强化学习。</p><p>机器学习是人工智能的重要分支，这一领域通常会利用概率论、统计学、计算机科学等知识，从训练数据中识别特征模式、学习规律，以此对未来数据进行分类、预测。强化学习便属于机器学习的范畴。<br>机器学习可以分成三大类：监督学习、无监督学习（unsupervisedlearning）以及强化学习。<br>监督学习，是目前研究及应用最多的学习方式。顾名思义，这种方法是需要通过“监督者”预先填好标签（label）的训练数据进行学习的方式。监督学习的任务，根据目的的不同又可分为回归分析（regression）和分类（classifcation）。简单来说，回归分析任务的输出是连续的，而分类任务的输出则是离散的。各大高校的机器学习课程中，大多采用两个简单的例子来区分这两类任务：“回归分析”的典型代表是房价预测——在这个问题中，输入数据是房子的属性值（如房子的大小、卧室数量、洗手间个数），输出数据则是房价（连续的）；“分类”的代表是癌症诊断，这时输入的数据是肿瘤属性（如大小、位置），输出的数据则是良性或恶性（离散的）。<br>无监督学习，则无须事先为数据贴好标签。这种方式更像是聚类（clustering）的过程，即根据数据的特征，发现实例之间的相似性[10]。前任百度首席科学家、人工智能专家吴恩达（Andrew Ng），曾在斯坦福大学的机器学习课程中用“鸡尾酒会问题”对无监督学习的应用场景作出了解释。“鸡尾酒会问题”的实质，是从音频数据中分离出不同声音源发出的声响。假设在酒会会场中的两个不同位置各放一个麦克风，输入数据就是这些设备采集到的音频数据，这一声音分离任务之所以为“无监督”，是因为我们事先无法给每个声音打上标签。这一方法最成功的案例，可能要算谷歌脑（Google Brain）在无监督的情况下通过观看You Tube视频截图形成“猫”的概念。<br>强化学习也属于机器学习，不过它与其他两种方式有着显著的区别。强化学习需要通过与“环境”的交互，逐步进行学习。然而在与环境交互的学习过程中，很难从整体上去判断过程中的每一步究竟谁对谁错。这就好比在与李世石棋赛的第二盘，Alpha Go第37手肩冲的一招棋，是让棋圣聂卫平也不禁“脱帽致敬”的好棋。然而纵观整场比赛，带领黑棋走向最终胜利的，究竟是这个神来之笔，还是之前的伏笔，抑或是之后看似不经意的某一步，几乎让人无法做出评断。也就是说，在这种情况下，我们这些“监督者”无法真正地对每一步、每一个情形都贴上对或错的标签。强化学习的方式，则是在每次对弈后，根据胜平负的情况给予机器代理（agent）不同程度的奖励，而机器代理要做的就是努力让自己每盘棋累积的奖励最大化。</p></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="https://i.loli.net/2019/07/26/5d3a907b3436f82825.png" alt="UTOOLS1564119163079.png"></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ol><li><p>语言就像种子，会在时光里的流逝里慢慢长大。</p></li><li><p>规模算法：认知半径要尽可能地宽，能力半径要尽可能地明确，行动半径要尽可能地小</p></li><li><p>学校的新使命：创造出更多的尺子，让每一个学生在不断的试错中，都能找到那把量出自己优势的尺子</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;四大会计师事务所指世界上著名的四个会计师事务所：&lt;a href=&quot;https://baike.baidu.com/ite
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>劳动强度和疲劳测定</title>
@@ -71,6 +121,31 @@
   </entry>
   
   <entry>
+    <title>机械设计基础-2</title>
+    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
+    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
+    <published>2019-07-03T13:31:31.927Z</published>
+    <updated>2019-07-03T13:31:47.890Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
+      
+    
+    </summary>
+    
+      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>机械设计基础-3</title>
     <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A13/"/>
     <id>http://yoursite.com/2019/07/03/机械设计3/</id>
@@ -85,31 +160,6 @@
       
         &lt;h2 id=&quot;凸轮机构的压力角&quot;&gt;&lt;a href=&quot;#凸轮机构的压力角&quot; class=&quot;headerlink&quot; title=&quot;凸轮机构的压力角&quot;&gt;&lt;/a&gt;凸轮机构的压力角&lt;/h2&gt;&lt;p&gt;压力角： 凸轮作用在从动件上的正压力与该力作用点B速度方向间所夹的锐角a&lt;/p&gt;
 &lt;p&gt;&lt;i
-      
-    
-    </summary>
-    
-      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机械设计基础-2</title>
-    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
-    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
-    <published>2019-07-03T13:31:31.927Z</published>
-    <updated>2019-07-03T13:31:47.890Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
       
     
     </summary>
@@ -504,70 +554,6 @@
     
     
       <category term="life" scheme="http://yoursite.com/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tourism-preparation</title>
-    <link href="http://yoursite.com/2019/06/16/tourism/"/>
-    <id>http://yoursite.com/2019/06/16/tourism/</id>
-    <published>2019-06-16T07:27:18.087Z</published>
-    <updated>2019-06-16T07:26:23.825Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="制定活动方案"><a href="#制定活动方案" class="headerlink" title="制定活动方案"></a>制定活动方案</h2><ol><li><p>活动目的</p></li><li><p>活动地点</p></li><li><p>活动时间</p></li><li><p>活动参与人员</p></li><li><p>活动流程（时间/活动/备注/预算价格）</p></li><li><p>出行方式</p></li><li><p>物资准备</p><p>eg: 去海边游泳</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-c5fd8ba8572adfaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>经费预估（项目/预算资金/备注）</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-e95232f9b40ef136.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;制定活动方案&quot;&gt;&lt;a href=&quot;#制定活动方案&quot; class=&quot;headerlink&quot; title=&quot;制定活动方案&quot;&gt;&lt;/a&gt;制定活动方案&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;活动目的&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;活动地点&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;活
-      
-    
-    </summary>
-    
-      <category term="Life事务所" scheme="http://yoursite.com/categories/Life%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="life" scheme="http://yoursite.com/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机是怎样跑起来的</title>
-    <link href="http://yoursite.com/2019/06/16/book-3/"/>
-    <id>http://yoursite.com/2019/06/16/book-3/</id>
-    <published>2019-06-16T06:24:46.969Z</published>
-    <updated>2019-06-16T07:13:28.174Z</updated>
-    
-    <content type="html"><![CDATA[<p>计算机三大原则</p><ol><li><p>计算机是执行输入，运算，输出的机器</p></li><li><p>程序是指令和数据的集合</p></li><li><p>计算机的处理方式有时与人们的思维习惯不同</p></li></ol><p>【有关.NET的说明之一】<br>微软公司率先提出了作为新一代互联网平台的.NET技术。作为.NET核心的XML Web服务使用通用技术SOAP、XML，促使企业间的计算机协同工作。</p><p>【有关.NET的说明之二】<br>计算机是执行程序的机器。<strong>程序是指令和数据的集合</strong>。为了使互联网上相互连接的计算机能通过程序协同工作，微软公司采用了SOAP以及XML规范。SOAP是关于调用指令的规范，XML则是定义数据格式的规范。<br>只要定义出了指令和数据的规范，装有符合规范的程序的计算机自然就可以相互协作了。所谓计算机的协同工作指的是，输入到一台计算机中的数据，可以通过互联网传送到与这台计算机相连的其他计算机上执行运算，运算所输出的结果再返回给这台计算机。像这样部署在其他计算机上能执行某种运算的程序就叫作XML Web服务。</p><ul><li>UML: Unified Modeling Language</li><li>建模是在为面向对象编程做设计</li><li>DMBS: Database Management System</li><li>HTML是给人看的，XML是给计算机看的</li><li>数据库系统分为：“独立型系统”，“文件共享型系统”，“客户端/服务器系统”，“Web系统”</li><li>对数据库的操作称为<strong>CRUD</strong>。即：记录的插入（CREATE）、获取（REFER）、更新（UPDATE）、删除（DELETE）</li></ul><ul><li>框架由两部分构成<ul><li>负责安全执行程序的“执行引擎”</li><li>作为程序组件集合的“类库”</li></ul></li></ul><table><thead><tr><th>名称</th><th>数据结构的特征</th></tr></thead><tbody><tr><td>栈</td><td>把数据像小山一样堆积起来</td></tr><tr><td>队列</td><td>把数据排成一队</td></tr><tr><td>链表</td><td>可以任意地改变数据的排列顺序</td></tr><tr><td>二叉树</td><td>把数据分成两路排列</td></tr></tbody></table><p><img src="https://upload-images.jianshu.io/upload_images/7311623-52cc5093e6b53f48.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><hr><p>电阻颜色代码的谐音助记口诀</p><table><thead><tr><th>数字</th><th>颜色</th><th>谐音助记口诀</th></tr></thead><tbody><tr><td>0</td><td>黑</td><td>黑灵（零）芝</td></tr><tr><td>1</td><td>棕</td><td>粽（棕）子叶</td></tr><tr><td>2</td><td>红</td><td>红孩儿（二）</td></tr><tr><td>3</td><td>橙</td><td>三乘（橙）轿</td></tr><tr><td>4</td><td>黄</td><td>黄丝（四）带</td></tr><tr><td>5</td><td>绿</td><td>五缕（绿）烟</td></tr><tr><td>6</td><td>蓝</td><td>蓝琉（六）璃</td></tr><tr><td>7</td><td>紫</td><td>钟子（紫）期（七）</td></tr><tr><td>8</td><td>灰</td><td>灰八哥</td></tr><tr><td>9</td><td>白</td><td>摆（白）酒（九）宴</td></tr></tbody></table><p><img src="https://upload-images.jianshu.io/upload_images/7311623-0a2c543afa8b4eb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><hr><p>每隔1米就任意放1件物品。请找出这些物品中有没有苹果。</p><p>诸位每前进1米就要捡起地上的物品，检查是否拿到了革果，同时还要检查有没有到达悬崖的边缘(不检查的话就有可能掉到海里)也就是说要对这两种检查反复若干次。</p><p>使用了哨兵以后，就要先把起点挪到距悬崖边缘101米的地方，再在悬崖的边缘放置一个苹果，这个苹果就是哨兵。通过放置哨兵，诸位就一定能找到苹果了。每前进1米时只需检查捡到的物品是不是苹果就可以了。发现是苹果以后，只需站在原地再检查一步开外的情况。如果还没有到达悬星边缘，就意味着找到了真正要找的苹果。已经达到了悬崖边缘，则说明现在手中的苹果是哨兵，而没有找到真正要找的苹果。</p><hr><p>一些主要的典型算法是必须要掌握的：辗转相除法（求最大公约数，求最小公倍数就用两者相乘除以最大公约数）、埃拉托斯特尼筛法（求某个数是否是素数，直接直觉的从2除到该数的平方根即可）、查找搜索的顺序、二分、哈希，排序的冒泡、快排；解决同一个问题可能有多种算法，而其中执行速度快的、占用空间少的算法当然更为优秀，要善于利用编程技巧（如哨兵）、数字规律（公式or特殊规律）等来优化算法，减少执行时间；善于使用流程图or伪代码先把算法写出来，想清楚之后再开始编码。</p><hr>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;计算机三大原则&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;计算机是执行输入，运算，输出的机器&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;程序是指令和数据的集合&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;计算机的处理方式有时与人们的思维习惯不同&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;【有关.NET的说
-      
-    
-    </summary>
-    
-      <category term="Book事务所" scheme="http://yoursite.com/categories/Book%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="book" scheme="http://yoursite.com/tags/book/"/>
     
   </entry>
   
