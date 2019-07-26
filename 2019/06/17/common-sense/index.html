@@ -20,6 +20,16 @@
     
   <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
   <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+  <script>
+    (function(){
+        if('COMMON803592sense'){
+            if (prompt('Please enter the article password') !== 'COMMON803592sense'){
+                alert('wrong password');
+                history.back();
+            }
+        }
+    })();
+  </script>
 
 
 
@@ -96,7 +106,7 @@
 <meta property="og:site_name" content="苏牧云">
 <meta property="og:description" content="1千克=1公斤=1000克=2斤（市斤） 1市斤=500克=10两 1两=10钱=50克 1钱=5克 1吨=1000千克 1公分=1厘米   1公尺=1米  牙黄找有机硅，蛀牙找氟，牙垢找柠檬酸锌或焦磷酸盐，牙齿敏感找氯化锶或硝酸钾，牙齿美白找微酸。  麻将 nXAAA＋m×ABC＋DD就胡了 n个AAm个ABC，n＝0时，全吃胡；m=0时，碰碰胡；n＝m＝0时，7对DD，对对胡；n≠m≠0时，有">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-09T11:53:20.673Z">
+<meta property="og:updated_time" content="2019-07-26T07:34:16.933Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="common-sense">
 <meta name="twitter:description" content="1千克=1公斤=1000克=2斤（市斤） 1市斤=500克=10两 1两=10钱=50克 1钱=5克 1吨=1000千克 1公分=1厘米   1公尺=1米  牙黄找有机硅，蛀牙找氟，牙垢找柠檬酸锌或焦磷酸盐，牙齿敏感找氯化锶或硝酸钾，牙齿美白找微酸。  麻将 nXAAA＋m×ABC＋DD就胡了 n个AAm个ABC，n＝0时，全吃胡；m=0时，碰碰胡；n＝m＝0时，7对DD，对对胡；n≠m≠0时，有">
@@ -382,6 +392,18 @@
           
 
           
+          
+             <span id="/2019/06/17/common-sense/" class="leancloud_visitors" data-flag-title="common-sense">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">heat&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                 <span>℃</span>
+             </span>
           
 
           
@@ -1239,6 +1261,113 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz", "DwxlXcfejptXAgMhBJGvYr2P");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
