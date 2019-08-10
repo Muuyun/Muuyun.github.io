@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-06T06:14:44.812Z</updated>
+  <updated>2019-08-10T06:11:14.516Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Share-15</title>
+    <link href="http://yoursite.com/2019/08/10/share-15/"/>
+    <id>http://yoursite.com/2019/08/10/share-15/</id>
+    <published>2019-08-10T06:06:05.563Z</published>
+    <updated>2019-08-10T06:11:14.516Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p><a href="https://arstechnica.com/science/2019/06/creative-thinking-researchers-propose-solar-methanol-island-using-ocean-co₂/" target="_blank" rel="noopener">太阳能甲醇岛</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019060902.jpg" alt="img"></p><p>瑞士科学家提出一个设想，海洋上铺设直径100米的太阳能浮岛，利用太阳能发电。电力输送到旁边的轮船。轮船使用这些电力，从海水中提取氢气，与二氧化碳合成甲醇，然后定期将甲醇送回陆地，作为燃料。</p><p>相比汽油，甲醇的安全性更好，更有利于环境保护。根据计算，只要有17万个这样的太阳能浮岛，就能弥补这个系统的成本。</p></li><li><p><a href="https://www.engadget.com/2019/06/30/abu-dhabi-solar-power-farm-sets-record/" target="_blank" rel="noopener">世界最大的太阳能电厂</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019070202.jpg" alt="img"></p><p>阿联酋在沙漠之中，建设了一个世界最大的太阳能电厂，一共安装了320万块太阳能板，可以为9万人供电。峰值发电量是1180兆瓦，相比之下，美国最大的太阳能厂是569兆瓦。</p></li><li><p><a href="https://io-oi.me/tech/first-exploration-of-the-zeronet.html" target="_blank" rel="noopener">零网（ZeroNet）初探</a></p><p>ZeroNet 是一个去中心化的类似于 Internet 的网络，由匈牙利的开发者使用 Python 制作，完全开源。ZeroNet 是一个利用比特币加密和 BT 技术提供不受审查的网络与通信的 BT 平台，ZeroNet 网络功能已经得到完整的种子的支持和加密连接，保证用户通信和文件共享的安全。使用 ZeroNet，你可以匿名上网，你可以在自己电脑搭建网站，但即使你关机，你的网站依然在全球存在，别人无法关闭你的网站。</p></li><li><p><a href="https://tech.fb.com/ai-is-supercharging-the-creation-of-maps-around-the-world/" target="_blank" rel="noopener">AI 绘制地图</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019072403.jpg" alt="img"></p><p>人工绘制地图，通常很慢，标识道路、高速公路、桥梁等，需要大量的投入。Facebook 开发了一个人工智能系统，可以从卫星照片自动生成地图。上图中，白色线条是现有道路，粉红色线条是人工智能识别出来的道路。</p></li></ol><ol start="5"><li><p><a href="https://twitter.com/hackermaderas/status/1132774476389801989" target="_blank" rel="noopener">炸弹无人机</a>的实物被贴到了推特，可以编程指定飞行轨迹，具有12分钟飞行时间，或20分钟滞空时间。难以想象，这种武器普及的后果。</p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019072505.jpg" alt="img"></p></li></ol><ol start="6"><li><p><a href="https://earther.gizmodo.com/satellite-images-show-vast-swaths-of-the-arctic-on-fire-1836500468" target="_blank" rel="noopener">北极大火</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019072102.jpg" alt="img"></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019072103.jpg" alt="img"></p><p>根据卫星照片，北极圈内多个地点，从阿拉斯加、西伯利亚到格陵兰，目前都是烟雾缭绕，表明那些地方都正在发生森林大火。</p><p>今年6月，北极圈的气温是有史以来最高的，很多地方超过30度，异常闷热，干燥高温导致了这些森林火灾。更糟糕的是，火灾会释放大量二氧化碳，进而引起气温进一步升高，而更高的气温又引发了更多的火灾。那些地点都是人迹罕至，不太可能去扑救，只能听任大火燃烧。</p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><p><a href="https://wechalet.cn/" target="_blank" rel="noopener">小木屋是一款优秀的网站导航。收录国外和国内各类实用网站,提供简单便捷的网上导航服务。</a></p></li><li><p><a href="https://www.toolfk.com/" target="_blank" rel="noopener">Toolfx.com</a></p><p>该网站收集专供程序员使用的一些在线工具。</p></li><li><p><a href="http://music.shadow-forum.com/" target="_blank" rel="noopener">shadowPlayer</a></p><p>高清无损音乐免费下载</p></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><p><a href="http://www.ruanyifeng.com/blog/2019/06/http-referer.html" target="_blank" rel="noopener">HTTP Referer 教程</a></p></li><li><p><a href="https://www.cnblogs.com/xueweihan/p/11116561.html" target="_blank" rel="noopener">确认过眼神，看清 HTTP 协议</a></p></li><li><p><a href="https://moeclue.com/archiver/2019/share/a-simple-guide-to-the-2019-college-freshman-notebook-purchase.html" target="_blank" rel="noopener">2019年度大学新生笔记本选购简单指南</a></p></li></ol><h1 id="Health"><a href="#Health" class="headerlink" title="Health"></a>Health</h1><ol><li>隔夜的凉白开水可以喝</li><li>耳朵进水之后不把水清干，细菌，真菌容易在温暖湿润的耳朵里繁殖，导致炎症</li><li>红药水中含有汞，有引起汞中毒的风险，所有皮肤擦伤，不要涂红药水，用碘附（碘伏）消毒就好</li></ol><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ol><li>你现在的气质里，藏着你走过的路，读过的书，爱过的人。 ——电影《卡萨布兰卡》</li><li>世界上显示力量的方式其实有三种：庞大，胜利，精确</li><li>一个好职业的特点：反馈及时，终身学习，受人尊重</li></ol><h1 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h1><p>“互联网+”的核心新技术：移动互联网，云计算，大数据，物联网</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-44cfb495b05f34a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="https://upload-images.jianshu.io/upload_images/7311623-4feff4d0d0f65f43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://arstechnica.com/science/2019/06/creative
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Lean salon</title>
@@ -518,39 +542,6 @@
     
     
       <category term="life" scheme="http://yoursite.com/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三体</title>
-    <link href="http://yoursite.com/2019/06/16/book-4/"/>
-    <id>http://yoursite.com/2019/06/16/book-4/</id>
-    <published>2019-06-16T07:53:45.862Z</published>
-    <updated>2019-06-16T08:20:04.345Z</updated>
-    
-    <content type="html"><![CDATA[<p>科学界四大天王:  王晋康，刘慈欣，何宏伟，韩松</p><ul><li>在她那透明的心中，每一束阳光都能被晶莹地透过和折射</li></ul><ul><li>他感到这笑容仿佛是从画中的奥林匹斯山投向尘世的一束光芒</li></ul><ul><li>过去就像攥在手中的一把干沙，自以为攥得很紧，其实早就从指缝中流光了</li></ul><ul><li>一副空旷天空的照片所包含的信息量比画面庞杂精细的清明上河图大一至两个数量级</li></ul><ul><li>宇宙就是一座黑暗森林，每个文明都是带枪的猎人，像幽灵般潜行于林间，轻轻拨开挡路的树枝，竭力不让脚步发出一点儿声音，连呼吸都必须小心翼翼：他必须小心，因为林中到处都有与他一样潜行的猎人，如果他发现了别的生命，能做的只有一件事：开枪消灭之。在这片森林中，他人就是地狱，就是永恒的威胁，任何暴露自己存在的生命都将很快被消灭，这就是宇宙文明的图景，这就是对费米悖论的解释。</li></ul><ul><li>最简单的一种:拉单子，就是把与案子有关的问题列一个单子，单子上的问题越多越好，八竿子刚打着的全列上去，把关键要问的混在其中，然后一条一条地问，记下审讯对象的回答，然后再从头问一遍，也记下回答，必要时可以问很多遍，最后对照这几次的记录，如果对象说假话，那相应的问题每次的回答是有出入的。</li></ul><ul><li>这一招叫黑白脸。这种审讯需要多人配合，稍复杂一些。首先是黑脸出来，一般是两人以上，他们对你很凶，可能动文的也可能动<br>武的，反正很凶。这也是有策略的，不仅仅是让你产生恐惧，更重要的是激发你的孤独感，让你感觉全世界除了想吃你的狼就再没别的了。这时白脸出来了，肯定只有一个人，而且肯定长得慈眉善目，他制止了黑脸们，说你也是一个人，有人的权利，你们怎么能这样对待他?黑脸们说你走开，不要影响工作。白脸坚持，说你们真的不能这样做!黑脸们说早就知道你干不了这个，干不了走人啊!白脸用身体护住你说:我要保护他的权利，保护法律的公正!黑脸儿们说你等着，明天你就滚蛋了!然后气哼哼地走了。就剩你们俩时，白脸会替你擦擦汗呀血呀的，说别怕，有我在，他们不敢把你怎么样，不管我落到什么下场，定会维护你的权利!你不想说就别说了，你有权沉默!接下来的事儿你就能想得出了，他这时成了你在这个世界上唯一的最亲的人，在他进一步的利透下，你是不会沉默的…这一招对付知识分子最管用，但与前面拉单子不同，你一且知道了，它就失效了。</li></ul><ul><li>注意一点:如果你的城府真够深，那就不能显示出任何城府来，和电影上看到的不同，真正老谋深算的人不是每天阴着脸装那副鸟样儿，他们压根儿就不显出用脑子的样儿来，看上去都挺随和挺单纯的，有人显得俗里俗气婆婆妈妈，有人则大大咧咧没个正经……关键的关键是让别人别把你当回事，让他们看不起你轻视你，觉得你碍不了事，像墙角的扫把一样可有可无，最高的境界是让他们根本注意不到你，就当你不存在，直到他们死在你手里前的一刹那才回过味来。”</li></ul><ul><li>考题:如何用大理石做一张床，使人躺上去感觉像席梦思一样柔软?<br>答案是把大理石表面挖出一个与人的身体背部一模一样形状的坑，躺到坑里，压强均匀分布，感觉就十分柔软了。</li></ul><ul><li><p>此即关于外星文明的费米悖论: 从理论上讲，人类能用100万年时间飞往银河系的各个星球，那么，外星人只要比人类早进化100万年，现在就应该来到地球了。这个悖论之所以具有说服力，是因为它是基于银河系的两个事实: 一、银河系非常古老，己有约100亿年的年龄;二、银河系的直径只有大约10万光年。所以，即使外星人只以光速的千分之一在太空旅行，他们也只需1亿年左右时间就可横穿银河系一一这个时间远远短于银河系的年龄。如果真存在外星人的话，按这个道理他们早该到达太阳系了。</p></li><li><p>自由女神像基座上的埃玛・拉扎勒斯的诗原文为:把你们疲惫的人，你们贫穷的人/你们渴望呼吸自由空气的挤在一堆的人都给我/把那些无家可归、饱经风浪的人都送来/在这金色的大门旁，我要为他们把灯举起。</p></li><li><p>“射手”假说:有一名神枪手，在一个靶子上每隔十厘米打一个洞。<br>设想这个靶子的平面上生活着一种二维智能生物，它们中的科学家在对自己的宇宙进行观察后，发现了一个伟大的定律:“宇宙每隔十厘米，必然会有一个洞。”它们把这个神枪手一时兴起的随意行为，看成了自己宇宙中的铁律。<br>“农场主假说”则有一层令人不安的恐怖色彩:一个农场里有一群<br>火鸡，农场主每天中午十一点来给它们喂食。火鸡中的一名科学家观察这个现象，一直观察了近一年都没有例外，于是它也发现了自己字宙中的伟大定律:“每天上午十ー点，就有食物降临。”它在感恩节早晨向火鸡们公布了这个定律，但这天上年十一点食物没有降临，农场主进来把它们都捉去杀了。</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;科学界四大天王:  王晋康，刘慈欣，何宏伟，韩松&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在她那透明的心中，每一束阳光都能被晶莹地透过和折射&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;他感到这笑容仿佛是从画中的奥林匹斯山投向尘世的一束光芒&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;过去就像攥
-      
-    
-    </summary>
-    
-      <category term="Book事务所" scheme="http://yoursite.com/categories/Book%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="book" scheme="http://yoursite.com/tags/book/"/>
     
   </entry>
   
