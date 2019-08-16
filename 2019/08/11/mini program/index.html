@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+  <script>
+    (function(){
+        if(''){
+            if (prompt('Please enter the article password') !== ''){
+                alert('wrong password');
+                history.back();
+            }
+        }
+    })();
+  </script>
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="wechat applet,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="苏牧云" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="微信小程序的视图与渲染 组件的基本使用 数据绑定  渲染标签: 判断标签，循环标签 模板的使用：include，import  微信小程序的事件——课程概要 什么是事件 一种用户行为，一种通讯方式  事件类别  点击事件tap 长按事件 longtan 触摸事件 touchstart touchend touchmove touchcancel 其他 submit input…   事件冒泡  冒">
+<meta name="keywords" content="wechat applet">
+<meta property="og:type" content="article">
+<meta property="og:title" content="wechat applet">
+<meta property="og:url" content="http://yoursite.com/2019/08/11/mini program/index.html">
+<meta property="og:site_name" content="苏牧云">
+<meta property="og:description" content="微信小程序的视图与渲染 组件的基本使用 数据绑定  渲染标签: 判断标签，循环标签 模板的使用：include，import  微信小程序的事件——课程概要 什么是事件 一种用户行为，一种通讯方式  事件类别  点击事件tap 长按事件 longtan 触摸事件 touchstart touchend touchmove touchcancel 其他 submit input…   事件冒泡  冒">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7311623-67679fb28bad9029.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7311623-55fab100410167ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-08-16T07:37:20.677Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="wechat applet">
+<meta name="twitter:description" content="微信小程序的视图与渲染 组件的基本使用 数据绑定  渲染标签: 判断标签，循环标签 模板的使用：include，import  微信小程序的事件——课程概要 什么是事件 一种用户行为，一种通讯方式  事件类别  点击事件tap 长按事件 longtan 触摸事件 touchstart touchend touchmove touchcancel 其他 submit input…   事件冒泡  冒">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/7311623-67679fb28bad9029.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/08/11/mini program/">
+
+
+
+
+
+  <title>wechat applet | 苏牧云</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">苏牧云</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/11/mini program/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="苏牧云">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="苏牧云">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">wechat applet</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-08-11T23:26:53+08:00">
+                2019-08-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/dev事务所/" itemprop="url" rel="index">
+                    <span itemprop="name">dev事务所</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/08/11/mini program/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/08/11/mini program/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/08/11/mini program/" class="leancloud_visitors" data-flag-title="wechat applet">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">heat&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                 <span>℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="微信小程序的视图与渲染"><a href="#微信小程序的视图与渲染" class="headerlink" title="微信小程序的视图与渲染"></a>微信小程序的视图与渲染</h1><ol>
+<li>组件的基本使用</li>
+<li>数据绑定 </li>
+<li>渲染标签: 判断标签，循环标签</li>
+<li>模板的使用：include，import</li>
+</ol>
+<h1 id="微信小程序的事件——课程概要"><a href="#微信小程序的事件——课程概要" class="headerlink" title="微信小程序的事件——课程概要"></a>微信小程序的事件——课程概要</h1><ol>
+<li><p>什么是事件</p>
+<p>一种用户行为，一种通讯方式</p>
+</li>
+<li><p>事件类别</p>
+<ul>
+<li>点击事件tap</li>
+<li>长按事件 longtan</li>
+<li>触摸事件 touchstart touchend touchmove touchcancel</li>
+<li>其他 submit input…</li>
+</ul>
+</li>
+<li><p>事件冒泡</p>
+<ul>
+<li>冒泡事件</li>
+<li>非冒泡事件</li>
+</ul>
+</li>
+<li><p>事件绑定</p>
+<ul>
+<li>bind</li>
+<li>catch : 不会触发父view</li>
+</ul>
+</li>
+<li><p>事件对象详解</p>
+<ul>
+<li>类型type</li>
+<li>时间戳 timeStamp</li>
+<li>事件源组件 target</li>
+<li>当前组件 currentTarget</li>
+<li>触摸点数 touches</li>
+</ul>
+</li>
+</ol>
+<h1 id="综合案例一快递查询"><a href="#综合案例一快递查询" class="headerlink" title="综合案例一快递查询"></a>综合案例一快递查询</h1><ol>
+<li>产品需求</li>
+<li>准备</li>
+<li>编码实战</li>
+</ol>
+<h1 id="微信小程序的配置详解"><a href="#微信小程序的配置详解" class="headerlink" title="微信小程序的配置详解"></a>微信小程序的配置详解</h1><ol>
+<li>app的页面配置</li>
+<li>app的窗口配置</li>
+<li>app的 tabBar配置</li>
+<li>网络超时配置及 debug开启配置</li>
+<li>页面配置</li>
+</ol>
+<h1 id="微信小程序的生命周期与app对象的使用"><a href="#微信小程序的生命周期与app对象的使用" class="headerlink" title="微信小程序的生命周期与app对象的使用"></a>微信小程序的生命周期与app对象的使用</h1><ol>
+<li>APP的生命周期</li>
+<li>APP对象的使用</li>
+</ol>
+<h1 id="微信小程序页面的生命周期和参数传递"><a href="#微信小程序页面的生命周期和参数传递" class="headerlink" title="微信小程序页面的生命周期和参数传递"></a>微信小程序页面的生命周期和参数传递</h1><ol>
+<li>页面的生命周期</li>
+<li>页面跳转的数据传递 wx: navigateTo / wx: redirectTo</li>
+</ol>
+<h1 id="综合案例——用户登录"><a href="#综合案例——用户登录" class="headerlink" title="综合案例——用户登录"></a>综合案例——用户登录</h1><ol>
+<li>项目需求</li>
+<li>编码实战</li>
+</ol>
+<h1 id="微信小程序的UI精讲"><a href="#微信小程序的UI精讲" class="headerlink" title="微信小程序的UI精讲"></a>微信小程序的UI精讲</h1><ol>
+<li>布局和样式基础</li>
+<li>组件使用</li>
+<li>项目实战</li>
+</ol>
+<h1 id="微信小程序UI精讲之布局基础"><a href="#微信小程序UI精讲之布局基础" class="headerlink" title="微信小程序UI精讲之布局基础"></a>微信小程序UI精讲之布局基础</h1><ol>
+<li><p>flex布局基础</p>
+<ul>
+<li>flex的容器和元素</li>
+<li>flex容器属性详解<ul>
+<li>flex- direction决定元素的排列方向</li>
+<li>flex-wrap决定元素如何换行(排列不下时)</li>
+<li>flex-flow flex- direction和fex-wrap的简写</li>
+<li>justify- content元素在主轴上的对齐方式</li>
+<li>align-items元素在交叉轴的对齐方式</li>
+</ul>
+</li>
+<li>flex元素属性详解<ul>
+<li>flex-grow当有多余空间时,元素的放大比例</li>
+<li>flex-shrink当空间不足时,元素的缩小比例</li>
+<li>flex- basis元素在主轴上占据的空间</li>
+<li>flex是grow、 shrink、 basis的简写</li>
+<li>order定义元素的排列顺序</li>
+<li>align-self定义元素自身的对齐方式</li>
+</ul>
+</li>
+<li>flex布局实战</li>
+</ul>
+</li>
+<li><p>相对定位和绝对定位</p>
+<ol>
+<li><p>理解相对定位和绝对定位</p>
+</li>
+<li><p>相对定位、绝对定位的编码实战</p>
+</li>
+</ol>
+</li>
+</ol>
+<p>相对定位的元素是相对<strong>自身</strong>进行定位,参照物是<strong>自己</strong>。<br>绝对定位的元素是相对<strong>离它最近的一个已定位的父级元素</strong>进行定位。</p>
+<h1 id="微信小程序UI精讲之组件的使用"><a href="#微信小程序UI精讲之组件的使用" class="headerlink" title="微信小程序UI精讲之组件的使用"></a>微信小程序UI精讲之组件的使用</h1><ol>
+<li>组件的使用</li>
+<li>组件的配置</li>
+</ol>
+<h1 id="微信小程序精讲之视图容器组件"><a href="#微信小程序精讲之视图容器组件" class="headerlink" title="微信小程序精讲之视图容器组件"></a>微信小程序精讲之视图容器组件</h1><ul>
+<li>view</li>
+<li>scroll-view</li>
+<li>swiper</li>
+</ul>
+<h1 id="微信小程序UI精讲之基础内容组件"><a href="#微信小程序UI精讲之基础内容组件" class="headerlink" title="微信小程序UI精讲之基础内容组件"></a>微信小程序UI精讲之基础内容组件</h1><ul>
+<li>Icon</li>
+<li>text</li>
+<li>progress</li>
+</ul>
+<h1 id="微信小程序UI精讲之表单组件"><a href="#微信小程序UI精讲之表单组件" class="headerlink" title="微信小程序UI精讲之表单组件"></a>微信小程序UI精讲之表单组件</h1><ul>
+<li>button          按钮</li>
+<li>checkbox    多选框</li>
+<li>Input             输入框</li>
+<li>label              标签</li>
+<li>picker           选择器</li>
+<li>radio             单选框</li>
+<li>slide              滑块</li>
+<li>switch          开关</li>
+<li>form             表单</li>
+</ul>
+<h1 id="微信小程序UI精讲之操作反馈小工具"><a href="#微信小程序UI精讲之操作反馈小工具" class="headerlink" title="微信小程序UI精讲之操作反馈小工具"></a>微信小程序UI精讲之操作反馈小工具</h1><ul>
+<li>action-sheet</li>
+<li>modal</li>
+<li>toast</li>
+<li>loading</li>
+</ul>
+<h1 id="微信小程序UI精讲之导航"><a href="#微信小程序UI精讲之导航" class="headerlink" title="微信小程序UI精讲之导航"></a>微信小程序UI精讲之导航</h1><ul>
+<li>navigator</li>
+</ul>
+<h1 id="微信小程序UI精讲之多媒体"><a href="#微信小程序UI精讲之多媒体" class="headerlink" title="微信小程序UI精讲之多媒体"></a>微信小程序UI精讲之多媒体</h1><ul>
+<li>image</li>
+<li>audio</li>
+<li>video</li>
+</ul>
+<h1 id="微信小程序UI精讲之地图与LBS"><a href="#微信小程序UI精讲之地图与LBS" class="headerlink" title="微信小程序UI精讲之地图与LBS"></a>微信小程序UI精讲之地图与LBS</h1><ul>
+<li>地图map的基本使用</li>
+<li>地图标记</li>
+<li>地图覆盖物</li>
+</ul>
+<h1 id="微信小程序UI精讲之画布与游戏"><a href="#微信小程序UI精讲之画布与游戏" class="headerlink" title="微信小程序UI精讲之画布与游戏"></a>微信小程序UI精讲之画布与游戏</h1><ul>
+<li>canvas的使用</li>
+<li>绘图API的使用</li>
+</ul>
+<h1 id="综合案例-评测小程序首页的实现"><a href="#综合案例-评测小程序首页的实现" class="headerlink" title="综合案例-评测小程序首页的实现"></a>综合案例-评测小程序首页的实现</h1><ul>
+<li>项目需求</li>
+<li>编码实战</li>
+</ul>
+<h1 id="微信小程序API之请求服务器数据"><a href="#微信小程序API之请求服务器数据" class="headerlink" title="微信小程序API之请求服务器数据"></a>微信小程序API之请求服务器数据</h1><ul>
+<li>wx.request的使用</li>
+<li>了解http协议</li>
+</ul>
+<h1 id="微信小程序API之图片选择与调用微信拍照"><a href="#微信小程序API之图片选择与调用微信拍照" class="headerlink" title="微信小程序API之图片选择与调用微信拍照"></a>微信小程序API之图片选择与调用微信拍照</h1><ul>
+<li>wx. chooselmage选择图片</li>
+<li>照相机拍照</li>
+</ul>
+<h1 id="微信小程序API之文件上传与下载"><a href="#微信小程序API之文件上传与下载" class="headerlink" title="微信小程序API之文件上传与下载"></a>微信小程序API之文件上传与下载</h1><ul>
+<li>文件上传</li>
+<li>文件下载</li>
+</ul>
+<h1 id="微信小程序API之-WebSocket精讲"><a href="#微信小程序API之-WebSocket精讲" class="headerlink" title="微信小程序API之 WebSocket精讲"></a>微信小程序API之 WebSocket精讲</h1><ul>
+<li>什么是 WebSocket</li>
+<li>使用 WebSocket</li>
+<li>监听 WebSocket</li>
+</ul>
+<h1 id="微信小程序API之音乐的播放和控制"><a href="#微信小程序API之音乐的播放和控制" class="headerlink" title="微信小程序API之音乐的播放和控制"></a>微信小程序API之音乐的播放和控制</h1><ul>
+<li>音乐的播放</li>
+<li>音乐的控制</li>
+</ul>
+<h1 id="微信小程序API之缓存数据"><a href="#微信小程序API之缓存数据" class="headerlink" title="微信小程序API之缓存数据"></a>微信小程序API之缓存数据</h1><ul>
+<li>保存数据</li>
+<li>读取数据</li>
+<li>删除数据</li>
+<li>数据异步操作</li>
+</ul>
+<h1 id="微信小程序API之获取当前位置"><a href="#微信小程序API之获取当前位置" class="headerlink" title="微信小程序API之获取当前位置"></a>微信小程序API之获取当前位置</h1><ul>
+<li>获取位置</li>
+<li>查看位置</li>
+</ul>
+<h1 id="微信小程序API之设备信息"><a href="#微信小程序API之设备信息" class="headerlink" title="微信小程序API之设备信息"></a>微信小程序API之设备信息</h1><ul>
+<li>网络状态</li>
+<li>获取系统信息</li>
+<li>获取重力感应</li>
+<li>罗盘</li>
+<li>拔打电话</li>
+</ul>
+<h1 id="微信小程序API之交互反馈"><a href="#微信小程序API之交互反馈" class="headerlink" title="微信小程序API之交互反馈"></a>微信小程序API之交互反馈</h1><ul>
+<li>showToast</li>
+<li>showModal</li>
+<li>showActionSheet</li>
+</ul>
+<h1 id="微信小程序API之导航和导航条"><a href="#微信小程序API之导航和导航条" class="headerlink" title="微信小程序API之导航和导航条"></a>微信小程序API之导航和导航条</h1><ul>
+<li>导航条标题设置</li>
+<li>导航条加载动画设置</li>
+<li>导航</li>
+</ul>
+<h1 id="微信小程序API之动画"><a href="#微信小程序API之动画" class="headerlink" title="微信小程序API之动画"></a>微信小程序API之动画</h1><ul>
+<li>动画的基本使用</li>
+<li>旋转动画</li>
+<li>缩放动画</li>
+<li>偏移动画</li>
+<li>倾斜动画</li>
+<li>矩阵变形</li>
+</ul>
+<h1 id="微信小程序API之绘图"><a href="#微信小程序API之绘图" class="headerlink" title="微信小程序API之绘图"></a>微信小程序API之绘图</h1><ul>
+<li>cavans及context详解</li>
+<li>绘图API的使用</li>
+<li>游戏的制作</li>
+</ul>
+<h1 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h1><p>课程安排</p>
+<ol>
+<li><p>产品设计-进行产品分析(xmind)和原型设计(墨刀)</p>
+</li>
+<li><p>框架搭建-微信小程序MINA框架讲解和配置</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/7311623-67679fb28bad9029.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/7311623-55fab100410167ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+</li>
+</ol>
+<h1 id="产品层级、组件模块化设计"><a href="#产品层级、组件模块化设计" class="headerlink" title="产品层级、组件模块化设计"></a>产品层级、组件模块化设计</h1><ul>
+<li>为什么要对小程序进行组件模块化设计?<br>微信小程序有代码大小限制<br>提高代码的复用率</li>
+<li>如何进行组件模块化设计?<br>通过WXML的import和 include来使用文件模板<br>使用WXSS的@import来引用WXSS文件<br>使用JS的 require来引用JS文件</li>
+</ul>
+<hr>
+<ol>
+<li><code>.json</code> 后缀的 <code>JSON</code> 配置文件</li>
+<li><code>.wxml</code> 后缀的 <code>WXML</code> 模板文件</li>
+<li><code>.wxss</code> 后缀的 <code>WXSS</code> 样式文件</li>
+<li><code>.js</code> 后缀的 <code>JS</code> 脚本逻辑文件</li>
+<li><code>pages</code>字段 —— 用于描述当前小程序所有页面路径，这是为了让微信客户端知道当前你的小程序页面定义在哪个目录。</li>
+<li><code>window</code>字段 —— 定义小程序所有页面的顶部背景颜色，文字颜色定义等。</li>
+</ol>
+<ul>
+<li><p>从事过网页编程的人知道，网页编程采用的是 HTML + CSS + JS 这样的组合，其中 <code>HTML</code> 是用来描述当前这个页面的结构，<code>CSS</code> 用来描述页面的样子，<code>JS</code> 通常是用来处理这个页面和用户的交互。</p>
+<p>同样道理，在小程序中也有同样的角色，其中 <code>WXML</code> 充当的就是类似 <code>HTML</code> 的角色。<br><code>WXSS</code> 具有 <code>CSS</code> 大部分的特性，小程序在 <code>WXSS</code> 也做了一些扩充和修改。</p>
+</li>
+</ul>
+<ul>
+<li><p>1rpx = 0.5px = 1物理像素。</p>
+<p>小程序编译后，rpx会做一次px换算。换算是以375个物理像素为基准，也就是在一个宽度为375物理像素的屏幕下，1rpx = 1px。</p>
+<p>举个例子：iPhone6屏幕宽度为375px，共750个物理像素，那么1rpx = 375 / 750 px = 0.5px。</p>
+</li>
+</ul>
+<ul>
+<li>还需要注意的是 JSON 文件中无法使用注释，试图添加注释将会引发报错。</li>
+</ul>
+<ul>
+<li>“比如我在面试的时候问到一个关于小程序的问题，问小程序有window对象吗？他说有吧”，但其实是没有的。</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+      
+        
+      
+    </div>
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>能给我充充电吗？</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="苏牧云 WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    苏牧云
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://yoursite.com/2019/08/11/mini program/" title="wechat applet">http://yoursite.com/2019/08/11/mini program/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/wechat-applet/" rel="tag"><i class="fa fa-tag"></i> wechat applet</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/10/share-15/" rel="next" title="Share-15">
+                <i class="fa fa-chevron-left"></i> Share-15
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/12/增强现实技术/" rel="prev" title="增强现实技术——在文化创意产业中的应用">
+                增强现实技术——在文化创意产业中的应用 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="苏牧云">
+            
+              <p class="site-author-name" itemprop="name">苏牧云</p>
+              <p class="site-description motion-element" itemprop="description">My mind is in the silent cloud.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">81</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">18</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Muuyun" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://zzkdev.github.io/" title="zzkdev" target="_blank">zzkdev</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序的视图与渲染"><span class="nav-text">微信小程序的视图与渲染</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序的事件——课程概要"><span class="nav-text">微信小程序的事件——课程概要</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#综合案例一快递查询"><span class="nav-text">综合案例一快递查询</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序的配置详解"><span class="nav-text">微信小程序的配置详解</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序的生命周期与app对象的使用"><span class="nav-text">微信小程序的生命周期与app对象的使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序页面的生命周期和参数传递"><span class="nav-text">微信小程序页面的生命周期和参数传递</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#综合案例——用户登录"><span class="nav-text">综合案例——用户登录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序的UI精讲"><span class="nav-text">微信小程序的UI精讲</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之布局基础"><span class="nav-text">微信小程序UI精讲之布局基础</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之组件的使用"><span class="nav-text">微信小程序UI精讲之组件的使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序精讲之视图容器组件"><span class="nav-text">微信小程序精讲之视图容器组件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之基础内容组件"><span class="nav-text">微信小程序UI精讲之基础内容组件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之表单组件"><span class="nav-text">微信小程序UI精讲之表单组件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之操作反馈小工具"><span class="nav-text">微信小程序UI精讲之操作反馈小工具</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之导航"><span class="nav-text">微信小程序UI精讲之导航</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之多媒体"><span class="nav-text">微信小程序UI精讲之多媒体</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之地图与LBS"><span class="nav-text">微信小程序UI精讲之地图与LBS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序UI精讲之画布与游戏"><span class="nav-text">微信小程序UI精讲之画布与游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#综合案例-评测小程序首页的实现"><span class="nav-text">综合案例-评测小程序首页的实现</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之请求服务器数据"><span class="nav-text">微信小程序API之请求服务器数据</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之图片选择与调用微信拍照"><span class="nav-text">微信小程序API之图片选择与调用微信拍照</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之文件上传与下载"><span class="nav-text">微信小程序API之文件上传与下载</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之-WebSocket精讲"><span class="nav-text">微信小程序API之 WebSocket精讲</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之音乐的播放和控制"><span class="nav-text">微信小程序API之音乐的播放和控制</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之缓存数据"><span class="nav-text">微信小程序API之缓存数据</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之获取当前位置"><span class="nav-text">微信小程序API之获取当前位置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之设备信息"><span class="nav-text">微信小程序API之设备信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之交互反馈"><span class="nav-text">微信小程序API之交互反馈</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之导航和导航条"><span class="nav-text">微信小程序API之导航和导航条</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之动画"><span class="nav-text">微信小程序API之动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序API之绘图"><span class="nav-text">微信小程序API之绘图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#课程介绍"><span class="nav-text">课程介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#产品层级、组件模块化设计"><span class="nav-text">产品层级、组件模块化设计</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">苏牧云</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz',
+        appKey: 'DwxlXcfejptXAgMhBJGvYr2P',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("oAARzFm3nLdUK2TtIGn2hcbF-gzGzoHsz", "DwxlXcfejptXAgMhBJGvYr2P");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+</html>

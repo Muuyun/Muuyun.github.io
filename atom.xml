@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-10T06:11:14.516Z</updated>
+  <updated>2019-08-16T07:41:13.518Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Share-16</title>
+    <link href="http://yoursite.com/2019/08/16/share-16/"/>
+    <id>http://yoursite.com/2019/08/16/share-16/</id>
+    <published>2019-08-16T07:00:40.617Z</published>
+    <updated>2019-08-16T07:41:13.518Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><p>华为开发者大会</p><p>2019.08.09日华为开发者大会在东莞松山湖召开，会上，华为正式发布其自主研发的全新的基于微内核的面向全场景的分布式操作系统—鸿蒙OS，其具有四大技术特性:</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-c2a2ff81e30f43bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-c1cacb563fa3624a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p></li></ol><ul><li>分布式架构首次用于终端OS，实现跨终端无缝协同体验</li><li>确定时延引擎和高性能IPC技术实现系统天生流畅</li><li>基于微内核架构重塑终端设备可信安全</li><li>通过统一IDE支撑一次开发，多端部署，实现跨终端生态共享</li></ul><ol start="2"><li><p><a href="https://techcrunch.com/2019/07/28/fortnite-world-cup-has-handed-out-30-million-in-prizes-and-cemented-its-spot-in-the-culture/" target="_blank" rel="noopener">Fortnite 世界杯</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019072903.jpg" alt="img"></p><p>热门游戏 Fortnite 最近举行自己的世界杯比赛，共耗资3000万美元。美国16岁少年 Kyle 夺得冠军，奖金300万美元。</p><p>这个奖金已经超过了温布尔登网球赛的冠军，只比美国公开赛的冠军少80万美元。这就是说，电子竞技的奖金已经跟顶级的职业体育运动不相上下了。Fortnite 世界杯最后一天的决赛在 YouTube 直播，有近900万人观看。</p></li><li><p><a href="https://www.tesla.com/megapack" target="_blank" rel="noopener">Megapack</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019073001.jpg" alt="img"></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019073003.jpg" alt="img"></p><p>特斯拉虽然是汽车公司，但是核心技术是电池。它在推出家庭电池包 Powerpack 以后，又推出了企业级电池包 Megapack，类似集装箱大小，一次可以储存3000度电。</p><p>300多个 Megapack 就可以组成一个电能储存厂，保存100万度电，能够满足旧金山6个小时的用电需求。这种电能储存厂的安装速度也很快，只要用卡车把 Megapower 拉到现场以后，可以快速建厂。</p></li></ol><ol start="4"><li><a href="https://www.v2ex.com/t/589573" target="_blank" rel="noopener">在不考虑安全的前提下，如何设计一个方案，实现 4 个 G 的文件的快速异地传输？比如从北京到上海</a></li></ol><ol start="5"><li><p><a href="https://www.v2ex.com/t/589063?p=1" target="_blank" rel="noopener">youtube 上有什么优秀频道推荐</a></p><p>世界上居然存在一个地方，可以看视频，没什么广告，还可以评论，太神奇了。不过问题是，youtube 这种推荐算法， 是你看了什么就给你推类似的，好像一道菜好吃，就让你使劲吃，吃到吐为止， 相当智障。所以请问下有没有什么优秀的频道推荐， 各种类型都行，因为罗素说过： 参差多态乃是幸福之源。</p></li><li><p><a href="https://sspai.com/post/56189" target="_blank" rel="noopener">如何用 Github 免费在线播放你的幻灯？</a></p><p>这样一个工具，能让你从此摆脱优盘和连接线，潇洒从容走向讲台。在课堂展示或者学术报告中，直接在浏览器输入网址，就开始精彩的讲解汇报。</p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><p><a href="https://github.com/free-ssr/free-ss/wiki/youtube-%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener">下载YouTube的视频/音频/字幕</a></p></li><li><p><a href="https://www.apowersoft.cn/image-watermark-remover" target="_blank" rel="noopener">在线图片去水印</a></p></li><li><p><a href="https://www.zenflowchart.com/" target="_blank" rel="noopener">Zen Flowchart</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201907/bg2019070801.jpg" alt="img"></p><p>简单好用的在线流程图工具。</p></li><li><p><a href="https://mianbaoduo.com/" target="_blank" rel="noopener">面包多</a></p><p>创造者出售数字作品的平台。你上传作品，设定价格，在这个平台出售。</p></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://sspai.com/post/55785" target="_blank" rel="noopener">简单的NAS不简单</a></li><li><a href="https://sspai.com/post/55894" target="_blank" rel="noopener">近 20 位中国摄影师横扫手机摄影届奥斯卡——IPPA</a></li><li><a href="https://mp.weixin.qq.com/s/Jd2SsrQHevI3CExEd69ftg" target="_blank" rel="noopener">3 分钟找书指南</a></li></ol><h1 id="English"><a href="#English" class="headerlink" title="English"></a>English</h1><p><img src="https://upload-images.jianshu.io/upload_images/7311623-4522b9ff04226c9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h1 id="Health"><a href="#Health" class="headerlink" title="Health"></a>Health</h1><ol><li><p><strong>推荐每天1杯奶。</strong></p><p>牛奶，是性价比特别高的天然钙剂和优质蛋白质来源，推荐大家每天喝1杯（300克）。300克牛奶中的蛋白质含量，大约和1两（50克）瘦猪肉差不多。某种程度上说，喝奶，赚啦！</p></li><li><p><strong>成年人每天最佳睡眠时间是7~9小时。</strong></p><p>研究发现，18~64岁的成年人，每天最佳睡眠时间是7~9小时。每天超过10小时的睡眠，可能反而让有些人觉得更累，对健康没有特别好处。</p></li><li><p><strong>吃姜可以缓解恶心。</strong></p><p>一些研究发现，吃姜能缓解恶心的症状，尤其是孕吐。虽然机制暂时不清楚，但如果你晕车和晕船，或准妈妈孕吐很严重，不妨试一试。</p></li></ol><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ol><li>我上那么多年学，熬那么多夜，做那么多习题，顶着各种各样的压力，然后实习，谈恋爱，分手，工作，加班，我这么辛苦，竟然是为了成为一个普通人。</li><li>一个人有目标、会做事、善待人、有趣味，这才是修养的最高境界。</li><li>靠谱的三要素： 负责 ，清晰，自驱<ul><li>负责：有责任心有担当，凡是有交代，件件有着落，事事有回音。</li><li>清晰明确：讲证据讲逻辑，遵守约定</li><li>自驱：敢于在没条件时创造条件，没思路时创造思路。遇到问题和困难要想办法解决，而不是去逃避。面对未知领域，抱着成事的决心，不断调研学习。  没有结果，工作等于白做。</li></ul></li></ol><h1 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h1><blockquote><p>新能源的极限</p></blockquote><p>目前，石油、天然气、煤等碳氢化合物，提供了全世界84％的能源。风能和太阳能提供了全世界2%的能源。</p><p>尽管如此，许多人还是主张尽快把所有碳氢化合物都替代掉，并称其为”新能源经济”。</p><p>但是，风能，太阳能和电池存储技术有其极限，全世界近期几乎不可能向”新能源经济”过渡。原因如下：</p><p>（1）碳氢化合物有低成本、高能量密度、稳定性、安全性和便携性等卓越的优点，科学家尚未发现跟它们一样优秀的替代物。</p><p>目前，在风力涡轮发电机或太阳能电池板上投入100万美元，每年产生约5000万度电，但是在页岩钻井平台上花费100万美元，生产的天然气可以产生2亿度电。</p><p>（2）硅光伏电池有物理极限，称为 Shockley-Queisser Limit，即最多只有 34％的光子可以转换为电子。今天最好的商业光伏技术，转化率已经超过26％。</p><p>（3）风力发电机的物理极限是 Betz Limit，即最多只能从移动的空气中捕获 60％ 的动能。今天的商用风力涡轮机，转化率已经超过 40％。</p><p>（4）世界最大的电池工厂特斯拉的 Gigafactory，一年生产的电池只能支撑全美国的用电需求三分钟。连续生产1000年的电池，可以支撑美国两天的电力需求。与此同时，每生产一磅电池，需要开采、移动和加工50-100磅的各种材料。</p><h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><img src="https://upload-images.jianshu.io/upload_images/7311623-d234c1116f755c8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;华为开发者大会&lt;/p&gt;
+&lt;p&gt;2019.08.09日华为开发者大会在东莞松山湖召开，会上，华为正式发布其自主研发的
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>增强现实技术——在文化创意产业中的应用</title>
+    <link href="http://yoursite.com/2019/08/12/%E5%A2%9E%E5%BC%BA%E7%8E%B0%E5%AE%9E%E6%8A%80%E6%9C%AF/"/>
+    <id>http://yoursite.com/2019/08/12/增强现实技术/</id>
+    <published>2019-08-12T12:49:29.436Z</published>
+    <updated>2019-08-12T13:44:28.954Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="全球流行的科学技术"><a href="#全球流行的科学技术" class="headerlink" title="全球流行的科学技术"></a>全球流行的科学技术</h1><ul><li>增强现实技术</li><li>全息技术</li><li>3D打印技术</li><li>4D打印技术</li><li>可穿戴计算技术</li><li>体感识别技术</li><li>人脸识别技术</li><li>语音识别技术</li><li>眼控技术</li><li>人脑控制技术</li><li>无线网络</li><li>互联网技术</li><li>APP应用</li><li>云计算，云技术，大数据</li><li>移动支付技术</li><li>无线射频技术</li><li>物联网技术</li><li>机器人技术</li><li>人工智能技术</li><li>无线充电技术</li><li>数字孪生</li><li>区块链和分布式账本</li><li>僵尸物联网</li><li>数字网格</li></ul><h1 id="便携式照片打印机创意设计"><a href="#便携式照片打印机创意设计" class="headerlink" title="便携式照片打印机创意设计"></a>便携式照片打印机创意设计</h1><ol><li>产品简介：随着科学技术的不断发展,产品越来越向小型化、智能化、轻型化等便携的方向发展,特别是一些办公设备越来越向家居和移动方向发展,可以使人们不受场地、不受重量、不受时间等限制,随时可以打印照片。该产品可以打印智能手机内的照片,也可以打印U盘或者移动硬盘中的照片。该产品创意设计更多的是为了检验工业设计增强现实插件对工业设计效率、质量等的影响。是否可以快速地进行创意设计?是否可以不使用手板物理模型检验产品的颜色、形态、材质、结构等。</li><li>相应的产业及经济<br>2016年全球打印机出货量960万台,市场规模大约在500亿美元。目前喷墨打印<br>机和激光打印机保有量为56亿台。2016年全球智能手机总销量为14.7亿部,如果智能手机移动拍摄的照片能够被随时、随地打印,即使只有一半智能手机消费者购买便携式数码照片打印机,假设每台打印机1500元(约220美元),全球市场规模大约为1600亿美元。便携式照片打印机除了打印照片,还可以打印手机微信、QQ、或者邮件中所看的文件,如WORD、 EXECL、PDF、PPT格式的文件,学生可以打印自己的作业,办公人员也可以打印一些办公资料,可能在上下班的地铁内就可以打印好资料,完全可以利用碎片化的时间,节省办公时间。打印的纸张不再只是A4或者大型打印机才可以打印的规定纸张。可使用增强现实技术展现打印照片中数字模型叠加在实景中的效果,效果展示可放在打印机的屏幕上,如果不满意,那么可以重新设定打印的照片,等等。当然也可以将增强现实技术可视化的数字模型使用3D打印机打印出物理模型,视觉数字物理化。</li></ol><h1 id="基于增强现实技术的便携式显微镜设计"><a href="#基于增强现实技术的便携式显微镜设计" class="headerlink" title="基于增强现实技术的便携式显微镜设计"></a>基于增强现实技术的便携式显微镜设计</h1><p>便携式显微镜|特点</p><ol><li>体积小,便于携带。特别适合移动检测、现场检测,大小重量只有普通光学显微镜的1/10,突破传统显微镜使用空间的局限性。</li><li>观测物体可以将显微放大的图像直接显示在屏幕上,便于观察,而且可以实时拍照、录像,记录检测数据,极大的提高了检测效率</li><li>在显微图像软件处理上,可以根据使用需求实现画面反色、黑白、倒置、对比等画面调节功能,同时还可以对显微图像进行数据测量(长度、角度、直径等),最高精度达0.001mm</li><li>手持式显微镜可以连接多种显示设备(电视、电脑、投影),便于多人分享、讨论,数码教学等。</li><li>提供多种供电选择,电脑∪SB供电、干电池供电、锂电池供电,真正实现随时随地,现场检测。</li><li>根据观察物体及使用环境的的不同,可以提供多种光源,最大限度满足使用需求</li></ol><p>定位|应用领域、价格</p><ol><li>科学鉴定业包括珠宝鉴别、字面鉴定、文物鉴定修复、刑事鉴定取证、文件鉴别、伪钞鉴别</li><li>医疗健康业包括皮肤检查、美容、毛发检查、牙齿检查、果蔬检测</li><li>学术研究业包括科研机构、农林业研究、教学</li></ol><h1 id="Hololens应用"><a href="#Hololens应用" class="headerlink" title="Hololens应用"></a>Hololens应用</h1><ul><li>去超市购买食品，通过扫描食品袋上的增强现实识别标记，可以看到食品的各种成分，以及农作物生长，加工的整个过程等</li><li>虚拟屋 博物馆，书店等</li><li>给运动鞋的鞋舌上增加了增强现实标记，可以拿着手机虚拟颠球</li><li>虚拟商店  随意摆放家具 虚拟试穿</li><li>扫描二维码 看到玩具组装后的情况</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;全球流行的科学技术&quot;&gt;&lt;a href=&quot;#全球流行的科学技术&quot; class=&quot;headerlink&quot; title=&quot;全球流行的科学技术&quot;&gt;&lt;/a&gt;全球流行的科学技术&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;增强现实技术&lt;/li&gt;
+&lt;li&gt;全息技术&lt;/li&gt;
+&lt;li&gt;3D打印技术
+      
+    
+    </summary>
+    
+      <category term="Book事务所" scheme="http://yoursite.com/categories/Book%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="book" scheme="http://yoursite.com/tags/book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wechat applet</title>
+    <link href="http://yoursite.com/2019/08/11/mini%20program/"/>
+    <id>http://yoursite.com/2019/08/11/mini program/</id>
+    <published>2019-08-11T15:26:53.616Z</published>
+    <updated>2019-08-16T07:37:20.677Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="微信小程序的视图与渲染"><a href="#微信小程序的视图与渲染" class="headerlink" title="微信小程序的视图与渲染"></a>微信小程序的视图与渲染</h1><ol><li>组件的基本使用</li><li>数据绑定 </li><li>渲染标签: 判断标签，循环标签</li><li>模板的使用：include，import</li></ol><h1 id="微信小程序的事件——课程概要"><a href="#微信小程序的事件——课程概要" class="headerlink" title="微信小程序的事件——课程概要"></a>微信小程序的事件——课程概要</h1><ol><li><p>什么是事件</p><p>一种用户行为，一种通讯方式</p></li><li><p>事件类别</p><ul><li>点击事件tap</li><li>长按事件 longtan</li><li>触摸事件 touchstart touchend touchmove touchcancel</li><li>其他 submit input…</li></ul></li><li><p>事件冒泡</p><ul><li>冒泡事件</li><li>非冒泡事件</li></ul></li><li><p>事件绑定</p><ul><li>bind</li><li>catch : 不会触发父view</li></ul></li><li><p>事件对象详解</p><ul><li>类型type</li><li>时间戳 timeStamp</li><li>事件源组件 target</li><li>当前组件 currentTarget</li><li>触摸点数 touches</li></ul></li></ol><h1 id="综合案例一快递查询"><a href="#综合案例一快递查询" class="headerlink" title="综合案例一快递查询"></a>综合案例一快递查询</h1><ol><li>产品需求</li><li>准备</li><li>编码实战</li></ol><h1 id="微信小程序的配置详解"><a href="#微信小程序的配置详解" class="headerlink" title="微信小程序的配置详解"></a>微信小程序的配置详解</h1><ol><li>app的页面配置</li><li>app的窗口配置</li><li>app的 tabBar配置</li><li>网络超时配置及 debug开启配置</li><li>页面配置</li></ol><h1 id="微信小程序的生命周期与app对象的使用"><a href="#微信小程序的生命周期与app对象的使用" class="headerlink" title="微信小程序的生命周期与app对象的使用"></a>微信小程序的生命周期与app对象的使用</h1><ol><li>APP的生命周期</li><li>APP对象的使用</li></ol><h1 id="微信小程序页面的生命周期和参数传递"><a href="#微信小程序页面的生命周期和参数传递" class="headerlink" title="微信小程序页面的生命周期和参数传递"></a>微信小程序页面的生命周期和参数传递</h1><ol><li>页面的生命周期</li><li>页面跳转的数据传递 wx: navigateTo / wx: redirectTo</li></ol><h1 id="综合案例——用户登录"><a href="#综合案例——用户登录" class="headerlink" title="综合案例——用户登录"></a>综合案例——用户登录</h1><ol><li>项目需求</li><li>编码实战</li></ol><h1 id="微信小程序的UI精讲"><a href="#微信小程序的UI精讲" class="headerlink" title="微信小程序的UI精讲"></a>微信小程序的UI精讲</h1><ol><li>布局和样式基础</li><li>组件使用</li><li>项目实战</li></ol><h1 id="微信小程序UI精讲之布局基础"><a href="#微信小程序UI精讲之布局基础" class="headerlink" title="微信小程序UI精讲之布局基础"></a>微信小程序UI精讲之布局基础</h1><ol><li><p>flex布局基础</p><ul><li>flex的容器和元素</li><li>flex容器属性详解<ul><li>flex- direction决定元素的排列方向</li><li>flex-wrap决定元素如何换行(排列不下时)</li><li>flex-flow flex- direction和fex-wrap的简写</li><li>justify- content元素在主轴上的对齐方式</li><li>align-items元素在交叉轴的对齐方式</li></ul></li><li>flex元素属性详解<ul><li>flex-grow当有多余空间时,元素的放大比例</li><li>flex-shrink当空间不足时,元素的缩小比例</li><li>flex- basis元素在主轴上占据的空间</li><li>flex是grow、 shrink、 basis的简写</li><li>order定义元素的排列顺序</li><li>align-self定义元素自身的对齐方式</li></ul></li><li>flex布局实战</li></ul></li><li><p>相对定位和绝对定位</p><ol><li><p>理解相对定位和绝对定位</p></li><li><p>相对定位、绝对定位的编码实战</p></li></ol></li></ol><p>相对定位的元素是相对<strong>自身</strong>进行定位,参照物是<strong>自己</strong>。<br>绝对定位的元素是相对<strong>离它最近的一个已定位的父级元素</strong>进行定位。</p><h1 id="微信小程序UI精讲之组件的使用"><a href="#微信小程序UI精讲之组件的使用" class="headerlink" title="微信小程序UI精讲之组件的使用"></a>微信小程序UI精讲之组件的使用</h1><ol><li>组件的使用</li><li>组件的配置</li></ol><h1 id="微信小程序精讲之视图容器组件"><a href="#微信小程序精讲之视图容器组件" class="headerlink" title="微信小程序精讲之视图容器组件"></a>微信小程序精讲之视图容器组件</h1><ul><li>view</li><li>scroll-view</li><li>swiper</li></ul><h1 id="微信小程序UI精讲之基础内容组件"><a href="#微信小程序UI精讲之基础内容组件" class="headerlink" title="微信小程序UI精讲之基础内容组件"></a>微信小程序UI精讲之基础内容组件</h1><ul><li>Icon</li><li>text</li><li>progress</li></ul><h1 id="微信小程序UI精讲之表单组件"><a href="#微信小程序UI精讲之表单组件" class="headerlink" title="微信小程序UI精讲之表单组件"></a>微信小程序UI精讲之表单组件</h1><ul><li>button          按钮</li><li>checkbox    多选框</li><li>Input             输入框</li><li>label              标签</li><li>picker           选择器</li><li>radio             单选框</li><li>slide              滑块</li><li>switch          开关</li><li>form             表单</li></ul><h1 id="微信小程序UI精讲之操作反馈小工具"><a href="#微信小程序UI精讲之操作反馈小工具" class="headerlink" title="微信小程序UI精讲之操作反馈小工具"></a>微信小程序UI精讲之操作反馈小工具</h1><ul><li>action-sheet</li><li>modal</li><li>toast</li><li>loading</li></ul><h1 id="微信小程序UI精讲之导航"><a href="#微信小程序UI精讲之导航" class="headerlink" title="微信小程序UI精讲之导航"></a>微信小程序UI精讲之导航</h1><ul><li>navigator</li></ul><h1 id="微信小程序UI精讲之多媒体"><a href="#微信小程序UI精讲之多媒体" class="headerlink" title="微信小程序UI精讲之多媒体"></a>微信小程序UI精讲之多媒体</h1><ul><li>image</li><li>audio</li><li>video</li></ul><h1 id="微信小程序UI精讲之地图与LBS"><a href="#微信小程序UI精讲之地图与LBS" class="headerlink" title="微信小程序UI精讲之地图与LBS"></a>微信小程序UI精讲之地图与LBS</h1><ul><li>地图map的基本使用</li><li>地图标记</li><li>地图覆盖物</li></ul><h1 id="微信小程序UI精讲之画布与游戏"><a href="#微信小程序UI精讲之画布与游戏" class="headerlink" title="微信小程序UI精讲之画布与游戏"></a>微信小程序UI精讲之画布与游戏</h1><ul><li>canvas的使用</li><li>绘图API的使用</li></ul><h1 id="综合案例-评测小程序首页的实现"><a href="#综合案例-评测小程序首页的实现" class="headerlink" title="综合案例-评测小程序首页的实现"></a>综合案例-评测小程序首页的实现</h1><ul><li>项目需求</li><li>编码实战</li></ul><h1 id="微信小程序API之请求服务器数据"><a href="#微信小程序API之请求服务器数据" class="headerlink" title="微信小程序API之请求服务器数据"></a>微信小程序API之请求服务器数据</h1><ul><li>wx.request的使用</li><li>了解http协议</li></ul><h1 id="微信小程序API之图片选择与调用微信拍照"><a href="#微信小程序API之图片选择与调用微信拍照" class="headerlink" title="微信小程序API之图片选择与调用微信拍照"></a>微信小程序API之图片选择与调用微信拍照</h1><ul><li>wx. chooselmage选择图片</li><li>照相机拍照</li></ul><h1 id="微信小程序API之文件上传与下载"><a href="#微信小程序API之文件上传与下载" class="headerlink" title="微信小程序API之文件上传与下载"></a>微信小程序API之文件上传与下载</h1><ul><li>文件上传</li><li>文件下载</li></ul><h1 id="微信小程序API之-WebSocket精讲"><a href="#微信小程序API之-WebSocket精讲" class="headerlink" title="微信小程序API之 WebSocket精讲"></a>微信小程序API之 WebSocket精讲</h1><ul><li>什么是 WebSocket</li><li>使用 WebSocket</li><li>监听 WebSocket</li></ul><h1 id="微信小程序API之音乐的播放和控制"><a href="#微信小程序API之音乐的播放和控制" class="headerlink" title="微信小程序API之音乐的播放和控制"></a>微信小程序API之音乐的播放和控制</h1><ul><li>音乐的播放</li><li>音乐的控制</li></ul><h1 id="微信小程序API之缓存数据"><a href="#微信小程序API之缓存数据" class="headerlink" title="微信小程序API之缓存数据"></a>微信小程序API之缓存数据</h1><ul><li>保存数据</li><li>读取数据</li><li>删除数据</li><li>数据异步操作</li></ul><h1 id="微信小程序API之获取当前位置"><a href="#微信小程序API之获取当前位置" class="headerlink" title="微信小程序API之获取当前位置"></a>微信小程序API之获取当前位置</h1><ul><li>获取位置</li><li>查看位置</li></ul><h1 id="微信小程序API之设备信息"><a href="#微信小程序API之设备信息" class="headerlink" title="微信小程序API之设备信息"></a>微信小程序API之设备信息</h1><ul><li>网络状态</li><li>获取系统信息</li><li>获取重力感应</li><li>罗盘</li><li>拔打电话</li></ul><h1 id="微信小程序API之交互反馈"><a href="#微信小程序API之交互反馈" class="headerlink" title="微信小程序API之交互反馈"></a>微信小程序API之交互反馈</h1><ul><li>showToast</li><li>showModal</li><li>showActionSheet</li></ul><h1 id="微信小程序API之导航和导航条"><a href="#微信小程序API之导航和导航条" class="headerlink" title="微信小程序API之导航和导航条"></a>微信小程序API之导航和导航条</h1><ul><li>导航条标题设置</li><li>导航条加载动画设置</li><li>导航</li></ul><h1 id="微信小程序API之动画"><a href="#微信小程序API之动画" class="headerlink" title="微信小程序API之动画"></a>微信小程序API之动画</h1><ul><li>动画的基本使用</li><li>旋转动画</li><li>缩放动画</li><li>偏移动画</li><li>倾斜动画</li><li>矩阵变形</li></ul><h1 id="微信小程序API之绘图"><a href="#微信小程序API之绘图" class="headerlink" title="微信小程序API之绘图"></a>微信小程序API之绘图</h1><ul><li>cavans及context详解</li><li>绘图API的使用</li><li>游戏的制作</li></ul><h1 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h1><p>课程安排</p><ol><li><p>产品设计-进行产品分析(xmind)和原型设计(墨刀)</p></li><li><p>框架搭建-微信小程序MINA框架讲解和配置</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-67679fb28bad9029.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-55fab100410167ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p></li></ol><h1 id="产品层级、组件模块化设计"><a href="#产品层级、组件模块化设计" class="headerlink" title="产品层级、组件模块化设计"></a>产品层级、组件模块化设计</h1><ul><li>为什么要对小程序进行组件模块化设计?<br>微信小程序有代码大小限制<br>提高代码的复用率</li><li>如何进行组件模块化设计?<br>通过WXML的import和 include来使用文件模板<br>使用WXSS的@import来引用WXSS文件<br>使用JS的 require来引用JS文件</li></ul><hr><ol><li><code>.json</code> 后缀的 <code>JSON</code> 配置文件</li><li><code>.wxml</code> 后缀的 <code>WXML</code> 模板文件</li><li><code>.wxss</code> 后缀的 <code>WXSS</code> 样式文件</li><li><code>.js</code> 后缀的 <code>JS</code> 脚本逻辑文件</li><li><code>pages</code>字段 —— 用于描述当前小程序所有页面路径，这是为了让微信客户端知道当前你的小程序页面定义在哪个目录。</li><li><code>window</code>字段 —— 定义小程序所有页面的顶部背景颜色，文字颜色定义等。</li></ol><ul><li><p>从事过网页编程的人知道，网页编程采用的是 HTML + CSS + JS 这样的组合，其中 <code>HTML</code> 是用来描述当前这个页面的结构，<code>CSS</code> 用来描述页面的样子，<code>JS</code> 通常是用来处理这个页面和用户的交互。</p><p>同样道理，在小程序中也有同样的角色，其中 <code>WXML</code> 充当的就是类似 <code>HTML</code> 的角色。<br><code>WXSS</code> 具有 <code>CSS</code> 大部分的特性，小程序在 <code>WXSS</code> 也做了一些扩充和修改。</p></li></ul><ul><li><p>1rpx = 0.5px = 1物理像素。</p><p>小程序编译后，rpx会做一次px换算。换算是以375个物理像素为基准，也就是在一个宽度为375物理像素的屏幕下，1rpx = 1px。</p><p>举个例子：iPhone6屏幕宽度为375px，共750个物理像素，那么1rpx = 375 / 750 px = 0.5px。</p></li></ul><ul><li>还需要注意的是 JSON 文件中无法使用注释，试图添加注释将会引发报错。</li></ul><ul><li>“比如我在面试的时候问到一个关于小程序的问题，问小程序有window对象吗？他说有吧”，但其实是没有的。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;微信小程序的视图与渲染&quot;&gt;&lt;a href=&quot;#微信小程序的视图与渲染&quot; class=&quot;headerlink&quot; title=&quot;微信小程序的视图与渲染&quot;&gt;&lt;/a&gt;微信小程序的视图与渲染&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;组件的基本使用&lt;/li&gt;
+&lt;li&gt;数据绑定 &lt;/li&gt;
+
+      
+    
+    </summary>
+    
+      <category term="dev事务所" scheme="http://yoursite.com/categories/dev%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="wechat applet" scheme="http://yoursite.com/tags/wechat-applet/"/>
+    
+  </entry>
   
   <entry>
     <title>Share-15</title>
@@ -198,6 +279,31 @@
   </entry>
   
   <entry>
+    <title>机械设计基础-2</title>
+    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
+    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
+    <published>2019-07-03T13:31:31.927Z</published>
+    <updated>2019-07-03T13:31:47.890Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
+      
+    
+    </summary>
+    
+      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>机械设计基础-3</title>
     <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A13/"/>
     <id>http://yoursite.com/2019/07/03/机械设计3/</id>
@@ -212,31 +318,6 @@
       
         &lt;h2 id=&quot;凸轮机构的压力角&quot;&gt;&lt;a href=&quot;#凸轮机构的压力角&quot; class=&quot;headerlink&quot; title=&quot;凸轮机构的压力角&quot;&gt;&lt;/a&gt;凸轮机构的压力角&lt;/h2&gt;&lt;p&gt;压力角： 凸轮作用在从动件上的正压力与该力作用点B速度方向间所夹的锐角a&lt;/p&gt;
 &lt;p&gt;&lt;i
-      
-    
-    </summary>
-    
-      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机械设计基础-2</title>
-    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
-    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
-    <published>2019-07-03T13:31:31.927Z</published>
-    <updated>2019-07-03T13:31:47.890Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
       
     
     </summary>
@@ -455,93 +536,6 @@
     
       <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>检查网络状况技巧</title>
-    <link href="http://yoursite.com/2019/06/16/network-1/"/>
-    <id>http://yoursite.com/2019/06/16/network-1/</id>
-    <published>2019-06-16T12:25:45.181Z</published>
-    <updated>2019-06-16T12:42:41.569Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>ping命令，就是用来检查本机是否能连上一个目标机器</p></blockquote><p>如果ping通了路由器的网关后，说明你的电脑和路由器之间的链接是正常的，反之，则说明这段链路出现问题。如果ping路由器网关正常后，再ping运营商的dns，发现ping不同，一般是路由器到运营商之间的问题</p><p>ping 127.0.0.1 : 查看是否丢包，检测本地TCP／IP协议是否安装正常</p><p>ping <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a> -t :检测电脑与网络是否联通，检测网络是否正常</p><p>如何用命令符ping网关？</p><p>解：ping 网关 检查计算机是否连通代理服务器或者internet</p><ol><li><p>主要有ping ip(自己的) 检查网卡 和ping ip (别人的) 检查是否连通内网或者外网</p></li><li><p>Ping网关IP </p><p>若ping通则表明局域网中的网关路由器正在正常运行。反之，则说明网关设置有问题，请检查IP，网关等信息是否设置正确。</p></li><li><p>ping命令获取计算机的IP地址 </p><p>利用ping这个工具我们可以获取对方计算机的IP地址，特别是在局域网中，DHCP动态IP地址服务自动为各工作站分配动态IP地址，这时当然我们要知道所要测试的计算机的NETBIOS名。如果网络连接正常，则会显示所ping的这台机的动态IP地址。</p></li></ol><blockquote><p>ipconfig</p></blockquote><p>当你的电脑插上网线或者连接到Wi-Fi之后，电脑做的第一件事情就是向网关申请一个IP，如果你的电脑连不上网了，首先就看下，自己是否拿到了一个有效IP。如果你没有看到IP地址，或者是看到了一个169.开头的IP地址，那么就得看下网关或者路由器是否出问题了。</p><blockquote><p>ipconfig -all</p></blockquote><p>物理地址代表的就是你的这台电脑。你电脑的物理地址和别人的物理地址是不一样的。某网管登录路由器之后，发现好多人连上了这个Wi-Fi，我擦，难怪网速这么慢呢，于是一气之下决定，只有在路由器上绑定过mac地址的设备才能上网。这就为什么有些Wi-Fi只有指定设备才能连上网的原理。</p><blockquote><p>nslookup</p></blockquote><p>如果你能用QQ聊天，但是打不开网页，此时很有可能是DNS服务器出问题了，使用nslookup命令，可以检查是否是这个原因。</p><p>nslookup可以对一个域名进行DNS查询，找出它对应的IP地址。如果验证出nslookup不能返回查询结果，那么换一个DNS服务器地址可以解决问题，DNS服务器有哪些？可以网上找一找</p><p>输入“nslookup”之后，效果如下：</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-c5571810b8f6924a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>另外，再举个例子，如果你想查询电子科技大学网站的域名和ip，可以这样：</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f013fed57b3da87c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><blockquote><p>tracert</p></blockquote><p>windows上叫tracert，OS X上叫traceroute，这个命令的作用是跟踪路由节点，也就是说你发送的网络数据，经历了哪些网络设备，最终到达目标地址，它都可以给你列举出来。</p><blockquote><p><a href="http://ip.cn网址：查ip地址" target="_blank" rel="noopener">http://ip.cn网址：查ip地址</a></p></blockquote><p>上面这个网址可以查到一个IP地址的归属地，然后查询最后一跳的IP地址，你就知道你的请求数据被谁给吃了</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;ping命令，就是用来检查本机是否能连上一个目标机器&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果ping通了路由器的网关后，说明你的电脑和路由器之间的链接是正常的，反之，则说明这段链路出现问题。如果ping路由器网关正常后，再ping运营商的d
-      
-    
-    </summary>
-    
-      <category term="dev事务所" scheme="http://yoursite.com/categories/dev%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="dev" scheme="http://yoursite.com/tags/dev/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>interview</title>
-    <link href="http://yoursite.com/2019/06/16/interview/"/>
-    <id>http://yoursite.com/2019/06/16/interview/</id>
-    <published>2019-06-16T08:26:20.168Z</published>
-    <updated>2019-06-16T09:00:43.008Z</updated>
-    
-    <content type="html"><![CDATA[<p>技术环节问完之后,HR继续问我。</p><p>“家里情况如何啊？”，hr问。</p><p>（其实这厮是想试探我家里经济状况，好衡量怎么压我的工资。当时我开的工资可能较高，无奈这个hr又想录取我又不想给我太高的工资。）</p><p>这句话一出，我立马如实相告。譬如“经常上顿不接下顿、等米下锅“之类。当然最主要原因是我7年前就做了房奴，在我脑海中扣去贷款，和青黄不接也没啥区别。当时大脑一发热就做了如此吭自己的回答。</p><p>HR皱眉。事后我才知道，这位HR认为家里实在太困难的技术人员不适合长期培养，因为肯定不稳定，容易吃着碗里瞧着锅里。</p><p>这里我们来举个例子：假设hr问到你的兴趣爱好。探测你技能以外的能力转换率。</p><p>很多人会这么回答：读书、踢球、游戏、写代码等等，反正这里的爱好任意搭配，只要没有违法的兴趣爱好都行。</p><p>1、因为喜欢读书，所以读过《XXX》或《XXX》等著作。并且对某作者有着独到的看法。写过读书笔记，在豆瓣上获得很多人的共鸣；写过博客，获得几十万的浏览量；假如出过书那就更好了。</p><p>2、因为喜欢健身，所以卧推达到200磅的成绩。对如何练习肱二头肌和三头肌有着自己独特的训练方法；知道如何做有氧运动和无氧运动的结合，使肌肉的生长达到最佳状态。</p><p>回答六个常见的面试问题</p><ol><li><p>谈谈你自己</p></li><li><p>为什么我们会录取你</p></li><li><p>为什么你想来这儿工作？关于我们公司你了解多少？</p></li><li><p>你的不足之处是什么？</p></li><li><p>对于你的上一份工作，你有哪些不满意的？你为什么离开了你的前任工作？</p></li><li><p>你五年内的打算是什么？</p></li><li><p>你对公司有什么建议吗？</p></li></ol><p><img src="https://upload-images.jianshu.io/upload_images/7311623-fc161f4b75f6e1ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><hr><p>了解公司的信息</p><p>私有制 赚钱</p><p>公有制 社会服务</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-1123acda66392bfb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;技术环节问完之后,HR继续问我。&lt;/p&gt;
-&lt;p&gt;“家里情况如何啊？”，hr问。&lt;/p&gt;
-&lt;p&gt;（其实这厮是想试探我家里经济状况，好衡量怎么压我的工资。当时我开的工资可能较高，无奈这个hr又想录取我又不想给我太高的工资。）&lt;/p&gt;
-&lt;p&gt;这句话一出，我立马如实相告。譬如“经常
-      
-    
-    </summary>
-    
-      <category term="Life事务所" scheme="http://yoursite.com/categories/Life%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="life" scheme="http://yoursite.com/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>science-movie</title>
-    <link href="http://yoursite.com/2019/06/16/movie-1/"/>
-    <id>http://yoursite.com/2019/06/16/movie-1/</id>
-    <published>2019-06-16T07:59:32.277Z</published>
-    <updated>2019-06-16T08:26:09.204Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><p>《异次元骇客》 三重模拟</p><p>在电影设定中，虚拟现实技术高度发达，人类已经可以利用计算机仿真系统，创造出一个逼真的虚拟城市。</p></li><li><p>根据物理学中的“弦理论”，宇宙中的空间是多维的。</p></li><li><p>《超体》这部电影最核心的科幻理论基础，分析“目前人类大脑利用率只有10%，还有巨大开发潜力”的这种说法，有没有成立的可能性。</p></li><li><p>《蝴蝶效应》</p></li><li><p>《后天》</p></li><li><p>《天地大冲撞》</p></li><li><p>《这个男人来自地球》</p></li></ul><ul><li><p>《无姓之人》宇宙大爆炸, 宇宙大挤压, 投胎, 遗忘天使, 蝴蝶效应, 鸽子迷信理论</p></li><li><p>《星际穿越》 时空 虫洞 黑洞 视界 </p><p>影响时间快慢的两个因素</p><p>1，引力，引力越大，时间越慢。</p><p>2，速度，运行速度越快，时间越慢。</p></li></ul><p>暗物质</p><p>反德西塔弯曲</p><p>世界线</p><p>相对论和量子力学</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-bb4067eaf4e81345.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><blockquote><p>推荐看<a href="https://www.bilibili.com/video/av12819012?from=search&amp;seid=13028348647476979710" target="_blank" rel="noopener">问舰</a>的科幻影评，讲解得非常到位</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;《异次元骇客》 三重模拟&lt;/p&gt;
-&lt;p&gt;在电影设定中，虚拟现实技术高度发达，人类已经可以利用计算机仿真系统，创造出一个逼真的虚拟城市。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;根据物理学中的“弦理论”，宇宙中的空间是多维的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;《
-      
-    
-    </summary>
-    
-      <category term="Life事务所" scheme="http://yoursite.com/categories/Life%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="life" scheme="http://yoursite.com/tags/life/"/>
     
   </entry>
   
