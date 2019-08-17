@@ -112,7 +112,7 @@
 <meta property="og:image" content="c:/Users/ZIYO/blog/source/images/1553397185121.png">
 <meta property="og:image" content="c:/Users/ZIYO/blog/source/images/1553344524868.png">
 <meta property="og:image" content="c:/Users/ZIYO/blog/source/images/1551964773416.png">
-<meta property="og:updated_time" content="2019-06-16T08:44:38.152Z">
+<meta property="og:updated_time" content="2019-08-17T14:34:07.398Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="unity-basic">
 <meta name="twitter:description" content="事件函数   如何执行的是一个普通方法，那么会等这个普通方法执行完，然后继续向下执行  如果调用的是一个协程方法（coroutine)，那么调用完协程方法后，不会等这个方法执行完，就继续向下执行了     Mathf.Rad2Deg 弧度转度数  Mathf.Deg2Rad 度数转弧度  Mathf.Epsilon 非常小的小数  Mathf.lnfinity 无限大的数字  Mathf.Neg">
@@ -711,19 +711,27 @@
 </ul>
 <hr>
 <ul>
-<li><p>Gizmos                   辅助线</p>
-</li>
-<li><p>easytouch               插件</p>
-</li>
-<li><p>紫色 材质丢失</p>
-</li>
-<li><p>terrain                     地形</p>
-</li>
-<li><p>Nav Mesh Agent    自动识路</p>
-</li>
-<li><p>rendertext              动态渲染纹理</p>
-</li>
+<li>Gizmos                   辅助线</li>
+<li>easytouch               插件</li>
+<li>紫色 材质丢失</li>
+<li>terrain                     地形</li>
+<li>Nav Mesh Agent    自动识路</li>
+<li>rendertext              动态渲染纹理</li>
 </ul>
+<hr>
+<p>插值器<code>Interpolator</code>是一个帮助类，它处理对象变换的各种变化。它被Tagalong用来调整对象的transform.position。</p>
+<p>插值时，使用非缩放时间。这对于具有暂停机制或调整游戏时间尺度的游戏非常有用。</p>
+<hr>
+<p><a href="https://blog.csdn.net/jxw167/article/details/54574459" target="_blank" rel="noopener">算法与游戏之AABB碰撞盒算法</a></p>
+<hr>
+<p>[Serializefield]-序列化，只是用于在检查器上显示私有变量的值。您可以像公共变量一样轻松地更改值。但是没有人可以从其他脚本或位置访问这个值。</p>
+<hr>
+<p>Time类包含了一个重要的类变量deltaTime，它表示距上一次调用Update或FixedUpdate<br>所用的时间。 因此通过它可以让游戏对象按照一个常速进行旋转，而不是依赖于它的帧频：<br>function Update()<br>{<br>   tranform.Rotate(0, 5 * Time.deltaTime, 0);<br>} </p>
+<p>同样地移动效果：<br>function Update()<br>{<br>   transform.Translate(0, 0, 2 * Time.deltaTime);<br>} </p>
+<p>如果想要一个值根据每帧的变化而变化（增加或减少） ，你应该使用 Time.deltaTime来<br>乘以这个值。这样才能使得变化的效果依赖于单位时间，而不是帧频。这不仅使得游戏的运<br>行独立于帧频，也使得运动的效果符合现实。 </p>
+<hr>
+<p>rigidBody.velocity.magnitude返回速度方向向量的长度，也就是速度大小</p>
+<p>rigidBody.AddForce 加入一个力给物体</p>
 
       
     </div>
@@ -887,7 +895,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">81</span>
+                  <span class="site-state-item-count">83</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>

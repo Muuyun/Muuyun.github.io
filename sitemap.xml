@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/08/17/computer_note/</loc>
+    
+    <lastmod>2019-08-17T14:57:42.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/03/14/unityAPI/</loc>
+    
+    <lastmod>2019-08-17T14:34:07.398Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/08/17/hololens_note/</loc>
+    
+    <lastmod>2019-08-17T14:27:39.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/08/16/share-16/</loc>
     
-    <lastmod>2019-08-16T07:41:13.518Z</lastmod>
+    <lastmod>2019-08-16T07:47:02.993Z</lastmod>
     
   </url>
   
@@ -362,13 +383,6 @@
     <loc>http://yoursite.com/2019/01/21/root/</loc>
     
     <lastmod>2019-06-16T08:45:39.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/14/unityAPI/</loc>
-    
-    <lastmod>2019-06-16T08:44:38.152Z</lastmod>
     
   </url>
   
