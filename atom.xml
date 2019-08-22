@@ -437,31 +437,6 @@
   </entry>
   
   <entry>
-    <title>机械设计基础-2</title>
-    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
-    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
-    <published>2019-07-03T13:31:31.927Z</published>
-    <updated>2019-07-03T13:31:47.890Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
-      
-    
-    </summary>
-    
-      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>机械设计基础-3</title>
     <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A13/"/>
     <id>http://yoursite.com/2019/07/03/机械设计3/</id>
@@ -476,6 +451,31 @@
       
         &lt;h2 id=&quot;凸轮机构的压力角&quot;&gt;&lt;a href=&quot;#凸轮机构的压力角&quot; class=&quot;headerlink&quot; title=&quot;凸轮机构的压力角&quot;&gt;&lt;/a&gt;凸轮机构的压力角&lt;/h2&gt;&lt;p&gt;压力角： 凸轮作用在从动件上的正压力与该力作用点B速度方向间所夹的锐角a&lt;/p&gt;
 &lt;p&gt;&lt;i
+      
+    
+    </summary>
+    
+      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="mechanical design basis" scheme="http://yoursite.com/tags/mechanical-design-basis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机械设计基础-2</title>
+    <link href="http://yoursite.com/2019/07/03/%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A12/"/>
+    <id>http://yoursite.com/2019/07/03/机械设计2/</id>
+    <published>2019-07-03T13:31:31.927Z</published>
+    <updated>2019-07-03T13:31:47.890Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="铰链四杆机构"><a href="#铰链四杆机构" class="headerlink" title="铰链四杆机构"></a>铰链四杆机构</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-05c911d228cc39ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p><p>基本类型：</p><ul><li>曲柄摇杆机构</li><li>双曲柄机构</li><li>双摇杆机构</li></ul><h2 id="含一个移动副的四杆机构"><a href="#含一个移动副的四杆机构" class="headerlink" title="含一个移动副的四杆机构"></a>含一个移动副的四杆机构</h2><ul><li><p>曲柄滑块机构</p><p><img src="https://upload-images.jianshu.io/upload_images/7311623-f6fbc0df86d70321.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p></li><li><p>导杆机构</p></li><li><p>摇块和定块机构</p></li></ul><p>习题：</p><ul><li>平面连杆机构由一些刚性构件用转动副和移动副相互联接而组成。 </li><li>在铰链四杆机构中，能作整周连续旋转的构件称为<strong>曲柄</strong>，只能来回摇摆某一角度的构件称为<strong>摇杆</strong>，直接与连架杆相联接，借以传动和动力的构件称为<strong>连杆</strong>。</li><li>铰链四杆机构有整砖副的条件是最短杆与最长杆长度之和小于或等于其余两杆长度之和（双曲柄机构）；整转副是由最短杆与其相邻杆组成的。</li><li>平面四杆机构中，如果最短杆与最长杆的长度之和大于其余两杆的长度之和，最短杆为 连杆，这个机构叫做双摇杆机构</li><li>一平面铰链四杆机构的各杆长度分别a=350,b=600,c=200,d=700； <ul><li>当取c杆为机架时，为双曲柄机构；</li><li>当取 d 杆为机架时，则为曲柄摇杆机构；</li><li>最短杆对面的杆为机架时，相连的两杆均为摇杆，为双摇杆机构。 </li></ul></li><li>曲柄摇杆机构能把转动运动转变成往复摆动运动。</li><li>曲柄滑块机构能把转动运动转换成往复直线运动，也可以把往复直线运动转换成转动运动。 </li></ul><hr><blockquote><p>急回特性</p></blockquote><p>四杆机构中，当<a href="https://baike.baidu.com/item/%E6%9B%B2%E6%9F%84/19939766" target="_blank" rel="noopener">曲柄</a>为主动件做匀速回转时，从动件摇杆的往返摆动行程和往返速度往往是不一样的，返程比往程要快，这种运动特性称为急回特性。（返程快，往程慢）</p><ul><li><p>行程速比系数</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D263/sign=83fe1ea8203fb80e08d166d105d02ffb/9d82d158ccbf6c81021d3e71bd3eb13533fa4004.jpg" alt="img"> </p></li></ul><p>或</p><p> <img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D103/sign=ea7a4e7d6c224f4a539977133af69044/faf2b2119313b07e920168530dd7912397dd8c28.jpg" alt="img"> </p><ul><li><p>平面连杆机构当行程速比 <strong>K &gt; 1</strong>时，机构就具有急回特性</p></li><li><p>铰链四杆机构具有急回特性时其极位夹角θ值&gt;0</p></li></ul><blockquote><p>摆动导杆机构</p></blockquote><p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2056781236,736196434&amp;fm=26&amp;gp=0.jpg" alt="摆动导杆机构"></p><ul><li>因摆动导杆机构的极位夹角不为0，故有急回特性</li><li>摆动导杆机构压力角为0，传动角90</li></ul><blockquote><p>极位夹角</p></blockquote><p>曲柄摇杆机构，在曲柄转动一周的过程中，有两次与连杆共线，这时摇杆分别处于两极限位置。机构所处的这两个位置称为极位。机构在两个极位时，原动件所在两个位置之间的夹角称为极位夹角θ。</p><p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268/sign=3dcb14779945d688a302b5a29cc37dab/72f082025aafa40fb5cd1399a064034f78f0196f.jpg" alt="img"></p><blockquote><p>机构的死点</p></blockquote><p>当从动件上的传动角等于零时，<a href="https://baike.baidu.com/item/%E9%A9%B1%E5%8A%A8%E5%8A%9B/6402834" target="_blank" rel="noopener">驱动力</a>对从动件的有效回转力矩为零，这个位置称为机构的死点位置，也就是机构中从动件与连杆共线的位置称为机构的死点位置。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=00623ca9b212c8fcb0f3f1cfcc0192b4/024f78f0f736afc30bd871ecb819ebc4b6451266.jpg" alt="脚踏缝纫机上的曲柄摇杆机构"></p><p>消除死点位置影响的措施：</p><ol><li>两组机构错开排列或加装从动曲柄，如火车轮机构；</li><li>靠飞轮的惯性（如内燃机，缝纫机等）</li></ol><p>死点的应用：飞机起落架，夹紧机构（钻夹具）等</p><hr><ul><li>机构的死点应在运动时克服，在固定夹紧时利用</li><li>当四杆机构的压力角α=90°时，传动角等于0，该机构处于死点位置</li><li>曲柄摇杆机构中，曲柄为主动件时，不存在死点位置</li><li>曲柄摇杆机构产生“死点”位置的条件是，摇杆为主动件，曲柄为从动件。</li><li>四杆机构的死点位置即为该机构的最小传动角位置。 </li></ul><blockquote><p>压力角</p></blockquote><p>压力角是指不计算摩擦力的情况下，受力方向和运动方向所夹的锐角。如图中所示，α是作用于C点的力F与点C速度方向之间所夹的锐角，则角α为该平面机构传动时的压力角，即F和Ft所夹的角。压力角是判断机构动力学性能的一个重要指标。</p><p><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=2b9dea2344c2d562f208d7ebdf2af7d2/f9198618367adab4d8485f0080d4b31c8601e4dd.jpg" alt="img"></p><blockquote><p>传动角</p></blockquote><p>传动角（γ）是指<a href="https://baike.baidu.com/item/%E5%8E%8B%E5%8A%9B%E8%A7%92/6882468" target="_blank" rel="noopener">压力角</a>的余角。通常用来描述机械机构的传动性能。取值范围一般在0-90度。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;铰链四杆机构&quot;&gt;&lt;a href=&quot;#铰链四杆机构&quot; class=&quot;headerlink&quot; title=&quot;铰链四杆机构&quot;&gt;&lt;/a&gt;铰链四杆机构&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_imag
       
     
     </summary>
