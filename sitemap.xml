@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-08-22T08:50:20.258Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/06/17/common-sense/</loc>
+    
+    <lastmod>2019-08-22T08:44:38.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/08/22/share-18/</loc>
+    
+    <lastmod>2019-08-22T06:39:27.236Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/08/10/share-15/</loc>
+    
+    <lastmod>2019-08-21T08:30:51.616Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/08/20/share-17/</loc>
     
     <lastmod>2019-08-20T14:08:41.403Z</lastmod>
@@ -26,13 +54,6 @@
     <loc>http://yoursite.com/2019/08/20/method/</loc>
     
     <lastmod>2019-08-20T09:20:01.642Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/08/10/share-15/</loc>
-    
-    <lastmod>2019-08-20T08:13:37.710Z</lastmod>
     
   </url>
   
@@ -117,13 +138,6 @@
     <loc>http://yoursite.com/2019/07/28/IE%E4%BA%A4%E6%B5%81%E4%BC%9A/</loc>
     
     <lastmod>2019-07-28T15:18:43.434Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/06/17/common-sense/</loc>
-    
-    <lastmod>2019-07-26T07:34:16.933Z</lastmod>
     
   </url>
   
@@ -607,13 +621,6 @@
     <loc>http://yoursite.com/2019/02/09/share-1/</loc>
     
     <lastmod>2019-03-30T14:29:36.762Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-02-21T05:37:00.640Z</lastmod>
     
   </url>
   
