@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-27T13:55:59.803Z</updated>
+  <updated>2019-10-05T01:57:58.453Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,83 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Share-25</title>
+    <link href="http://yoursite.com/2019/10/05/share-25/"/>
+    <id>http://yoursite.com/2019/10/05/share-25/</id>
+    <published>2019-10-05T01:53:18.868Z</published>
+    <updated>2019-10-05T01:57:58.453Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li>离散制造的产品往往由多个零件经过一系列并不连续的工序的加工最终装配而成，加工此类产品的企业可以称为离散制造型企业。<br>流程型企业生产特点：工艺过程是连续进行的，不能中断；工艺过程的加工顺序是固定不变的，生产设施按照工艺流程布置；劳动对象按照固定的工艺流程连续不断的通过一系列的设备和装备被加工处理成产品。</li></ol><ol start="2"><li><p>订单资格要素是指允许一家企业的产品参与竞争的资格筛选标准。</p><p>订单赢得要素指企业的产品或服务区别于其他的企业，从而赢得订单。根据不同情况，这些要素可以是产品的成本（价格），产品质量及可靠性或其他要点。</p></li></ol><ol start="3"><li><p><a href="https://www.reuters.com/article/us-autos-hydrogen-toyota-olympics-fous-idUSKBN1W22VK" target="_blank" rel="noopener">氢气大巴</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201909/bg2019091807.jpg" alt="img"></p><p>丰田公司将向2022年北京冬季奥运会，提供100辆氢燃料电池公共汽车，在场馆之间运送游客。这应该是中国第一次引入氢气燃料的公共汽车。目前，东京已经有15辆氢气大巴在运营。</p><p>跟纯电动汽车相比，氢气汽车没有充电这个环节，更方便省事。但是，它需要广泛的充气站网络，这成了氢动力汽车推广的最大难题。</p></li></ol><ol start="4"><li><p><a href="https://www.v2ex.com/t/604214" target="_blank" rel="noopener">你们读过计算机四大名著吗？</a></p><p>计算机四大名著如下：算法导论，深入理解计算机系统，SICP，计算机网络：自顶向下方法</p></li></ol><ol start="5"><li><p><a href="https://www.v2ex.com/t/604335" target="_blank" rel="noopener">程序员长期盯着显示器，到了下午眼睛干涩酸痛的问题解决方案，便宜。</a></p><p><img src="https://i.loli.net/2019/10/04/kNd2B5r3f6xYqwF.png" alt="UTOOLS1570200013224.png"></p></li></ol><h1 id="ML"><a href="#ML" class="headerlink" title="ML"></a>ML</h1><ol><li>人工智能学科研究的主要内容包括：知识表示、自动推理和搜索方法、机器学习和知识获取、知识处理系统、自然语言理解、计算机视觉、智能机器人、自动程序设计等方面。 </li></ol><ol start="2"><li>机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。</li></ol><ol start="3"><li>机器学习已广泛应用于数据挖掘、计算机视觉、自然语言处理、生物特征识别、搜索引擎、医学诊断、检测信用卡欺诈、证券市场分析、DNA序列测序、语音和手写识别、战略游戏和机器人等领域。</li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><a href="https://github.com/magic-FE/translate-man" target="_blank" rel="noopener">翻译侠</a><br> <img src="https://www.wangbase.com/blogimg/asset/201908/bg2019081704.jpg" alt="img"><br> 浏览器翻译插件，支持 Chrome 和 Firefox，鼠标点击或选择触发翻译，可以翻译多种语言，底层为 Google translate API。</li></ol><ol start="2"><li>12306 购票助手，内置 Docker 环境；支持分布式、多账号、多任务购票以及 Web 页面管理：<a href="https://github.com/pjialin/py12306" target="_blank" rel="noopener">https://github.com/pjialin/py12306</a></li></ol><ol start="3"><li><a href="https://www.showmebug.com/" target="_blank" rel="noopener">ShowMeBug</a><br> <img src="https://www.wangbase.com/blogimg/asset/201909/bg2019091005.png" alt="img"><br> 一个国产的在线实时编程环境，程序员面试助手，可以实时观看应聘者远程编程</li></ol><ol start="4"><li><a href="https://works.yangerxiao.com/chinese-colors/" target="_blank" rel="noopener">中国传统颜色手册</a><br> <img src="https://i.loli.net/2019/10/05/HaFdvuD3x7MKnTt.png" alt="UTOOLS1570240614471.png"><br> 一个方便使用的在线色表，列出中国古典的常见颜色。</li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://github.com/521xueweihan/git-tips" target="_blank" rel="noopener">Git的奇技淫巧</a></li><li><a href="https://github.com/geeeeeeeeek/git-recipes" target="_blank" rel="noopener">高质量的Git中文教程</a></li><li><a href="https://github.com/xirong/my-git" target="_blank" rel="noopener">有关 git 的学习资料</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzAxOTcxNTIwNQ==&amp;mid=2457915797&amp;idx=1&amp;sn=7d44bcdb2bc42f695ca3b3b0b75afeb2&amp;chksm=8cb6b47fbbc13d69c0298ef965e11318161b56a289e066518a94712df318e0ea6f1e40acf963&amp;scene=27#wechat_redirect" target="_blank" rel="noopener">寓教于乐，用玩游戏的方式学习 Git！</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://mp.weixin.qq.com/s/fJbHxYEfwA2FYy6-wt6uxQ" target="_blank" rel="noopener">这不是CG！波士顿动力新视频——Spot Launch &amp; More Parkour Atlas</a></li><li><a href="https://mp.weixin.qq.com/s/WlBU7xQBTKlFXibpWyd94g" target="_blank" rel="noopener">2018年度中国大学生自强之星揭晓</a></li><li><a href="https://sspai.com/post/56833" target="_blank" rel="noopener">电脑上网页截图，一个 Chrome 就够了</a></li></ol><h1 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h1><ol><li>In the information age, objective obstacles no longer exist. The so-called obstacles are subjective. If you want to develop new technologies, you don’t need millions of dollars, you Just fill the fridge with pizza and cola, then have a cheap computer, and with the determination to dedicate yourself, you can have any programming realm you want!                                                           ― John Carmack</li></ol><ol start="2"><li>A man who gives a good account of himself is probably lying, since any life when viewed from the inside is simply a series of defeats.                ― George Orwell</li></ol><ol start="3"><li>In life, unlike chess, the game continues after checkmate.    ― Isaac Asimov </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;离散制造的产品往往由多个零件经过一系列并不连续的工序的加工最终装配而成，加工此类产品的企业可以称为离散制造型企业。&lt;br
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>cinemachine</title>
+    <link href="http://yoursite.com/2019/09/29/cinemachine/"/>
+    <id>http://yoursite.com/2019/09/29/cinemachine/</id>
+    <published>2019-09-29T09:19:21.005Z</published>
+    <updated>2019-09-29T09:24:59.311Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2019/09/17/jTcpLJ9CedAvNzr.png" alt="UTOOLS1568724070111.png"></p><p>插件：cinemachine，unity-chan! Model，hand painted nature kit lite</p><p>main camera :</p><ul><li>show debug text</li><li>show camera frustum</li></ul><p>cm vcam :</p><ul><li>solo ， priority</li><li>lens</li><li>follow ，look at</li><li>noise : handheld</li></ul><p>镜头融合：timeline</p><p>推轨镜头：Dolly camera with track(镜头跟着轨道走DollyTrack —— waypoints) </p><p>切镜：clearshot</p><p>自由观察相机：freelookcamera</p><p>状态驱动相机：state driven camera</p><p>混合列表相机：blend list camera(以时间作为分割点，比较少用)</p><p>目标组相机：target group camera(一个相机可以跟随多个物体)</p><p>2D相机：2D camera</p><p>混合相机：mixing camera</p><p>轨道物体：dolly track with cart（物体跟着轨道走）</p><p>Body: transposer</p><ul><li>LockToTarget 相机跟着物体旋转</li><li>LockToTarget WithWorldUp 当物体翻转，相机不会翻转</li></ul><p>案例：NPC的各种触发镜头都不同</p><hr><p>各家AR的功能价格等介绍</p><p><img src="https://i.loli.net/2019/09/16/1ZiPsXKCRlcxV6n.png" alt="UTOOLS1568637426404.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/09/17/jTcpLJ9CedAvNzr.png&quot; alt=&quot;UTOOLS1568724070111.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;插件：cinemachine，unity-chan! Model，hand 
+      
+    
+    </summary>
+    
+      <category term="unity" scheme="http://yoursite.com/categories/unity/"/>
+    
+    
+      <category term="unity" scheme="http://yoursite.com/tags/unity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>plan</title>
+    <link href="http://yoursite.com/2019/09/29/plan/"/>
+    <id>http://yoursite.com/2019/09/29/plan/</id>
+    <published>2019-09-29T08:36:24.757Z</published>
+    <updated>2019-10-05T02:06:38.223Z</updated>
+    
+    <content type="html"><![CDATA[<p>From now on, I will write my next plan on the blog.</p><p>From now on, I will write my next plan on the blog.</p><p>From now on, I will write my next plan on the blog.</p><p>从现在开始，我会把我接下来的计划写在blog上</p><p>plan：</p><ul><li>这学期：拿个专业第一，学一下机器学习（程序设计大赛），考过六级（普译杯）</li><li>寒假：做Hololens的项目，做一个小程序《海贼派对》</li><li>下学期：拿个专业第一，考过计算机二级，教师证，普通话证</li></ul><hr><p>以后想学的：心理学，法律，金融，医学</p><p>以后要看的：海贼王，斗破苍穹，天行九歌</p><p>以后可以参加比赛来当作学习一样东西的练习，记住：比赛于我而言只是练习</p><hr><p>有用的APP：speedtest，ourplay，牛客网，JuiceSSH，每日故宫，拍照计算，福昕扫描王，薄荷健康，爱彼迎(旅游找住宿必备)，买票(淘宝，飞猪，携程)，blinkist(听书)，识货(买鞋)，静读天下(电子书)，TIM，openhub（github app)，unity connect，轻听</p><p>买书: 多抓鱼，当当，亚马逊</p><p>软件：向日葵X（远程控制）</p><hr><p>CET6     9月报名，12月15日考  2月查成绩</p><p>教师资格证 </p><p>1月16日-19日报名 考试：3月17日  4月18日查成绩</p><p> 9月4日-9日报名  笔试：11月3日  面试：1月5日-6日 3月查成绩</p><p>旅游打折神器：终年有效旅游景点折扣，寒暑假旅游景点优惠，教师节购房，买车优惠</p><p>计算机二级</p><p>11月初报名，二级考试时间为120分钟；</p><p>python语言程序设计/MS Office高级应用</p><p>系统环境：Windows 7、<a href="https://baike.baidu.com/item/Visual C%2B%2B" target="_blank" rel="noopener">Visual C++</a>2010 学习版（Visual C++ 2010 Express）、<a href="https://baike.baidu.com/item/Visual Basic" target="_blank" rel="noopener">Visual Basic</a> 6.0、Access2010、<a href="https://baike.baidu.com/item/NetBeans" target="_blank" rel="noopener">NetBeans</a>、<a href="https://baike.baidu.com/item/My SQL" target="_blank" rel="noopener">My SQL</a>（Community 5.5.16）；<a href="https://baike.baidu.com/item/Visual Studio 2010" target="_blank" rel="noopener">Visual Studio 2010</a>、MS Office2010、<a href="https://baike.baidu.com/item/Python/407313" target="_blank" rel="noopener">Python</a>3.5.2 版本及以上 IDLE。</p><p>2019年全国计算机等级考试（NCRE）将举办四次考试，时间分别为3月30日至4月1日（第54次）、6月1日（第55次）、9月21日至23日（第56次）及12月7日（第57次）。其中3月和9月考试开考全部级别全部科目，6月和12月考试开考一、二级全部科目。各省级承办机构可根据实际情况决定是否开考6月和12月考试。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;From now on, I will write my next plan on the blog.&lt;/p&gt;
+&lt;p&gt;From now on, I will write my next plan on the blog.&lt;/p&gt;
+&lt;p&gt;From now on, I will
+      
+    
+    </summary>
+    
+      <category term="Life事务所" scheme="http://yoursite.com/categories/Life%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
+    
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>Share-24</title>
@@ -448,85 +525,6 @@
     
       <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Lean salon</title>
-    <link href="http://yoursite.com/2019/08/06/Lean%20salon/"/>
-    <id>http://yoursite.com/2019/08/06/Lean salon/</id>
-    <published>2019-08-06T05:59:58.424Z</published>
-    <updated>2019-08-06T06:14:44.812Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="《现场改善利器》"><a href="#《现场改善利器》" class="headerlink" title="《现场改善利器》"></a>《现场改善利器》</h1><p>本次沙龙活动讲座从标准工时定义与测量方法开始，在<strong>生产平衡率</strong>提升34%情况下，发现<strong>生产效率</strong>提升60%，相比较增长1.76倍，由此看出平衡率提升有倍增效应，因此建议大家秉承工匠精神，踏踏实实把所有产品的标准工时进行提升生产平衡率，从而促进生产效率提升。</p><p>为了定量地确定安全工序、瓶颈工序、关键工序、检验工序作业人员和储备干部，谢老师分享了<strong>“数据化筛选员工法”</strong>，用简单、定量的方法筛选出大脑不易分神或者基础动作相对比较快的人员，结合培训和考核，让大脑不易分神的人员从事<strong>安全工序</strong>和<strong>关键工序</strong>，让基础动作快的人从事<strong>瓶颈工序</strong>，即快又不易出错的人从事<strong>检验工序</strong>，甚至在结合长期观察和相应考核可以选出<strong>储备干部</strong>。</p><p>通过谢老师分享的<strong>心理防呆法和人体功率</strong>在制造业的运用，大幅提升人员操作的动作速度和动作节奏感，也防止操作失误的发生，提升了生产安全、生产效率和产品品质。</p><p>通过现场浪费的动作录像和改善后动作录像比对，发现浪费和改善方式；列举多个案例和数学模型，讲解了聚焦瓶颈的付出与收益；通过<strong>简单有效的口诀</strong>牢记改善要求，使得所有培训人员成为一个个编外的IE技术员，大家纷纷表示收获满满。</p><ul><li>5S：整理（SEIRI）、整顿（SEITON）、清扫（SEISO）、清洁（SEIKETSU）、素养（SHITSUKE），又被称为“五常法则”或“五常法”。</li><li>TOC的聚焦五步骤：<ol><li>找出瓶颈</li><li>挖尽瓶颈</li><li>迁就瓶颈</li><li>打破瓶颈</li><li>回头找瓶颈，避免惰性</li></ol></li></ul><p><img src="https://upload-images.jianshu.io/upload_images/7311623-9e8ba4fc9afe4e35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-2ceaa8afd5684456.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-fccb494f30845fe8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-eb69412828bbed8c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-6355c25d92b73c56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-d27c1d6eaf4e15f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/7311623-5926477779163bcf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;《现场改善利器》&quot;&gt;&lt;a href=&quot;#《现场改善利器》&quot; class=&quot;headerlink&quot; title=&quot;《现场改善利器》&quot;&gt;&lt;/a&gt;《现场改善利器》&lt;/h1&gt;&lt;p&gt;本次沙龙活动讲座从标准工时定义与测量方法开始，在&lt;strong&gt;生产平衡率&lt;/strong&gt;
-      
-    
-    </summary>
-    
-      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="salon" scheme="http://yoursite.com/tags/salon/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>低成本智能自动化实战交流会</title>
-    <link href="http://yoursite.com/2019/07/28/IE%E4%BA%A4%E6%B5%81%E4%BC%9A/"/>
-    <id>http://yoursite.com/2019/07/28/IE交流会/</id>
-    <published>2019-07-28T15:14:41.644Z</published>
-    <updated>2019-07-28T15:18:43.434Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>开课时间：19.07.28</p><p>课程地点：东莞厚街镇康乐大道66号湾际国际3楼</p><p>课程背景：通过此次交流会,让企业改善人员掌握低成本改善的的方法、LCIA的原理及设计理念,学会运用相关的工具进行工厂低成本改善设计,从而全面管控策划显性、隐形成本控制,保证和提高企业整体经营水平,降本增效,实现利润倍增。</p></blockquote><p><img src="https://upload-images.jianshu.io/upload_images/7311623-dd6c9e4f63d81a79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h2 id="经营环境"><a href="#经营环境" class="headerlink" title="经营环境"></a>经营环境</h2><table><thead><tr><th style="text-align:center">经营环境的变化</th><th style="text-align:center">生产</th><th style="text-align:center">技术</th><th style="text-align:center">组织</th></tr></thead><tbody><tr><td style="text-align:center">生产就能卖出</td><td style="text-align:center">同一规格大量生产</td><td style="text-align:center">模仿·手段的活用·应用</td><td style="text-align:center">命令职能型组织·忍耐力</td></tr><tr><td style="text-align:center">生产畅销品</td><td style="text-align:center">多品种少量生产</td><td style="text-align:center">商品策划·手段的开发</td><td style="text-align:center">说服认同型组织·问题解决力</td></tr><tr><td style="text-align:center">创造价值</td><td style="text-align:center">多品种变量生产</td><td style="text-align:center">商品创造·手段的革新</td><td style="text-align:center">参与型组织·问题发现力</td></tr><tr><td style="text-align:center">从造物到造事</td><td style="text-align:center">从制造业到创造业</td><td style="text-align:center">事物创造·目的的发现创造</td><td style="text-align:center">异行业参与型组织·统合力</td></tr></tbody></table><p>经营环境的变化·课题</p><ul><li>产品生命周期的短期化：缩短产品设计期间，缩短生产启动期间</li><li>生产切换的多频度化：机种切换的浪费减少，间接业务的效率提升</li></ul><h2 id="并行工程（Concurrent-Engineering）"><a href="#并行工程（Concurrent-Engineering）" class="headerlink" title="并行工程（Concurrent Engineering）"></a>并行工程（Concurrent Engineering）</h2><p><img src="https://upload-images.jianshu.io/upload_images/7311623-30854b661beae899.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>并行工程的目的</p><ul><li><p>缩短开发期间</p><p>​     消除开发的返工</p><ul><li><p>产品规格的确认</p></li><li><p>设计品质的事前确认</p></li><li><p>生产品质的事前保证</p></li></ul></li><li><p>缩短生产启动期间</p><p>生产的早期安定</p><ul><li>生产性·工程内不良</li></ul></li></ul><h2 id="低成本自动化（LCA）"><a href="#低成本自动化（LCA）" class="headerlink" title="低成本自动化（LCA）"></a>低成本自动化（LCA）</h2><ol><li><p>通过半自动检查装置，运用并行化达到少人化</p><p>高度检查，极性检查，电阻检查，绝缘检查，盖章</p></li><li><p>LCA的目的</p><p>自动化 ——&gt; 自働化</p><p>设备投资 《 投资效果</p><p>消减设备的生命周期成本</p><ul><li>清扫·点检·保养·修理成本消减</li><li>通用性（转用性）</li></ul><p>作业改善·设计改善</p></li></ol><h2 id="柔性制造系统（FMS）"><a href="#柔性制造系统（FMS）" class="headerlink" title="柔性制造系统（FMS）"></a>柔性制造系统（FMS）</h2><ol><li><p>生产就能卖出</p><ul><li>少品种大量生产</li><li>产品生命·长期</li></ul><p>输送带方式</p><ul><li>多人数·单能工生产</li></ul></li><li><p>生产营销品（FMS）</p><ul><li>多品种少量生产</li><li>产品生命·短期</li></ul><p>单元生产方式</p><ul><li>少人数·多能工生产</li></ul></li><li><p>FMS的目的</p><p>对应变种变量生产</p><ul><li>少品种大量生产</li><li>多品种少量生产</li><li>多品种变量生产</li></ul><p>人的价值最大化</p></li></ol><p><strong>案例一般要考虑：地点，目的，回收周期，制作方式，弊端</strong></p><p><strong>生产线：利用AGV机器人的优势，搭配精益管和低成本自动化装置实现自动上料</strong></p><h2 id="自动化与自働化"><a href="#自动化与自働化" class="headerlink" title="自动化与自働化"></a>自动化与自働化</h2><p>自働化是指让设备能像人一样自动识别异常并自动停机，而自动化是完全机械化，不需要人员操作。自働化和自动化有相似之处，也有本质上的却别。</p><table><thead><tr><th>分类</th><th style="text-align:center">自动化</th><th style="text-align:center">自働化</th></tr></thead><tbody><tr><td>员工</td><td style="text-align:center">作业更容易，但员工仍然需要“监视设备”</td><td style="text-align:center">多工序作业能提高生存率</td></tr><tr><td>设备</td><td style="text-align:center">设备一直运行至结束或当停止键按下</td><td style="text-align:center">设备自动识别错误并停止</td></tr><tr><td>质量</td><td style="text-align:center">有可能造成设备故障和大批量质量缺陷</td><td style="text-align:center">自动停止防止缺陷和设备故障</td></tr><tr><td>问题响应</td><td style="text-align:center">错误在以后发现，问题解决需要更长的时间</td><td style="text-align:center">机器在发生错误是停止，问题解决</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;开课时间：19.07.28&lt;/p&gt;
-&lt;p&gt;课程地点：东莞厚街镇康乐大道66号湾际国际3楼&lt;/p&gt;
-&lt;p&gt;课程背景：通过此次交流会,让企业改善人员掌握低成本改善的的方法、LCIA的原理及设计理念,学会运用相关的工具进行工厂低成本改善设计,从而全面管控
-      
-    
-    </summary>
-    
-      <category term="IE事务所" scheme="http://yoursite.com/categories/IE%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="seminar" scheme="http://yoursite.com/tags/seminar/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>漫画算法——小灰的算法之旅</title>
-    <link href="http://yoursite.com/2019/07/25/%E6%BC%AB%E7%94%BB%E7%AE%97%E6%B3%95/"/>
-    <id>http://yoursite.com/2019/07/25/漫画算法/</id>
-    <published>2019-07-25T12:08:22.192Z</published>
-    <updated>2019-07-25T12:09:52.190Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="算法概述"><a href="#算法概述" class="headerlink" title="算法概述"></a>算法概述</h1><ul><li><p>什么是算法<br>在计算机领域里,算法是一系列程序指令,用于处理特定的运算和逻辑问题。<br>衡量算法优劣的主要标准是时间复杂度和空间复杂度。</p></li><li><p>什么是数据结构<br>数据结构是数据的组织、管理和存储格式,其使用目的是为了高效地访问和修改<br>数据。<br>数据结构包含数组、链表这样的线性数据结构,也包含树、图这样的复杂数据<br>结构</p></li><li><p>什么是时间复杂度<br>时间复杂度是对一个算法运行时间长短的量度,用大O表示,记作T(n)=O(f(n))<br>常见的时间复杂度按照从低到高的顺序,包括O(1)、O(logn)、O(n)、O(nlogn)、O(n<sup>2</sup>)等。</p></li><li><p>什么是空间复杂度<br>空间复杂度是对一个算法在运行过程中临时占用存储空间大小的量度,用大O表示,记作S(n)=O(f(n))<br>常见的空间复杂度按照从低到高的顺序,包括O(1)、O(n)、O(n<sup>2</sup>)等。其中递归算法的空间复杂度和递归深度成正比。</p></li></ul><h1 id="数据结构基础"><a href="#数据结构基础" class="headerlink" title="数据结构基础"></a>数据结构基础</h1><ul><li><p>什么是数组<br>数组是由有限个相同类型的变量所组成的有序集合,它的物理存储方式是顺序存储,访问方式是随机访问。利用下标查找数组元素的时间复杂度是O(1),中间插入、删除数组元素的时间复杂度是O(n)</p></li><li><p>什么是链表<br>链表是一种链式数据结构,由若干节点组成,每个节点包含指向下一节点的指针。链表的物理存储方式是随机存储,访问方式是顺序访问。查找链表节点的时间复杂度是O(n),中间插入、删除节点的时间复杂度是O(1)。</p></li><li><p>什么是栈<br>栈是一种线性逻辑结构,可以用数组实现,也可以用链表实现。栈包含入栈和出栈操作,遵循先入后出的原则(FILO)</p></li><li><p>什么是队列<br>队列也是一种线性逻辑结构,可以用数组实现,也可以用链表实现。队列包含入队<br>和出队操作,遵循先入先出的原则(FIFO)。</p></li><li><p>什么是散列表<br>散列表也叫哈希表,是存储 Key-Value映射的集合。对于某一个Key,散列表可以在接<br>近O(1)的时间内进行读写操作。散列表通过哈希函数实现Key和数组下标的转换,通过开放寻址法和链表法来解决哈希冲突。</p></li></ul><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><ul><li><p>什么是树<br>树是n个节点的有限集,有且仅有一个特定的称为根的节点。当n&gt;1时,其余节点可<br>分为m个互不相交的有限集,每一个集合本身又是一个树,并称为根的子树。</p></li><li><p>什么是二叉树<br>二叉树是树的一种特殊形式,每一个节点最多有两个孩子节点。二叉树包含完全<br>又树和满二叉树两种特殊形式。</p></li><li><p>二叉树的遍历方式有几种<br>根据遍历节点之间的关系,可以分为前序遍历、中序遍历、后序遍历、层序遍历这4<br>种方式从更宏观的角度划分,可以划分为深度优先遍历和广度优先遍历两大类。</p></li><li><p>什么是二叉堆<br>二叉堆是一种特殊的满二叉树,分为最大堆和最小堆。<br>在最大堆中,任何一个父节点的值,都大于或等于它左、右孩子节点的值。<br>在最小堆中,任何一个父节点的值,都小于或等于它左、右孩子节点的值。</p></li><li><p>什么是优先队列<br>优先队列分为最大优先队列和最小优先队列。<br>在最大优先队列中,无论入队顺序如何,当前最大的元素都会优先出队,这是基于<br>最大堆实现的。<br>在最小优先队列中,无论入队顺序如何,当前最小的元素都会优先出队,这是基于<br>最小堆实现的。</p></li></ul><h1 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h1><ul><li><img src="https://i.loli.net/2019/07/24/5d386b0d0854f29334.png" alt="UTOOLS1563978508489.png"></li></ul><h1 id="面试中的算法"><a href="#面试中的算法" class="headerlink" title="面试中的算法"></a>面试中的算法</h1><ol><li><p>如何判断链表是否为有环链表？</p><p>创建两个指针，类似跑道的追及问题。</p></li><li><p>实现一个栈，该栈带有出栈（pop），入栈（push），取最小元素（getMin）3个方法。要保证这3个方法的时间复杂度都是O(1)</p><p>设置备胎栈，用于辅助栈A</p></li><li><p>如何求出最大公约数？</p><p>把辗转相除法和更相减损术的优势结合起来，在更相减损术的基础上使用移位运算(/2)。</p></li><li><p>判断一个正整数是否是2的整数次幂</p><p>用原数值（2的整数次幂）和它减1的结果进行</p></li><li><p>求无序数组排序后的任意两个相邻元素的最大差值</p><p>利用计数排序/桶排序的空缺</p></li><li><p>用栈实现队列</p><p>设置备胎栈，用于辅助栈A</p></li><li><p>寻找全排列的下一个数</p><p>运用字典序算法</p><ul><li>从后向前查看逆序区域，找到逆序区域的前一位，也就是数字置换的边界</li><li>让逆序区域的前一位和逆序区域中大于它的最小的数字交换位置</li><li>把原来的逆序区域转为顺序状态</li></ul></li><li><p>删去k个数字后的最小值</p><p>贪心算法：求得局部最优解，最终得到全局最优解的思想</p><p>把原整数的所有数字从左到右进行比较，如果发现某一位数字大于它右面的数字，那么在删除该数字后，必然会使该数位的值降低</p></li><li><p>如何实现大整数相加</p><p>为大整数建立两个临时数组</p></li><li><p>如何求解金矿问题</p><p>运用动态规划的核心思想（自底向上求解）</p></li><li><blockquote><p>在一个无序数组里有99个不重复的正整数，范围是1 ~ 100，唯独缺少1个1 ~ 100 中的整数。如何找出这个缺失的整数？</p></blockquote><p>  先算出1 ~ 100 的累加和，然后再依次减去数组里的所有元素，最后的差值就是所缺少的整数。</p><blockquote><p>在一个无序数组里有若干个不重复的正整数，范围是1 ~ 100，其中99个整数都出现了偶数次，只有1个整数出现了奇数次，如何找到这个出现奇数次的整数？</p></blockquote><p> 把数组里的所有元素进行异或运算，最后得到的就是那个缺失的整数</p><blockquote><p>在一个无序数组里有若干个不重复的正整数，范围是1 ~ 100，其中98个整数都出现了偶数次，只有2个整数出现了奇数次，如何找到这2个出现奇数次的整数？</p></blockquote><p>  把数组元素依次进行异或运算，得到的结果是2个出现了奇数次的整数的异或运算结果，在这个结果中至少有1个二进制位是1</p></li></ol><h1 id="算法的实际应用"><a href="#算法的实际应用" class="headerlink" title="算法的实际应用"></a>算法的实际应用</h1><ol><li>关于用户标签的需求：Bitmap算法（位图算法）</li><li>关于用户信息的需求：LRU算法（Least Recently Used）：哈希链表</li><li>关于迷宫寻路的需求：A星寻路算法</li><li>关于红包的需求： 二倍均值法 每次抢到的金额 = 随机区间[0.01，m/n * 2 - 0.01]元</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;算法概述&quot;&gt;&lt;a href=&quot;#算法概述&quot; class=&quot;headerlink&quot; title=&quot;算法概述&quot;&gt;&lt;/a&gt;算法概述&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;什么是算法&lt;br&gt;在计算机领域里,算法是一系列程序指令,用于处理特定的运算和逻辑问题。&lt;br&gt;衡量算法优劣
-      
-    
-    </summary>
-    
-      <category term="Book事务所" scheme="http://yoursite.com/categories/Book%E4%BA%8B%E5%8A%A1%E6%89%80/"/>
-    
-    
-      <category term="book" scheme="http://yoursite.com/tags/book/"/>
     
   </entry>
   

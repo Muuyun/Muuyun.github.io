@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/09/29/plan/</loc>
+    
+    <lastmod>2019-10-05T02:06:38.223Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/10/05/share-25/</loc>
+    
+    <lastmod>2019-10-05T01:57:58.453Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-10-01T02:08:11.580Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/16/linux/</loc>
+    
+    <lastmod>2019-09-30T03:05:14.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/09/29/cinemachine/</loc>
+    
+    <lastmod>2019-09-29T09:24:59.311Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/09/27/share-24/</loc>
     
     <lastmod>2019-09-27T13:55:59.803Z</lastmod>
@@ -82,13 +117,6 @@
     <loc>http://yoursite.com/2019/08/20/share-17/</loc>
     
     <lastmod>2019-08-30T07:22:22.103Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-08-30T07:15:53.725Z</lastmod>
     
   </url>
   
@@ -355,13 +383,6 @@
     <loc>http://yoursite.com/2019/02/25/hololens2/</loc>
     
     <lastmod>2019-06-16T08:56:57.088Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/02/16/linux/</loc>
-    
-    <lastmod>2019-06-16T08:56:42.233Z</lastmod>
     
   </url>
   
