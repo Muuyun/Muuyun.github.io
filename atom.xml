@@ -314,57 +314,6 @@
   </entry>
   
   <entry>
-    <title>computer_note</title>
-    <link href="http://yoursite.com/2019/08/17/computer_note/"/>
-    <id>http://yoursite.com/2019/08/17/computer_note/</id>
-    <published>2019-08-17T14:55:34.506Z</published>
-    <updated>2019-10-12T13:35:38.505Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>所谓的位指的是CPU一次数据读取的最大量！ 64位CPU代表CPU一次可以读写64bits这么多的数据，32 位 CPU 则是 CPU 一次只能读取 32 位的意思。 因为 CPU 读取数据量有限制，因此能够从内存中读写的数据也就有所限制。所以，一般 32 位的 CPU 所能读写的最大数据量，大概就是 4GB 左右</li></ul><ul><li>一般来说，文件容量使用的是二进制的方式，所以 1 GBytes 的文件大小实际上为：1024x1024x1024 Bytes 这么大！ 速度单位则常使用十进制，例如 1GHz 就是 1000x1000x1000 Hz 的意思。</li></ul><ul><li><p>假设你今天购买了 500GB 的硬盘一颗，但是格式化完毕后却只剩下 460GB 左右的容量，这是什么原因？ 答： 因为一般硬盘制造商会使用十进制的单位，所以 500GByte 代表为 500<em>1000</em>1000*1000Byte 之意。 转成文件的容 量单位时使用二进制(1024 为底)，所以就成为 466GB 左右的容量了。 </p><p>硬盘厂商并非要骗人，只是因为硬盘的最小物理量为 512Bytes，最小的组成单位为扇区(sector)， 通常硬盘容量的 计算采用『多少个 sector』，所以才会使用十进制来处理的。</p></li></ul><ul><li>不同的 CPU 型号大多具有不同的脚位(CPU 上面的插脚)，能够搭配的主板芯片组也不同， 所以当你想要将你的主机升级时，不能只考虑CPU，你还得要留意你的主板上面所支援的 CPU 型号喔！ 不然买了最新的 CPU 也不能够安插在你的旧主板上头的！</li></ul><ul><li>BIOS(Basic Input Output System)是一套程序，这套程序是写死到主板上面的一个内存芯片中， 这个内存芯片在没有通电时也能够将数据记录下来，那就是只读存储器(Read Only Memory, ROM)</li></ul><ul><li>韧体就是绑在硬件上面的控制软件</li></ul><ul><li>显示适配器又称为 VGA(Video Graphics Array)，他对于图形影像的显示扮演相当关键的角色。 一般对于图形影像的显示重点在于分辨率与颜色深度，因为每个图像显示的颜色会占用掉内存， 因此显示适配器上面会有一个内存的容量，这个显示适配器内存容量将会影响到你的屏幕分辨率与颜色深度的喔！</li></ul><ul><li><p>I/O 地址有点类似每个装置的门牌号码，每个装置都有他自己的地址，一般来说，不能有两个装置使用同一个 I/O 地址， 否则系统就会不晓得该如何运作这两个装置了。而除了 I/O 地址之外，还有个IRQ 中断(Interrupt)这个咚咚。 </p><p>如果 I/O 地址想成是各装置的门牌号码的话，那么 IRQ 就可以想成是各个门牌连接到邮件中心(CPU) 的专门路径啰！ 各装置可以透过 IRQ 中断信道来告知 CPU 该装置的工作情况，以方便 CPU 进行工 作分配的任务。</p></li></ul><ul><li>CMOS 主要的功能为记录主板上面的重要参数， 包括系统时间、CPU 电压与频率、各项设备的 I/O 地址与 IRQ 等，由于这些数据的记录要花费电力，因此主板上面才有电池。 BIOS 为写入到主板上某一块 flash 或 EEPROM 的程序，他可以在开机的时候执行，以加载 CMOS 当中的参数， 并尝试呼叫储存装置中的开机程序，进一步进入操作系统当中</li></ul><ul><li>操作系统必须要能够驱动硬件，如此应用程序才能够使用该硬件功能； 一般来说，操作系统会提供开发接口，让开发商制作他们的驱动程序； 要使用新硬件功能，必须要安装厂商提供的驱动程序才行；驱动程序是由厂商提供的，与操作系统开发者无关。</li></ul><ul><li>计算器的定义为：接受用户输入指令与数据，经由中央处理器的数学与逻辑单元运算处理后，以产生或储存成有用的信息； 计算机的五大单元包括：输入单元、输出单元、控制单元、算数逻辑单元、记忆单元五大部分。其中 CPU 占有控制、算术逻辑单元，记忆单元又包含主存储器与辅助内存；数据会流进/流出内存是 CPU 所发布的控制命令，而 CPU 实际要处理的数据则完全来自于主存储器；  CPU 依设计理念主要分为：精简指令集(RISC)与复杂指令集(CISC)系统； 关于 CPU 的频率部分：外频指的是 CPU 与外部组件进行数据传输时的速度，倍频则是 CPU 内部用来加速工作效能的一个倍数， 两者相乘才是 CPU 的频率速度； 新的 CPU 设计中，已经将北桥的内存控制芯片整合到 CPU 内，而 CPU 与主存储器、显示适配器沟通的总线通常称为系统总线。 南桥就是所谓的输入输出(I/O)总线，主要在联系硬盘、USB、网络卡等接口设备； CPU 每次能够处理的数据量称为字组大小(word size)，字组大小依据 CPU 的设计而有 32 位与 64 位。 我们现在所称的计算机是 32 或 64 位主要是依据这个 CPU 解析的字组大小而来的！ 个人计算机的主存储器主要组件为动态随机存取内存(Dynamic Random Access Memory, DRAM)， 至于 CPU 内部的第二层快取则使用静态随机存取内存(Static Random Access Memory, SRAM)；BIOS(Basic Input Output System)是一套程序，这套程序是写死到主板上面的一个内存芯片中， 这个内存芯片在没有通电时也能够将数据记录下来，那就是只读存储器(Read Only Memory, ROM)； 目前主流的外接卡界面大多为 PCIe 界面，且最新为 PCIe 3.0，单信道速度高达 1GBytes/s 常见的显示适配器连接到屏幕的界面有 HDMI/DVI/D-Sub/Display port 等等。HDMI 可同时传送影像与声音。 传统硬盘的组成为：圆形磁盘盘、机械手臂、 磁盘读取头与主轴马达所组成的，其中磁盘盘的组成为扇区、 磁道与磁柱； 磁盘连接到主板的界面大多为 SATA 或 SAS，目前桌机主流为 SATA 3.0，理论极速可达 600Mbytes/s。 常见的文字编码为 ASCII，繁体中文编码主要有 Big5 及 UTF8 两种，目前主流为 UTF8 操作系统(Operating System, OS)其实也是一组程序， 这组程序的重点在于管理计算机的所有活动以及驱动系统中的所有硬件。 计算机主要以二进制作为单位，常用的磁盘容量单位为 bytes，其单位换算为 1 Byte = 8bits。操作系统仅在驱动与管理硬件，而要使用硬件时，就得需要透过应用软件或者是壳程序(shell)的功能， 来呼叫操作系统操纵硬件工作。目前称为操作系统的，除了上述功能外，通常已经包含了日常工作所需要的应用软件在内了</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;所谓的位指的是CPU一次数据读取的最大量！ 64位CPU代表CPU一次可以读写64bits这么多的数据，32 位 CPU 则是 CPU 一次只能读取 32 位的意思。 因为 CPU 读取数据量有限制，因此能够从内存中读写的数据也就有所限制。所以，一般 32 位的
-      
-    
-    </summary>
-    
-      <category term="technology" scheme="http://yoursite.com/categories/technology/"/>
-    
-    
-      <category term="computer" scheme="http://yoursite.com/tags/computer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hololens_note</title>
-    <link href="http://yoursite.com/2019/08/17/hololens_note/"/>
-    <id>http://yoursite.com/2019/08/17/hololens_note/</id>
-    <published>2019-08-17T14:24:08.938Z</published>
-    <updated>2019-10-12T13:43:00.951Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="使用unity开发Hololens中的空间追踪功能"><a href="#使用unity开发Hololens中的空间追踪功能" class="headerlink" title="使用unity开发Hololens中的空间追踪功能"></a>使用unity开发Hololens中的空间追踪功能</h1><h2 id="默认处理方式-Default-Handling"><a href="#默认处理方式-Default-Handling" class="headerlink" title="默认处理方式 Default Handling"></a>默认处理方式 Default Handling</h2><p>默认情况下，发生tracking  loss期间应用所有的更新动作、事件和消息都会被暂停。同时会应用会显示一张图片给用户。可以用通过项目设置Player  settings-&gt; Splash Image-&gt;Holographic Tracking Loss  image选项来设置tracking loss要显示的图片。</p><p><img src="http://www.52vr.com/data/attachment/portal/201611/23/192726xx24axzbcv6l16er.png" alt="192726xx24axzbcv6l16er"></p><h2 id="手动处理-Manual-Handling"><a href="#手动处理-Manual-Handling" class="headerlink" title="手动处理 Manual Handling"></a>手动处理 Manual Handling</h2><p>为了手动处理tracking loss， 你需要在上面提到的设置选项上取消勾选“Display tracking loss image”选项。之后就需要使用下面特定的API来处理追踪状态变化。</p><p><strong>命名空间</strong>: <em>UnityEngine.VR.WSA</em></p><p><strong>类型</strong>: <em>WorldManager</em></p><ul><li>World   Manager提供了一个事件(WorldManager.OnPositionalLocatorStateChanged)来让我们识别追踪状态（追踪丢失/追踪可获取到），同时还提供了一个属性来查询当前追踪状态(WorldManager.state)</li><li>当追踪状态丢失时，场景中相机将立刻静止，不会再移动，即使用户在运动。这意味全息图形将不再响应用户的物理位置的变化，所有内容都会相对用户身体静止</li></ul><p>在手动处理追踪状态变化时，你需要每一帧都查询当前追踪状态，或者处理OnPositionalLocatorStateChanged事件。</p><h3 id="轮询-Polling"><a href="#轮询-Polling" class="headerlink" title="轮询 Polling"></a>轮询 Polling</h3><p>追踪状态最重要的一个状态是PositionalLocatorState.Active，这意味着当前HoloLens的状态追踪正常工作。任何其他的状态都会导致摄像机只剩下旋转增量，而忽略位置变化。</p><p>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">void Update()</span><br><span class="line">&#123;</span><br><span class="line">    switch(UnityEngine.VR.WSA.WorldManager.state)</span><br><span class="line">    &#123;</span><br><span class="line">        case PositionalLocatorState.Active: break;  //处理激活状态内容</span><br><span class="line">        case PositionalLocatorState.Inhibited: </span><br><span class="line">        case PositionalLocatorState.OrientationOnly:</span><br><span class="line">        case PositionalLocatorState.Unavailable:</span><br><span class="line">        default:</span><br><span class="line">        //摄像机当前只有旋转增变化</span><br><span class="line">        break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>   处理追踪状态变化事件 </p><p> Handling the OnPositionalLocatorStateChanged event </p><p>此外更便利的方法是订阅状态追踪的OnPositionalLocatorStateChanged事件来处理：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">void Start()</span><br><span class="line">&#123;</span><br><span class="line">    UnityEngine.VR.WSA.WorldManager.OnPositionalLocatorStateChanged += worldManager_OnPositionalLocatorStateChanged;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line">private void WorldManager_OnPositionalLocatorStateChanged(PositionalLocatorState odState,PositionalLocatorState newState)</span><br><span class="line">&#123;</span><br><span class="line">    if(newState == PositionalLocatorState.Active)</span><br><span class="line">    &#123;</span><br><span class="line">        //处理即将进入追踪恢复时场景内容</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">        //处理即将进入状态丢失时场景内容</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>我们都知道AR是虚拟物体叠加（superimpose over）在现实物体上，现实空间的光子已经打在了你视网膜上，再显示虚拟物体则是在这些光子之上增加光子。</p><p>而这个superimpose 表现在『显示』上，就是AR（Additive Display）。</p><p>你隔着玻璃看这个世界，看到的是这个世界吗？</p><p>但如果想在这上面显示不存在的东西，所谓『holographic』，它上面的光来自于现实世界中外界环境的光和显示器的光，两个光混合。</p><p>它就是将四块<strong>分离的色彩区域</strong>，按先后顺序显示出来。所以，要把240帧每秒的刷新率分给着四个色彩区域，所以最终重叠后只有60帧每秒。</p><p>这也就是为什么Hololens 这种现实被称为全息投影的原因，它和投影仪一样，都是投射『光』。</p><hr><p>使用Cortana语音助手和Start Menu工具录制的混合现实视频及图片格式如下：</p><table><thead><tr><th><strong>类型</strong></th><th><strong>格式</strong></th><th><strong>扩展名</strong></th><th><strong>分辨率</strong></th><th><strong>音频</strong></th></tr></thead><tbody><tr><td>Photo</td><td><a href="https://en.wikipedia.org/wiki/JPEG" target="_blank" rel="noopener">JPEG</a></td><td>.jpg</td><td>1408x792px</td><td>N/A</td></tr><tr><td>Video</td><td><a href="https://en.wikipedia.org/wiki/MPEG-4" target="_blank" rel="noopener">MPEG-4</a></td><td>.mp4</td><td>1408x792px</td><td>48kHz Stereo</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;使用unity开发Hololens中的空间追踪功能&quot;&gt;&lt;a href=&quot;#使用unity开发Hololens中的空间追踪功能&quot; class=&quot;headerlink&quot; title=&quot;使用unity开发Hololens中的空间追踪功能&quot;&gt;&lt;/a&gt;使用unity开发Ho
-      
-    
-    </summary>
-    
-      <category term="technology" scheme="http://yoursite.com/categories/technology/"/>
-    
-    
-      <category term="hololens" scheme="http://yoursite.com/tags/hololens/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Share-16</title>
     <link href="http://yoursite.com/2019/08/16/share-16/"/>
     <id>http://yoursite.com/2019/08/16/share-16/</id>
@@ -512,6 +461,58 @@
     
       <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Share-12</title>
+    <link href="http://yoursite.com/2019/06/17/share-12/"/>
+    <id>http://yoursite.com/2019/06/17/share-12/</id>
+    <published>2019-06-17T01:25:13.185Z</published>
+    <updated>2019-08-30T07:38:13.488Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h1><ol><li><a href="https://link.zhihu.com/?target=https%3A//wordart.com/" target="_blank" rel="noopener"> WordArt</a><br>这是一个文字云生成的网站，我给好多人推荐过，大家都非常喜欢，它可以将一些文字自动排版成图形。<br><img src="https://i.loli.net/2019/08/30/myzTb4LEIv39kBD.png" alt="UTOOLS1567150293021.png"></li></ol><ol start="2"><li><a href="https://link.zhihu.com/?target=https%3A//pixelmap.amcharts.com/" target="_blank" rel="noopener"> Pixel Map Generator</a><br>Pixel Map Generator，这是一款可视化地理图表生成器。在PPT中，插入一张网上的中国地图和世界地图，很难看，问我怎么办？使用 Pixel Map Generator就可以了。这个神器，还能够给地图进行上色、添加图例和线段等功能，操作上也非常简单，是一款可视化地图的神器。<br><img src="https://i.loli.net/2019/08/30/pjYv7DdXk13sbVo.png" alt="UTOOLS1567150276315.png"></li></ol><ol start="3"><li><a href="https://link.zhihu.com/?target=https%3A//getmosh.io/" target="_blank" rel="noopener"> Mosh</a><br>MOSH，这是一个故障效果的生成网站。什么是故障效果呢，你在一些悬疑电影或者电视剧里应该会经常看到，比如，电视监控画面突然出现了故障，屏幕模糊，一闪一闪的。 上传之后，右侧我们可以看到许多的故障效果，有像素化，摇晃，点矩阵、坏电视等等效果。点击mosh可以随机生成，在页面左上角，还可以切换为录像形式，点下record可以进行录制，录制完为GIF的动图。<br><img src="https://i.loli.net/2019/08/30/s8ao1m7hTpSb3uV.png" alt="UTOOLS1567150260093.png"></li></ol><ol start="4"><li><p><a href="https://link.zhihu.com/?target=https%3A//shapefactory.co/" target="_blank" rel="noopener">ShapeFactory</a><br>这是一个非常酷的图片滤镜网站，非常非常酷。你只要上传一张图片，它就可以将图片生成炫酷的色调风格。<br><img src="https://i.loli.net/2019/08/30/vxYoT2iFrgEdCpK.png" alt="UTOOLS1567150241705.png"></p></li><li><p><a href="https://soranews24.com/2019/05/27/clever-alarm-system-invented-by-japanese-railway-company-will-wake-even-the-deepest-of-sleepers/" target="_blank" rel="noopener">深度唤醒装置</a></p><p>日本铁路公司 JR 以准时著称，为了保证员工不睡过头，该公司发明了一种深度唤醒装置，效果远超闹钟，即使睡得最死的人也能被叫醒。该装置原来只供内部员工使用，现在推向了市场，所有人都可以购买。</p><p>它的原理很简单，就是床垫下面的一个充气垫子，时间一到就会自动充气，从而鼓起，使得上面的人无法再躺着（下图）。这个过程重复多次，直到手动关闭为止。</p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062106.jpg" alt="img"></p></li><li><p><a href="https://blog.photofeeler.com/photofeeler-d3/" target="_blank" rel="noopener">照片的吸引力判断</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062107.jpg" alt="img"></p><p>美国一家创业公司，研发了一种人工智能算法，可以判断照片在他人眼里的感觉。上图有三种颜色的指标，蓝色表示聪明，绿色表示信赖，红色表示吸引力。可以看到，算法认为左起第二张照片最有吸引力。这种算法的一大应用，就是自动从一堆照片里面，挑出最佳的那一张</p></li></ol><h1 id="Tool"><a href="#Tool" class="headerlink" title="Tool"></a>Tool</h1><ol><li><p><a href="https://www.desmos.com/calculator" target="_blank" rel="noopener">图形计算器</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062126.jpg" alt="img"></p><p>该网站左侧输入公式，右侧自动输出图像，非常直观。</p></li><li><p><a href="https://cssfx.dev/" target="_blank" rel="noopener">CSSfx</a></p><p>该网站收集各种 CSS 特效，可以复制粘贴到自己的项目。</p></li><li><p><a href="https://colorize.cc/" target="_blank" rel="noopener">Colorize</a></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062124.jpg" alt="img"></p><p><img src="https://www.wangbase.com/blogimg/asset/201906/bg2019062125.jpg" alt="img"></p><p>黑白照片自动上色的服务。</p></li></ol><h1 id="Resource"><a href="#Resource" class="headerlink" title="Resource"></a>Resource</h1><ol><li><a href="https://www.arduino.cn/" target="_blank" rel="noopener">Arduino，做项目，学习电子控制必备</a></li><li><a href="www.geek-workshop.com">极客工坊</a></li><li><a href="https://www.thingiverse.com/thing:19938" target="_blank" rel="noopener">3D打印模型网站</a></li><li><a href="https://www.instructables.com/technology/" target="_blank" rel="noopener">国外有趣DIY网站</a></li></ol><h1 id="Essay"><a href="#Essay" class="headerlink" title="Essay"></a>Essay</h1><ol><li><a href="https://zhuanlan.zhihu.com/p/60951245" target="_blank" rel="noopener">写论文、搞科研、读大学必备的28款软件。</a></li><li><a href="https://sspai.com/post/55288" target="_blank" rel="noopener">如何「读」懂一杯咖啡？</a></li><li><a href="https://mp.weixin.qq.com/s/Xt644hACqXCuiqzN6GuMGg" target="_blank" rel="noopener">纳达尔用33年，教会我的20件事</a></li></ol><h1 id="Picture"><a href="#Picture" class="headerlink" title="Picture"></a>Picture</h1><p><img src="https://i.loli.net/2019/08/30/z56q2n7TshdKe9o.png" alt="UTOOLS1567150212636.png"></p><h1 id="笔迹"><a href="#笔迹" class="headerlink" title="笔迹"></a>笔迹</h1><ul><li>每天有86400秒，活到80岁有29220天</li><li>修昔底德陷阱，指一个新崛起的大国必然要挑战现存大国，而现存大国也必然来回应这种威胁，这样战争变得不可避免。</li><li>画面感要有温度，色彩，感受</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Fun&quot;&gt;&lt;a href=&quot;#Fun&quot; class=&quot;headerlink&quot; title=&quot;Fun&quot;&gt;&lt;/a&gt;Fun&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://link.zhihu.com/?target=https%3A//wordart.co
+      
+    
+    </summary>
+    
+      <category term="Share" scheme="http://yoursite.com/categories/Share/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>调线方法</title>
+    <link href="http://yoursite.com/2019/06/16/network-2/"/>
+    <id>http://yoursite.com/2019/06/16/network-2/</id>
+    <published>2019-06-16T12:32:28.603Z</published>
+    <updated>2019-10-12T13:37:05.928Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先介绍线序：</p><p>​               1 2 3 4 5 6 7 8      </p><p>T568A标准：绿白 绿 橙白 蓝 蓝白 橙 棕白 棕（网线两头分别A、B标准，同类设备相连的交叉线）</p><p>T568B标准：橙白 橙 绿白 蓝 蓝白 绿 棕白 棕（常用）</p><p>双绞线（B标准）：</p><p>1橙白——2橙 （发送）</p><p>3绿白——6绿 （接收）</p><p>4蓝 ——5蓝白 (一般备用,千兆除外)</p><p>7棕白——8棕 （一般备用,千兆除外）</p><p>一般情况下，只要1（橙白）2（橙）3（绿白）6（绿）通，就能正常上网。需要调线的情况就是墙内线原因导致4线中有若干线不通。需要调整的地方为出现问题的墙内线两端，一端是宿舍端模块（有可能新旧，一定要是出问题墙内线一端），另一端是水晶头（宿舍接旧模块的水晶头，配线架端口水晶头，有些是直接连交换机的就交换机端口水晶头），此处配线架后模块线序也可对应调整，但是比较困难，不推荐。</p><p>所以，可以分为两种情况：</p><p>调用一组备用线（1236单线不通，12或36一组双绞线不通）：</p><p>假设1（橙白）不通，因为本身是双绞线的抗干扰能力强，最好的换法是1（橙白）2（橙）与4（蓝）5（蓝白）或7（棕白）8（棕）调换，前提是有一组备用线是完好的，先小后大，大小对应，就是1对4或7, 2对5或8，其他同理。（注意：墙内线出问题的两端都是这样调整）</p><p>调用两组备用线（接收和发送各一不通，接收不通发送一不通，发送不通接收一不通，接收发送都不通）：</p><p>假设1（橙白）3（绿白）不通，最好的换法是1（橙白）2（橙）与4（蓝）5（蓝白）调换，3（绿白）6（绿）与7（棕白）8（棕）调换，前提是两组备用线完好。</p><p>当然，这是一般情况下情况下的做法，特殊情况特殊处理（噗），视具体情况而定。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先介绍线序：&lt;/p&gt;
+&lt;p&gt;​               1 2 3 4 5 6 7 8      &lt;/p&gt;
+&lt;p&gt;T568A标准：绿白 绿 橙白 蓝 蓝白 橙 棕白 棕（网线两头分别A、B标准，同类设备相连的交叉线）&lt;/p&gt;
+&lt;p&gt;T568B标准：橙白 橙 绿白 蓝 
+      
+    
+    </summary>
+    
+      <category term="technology" scheme="http://yoursite.com/categories/technology/"/>
+    
+    
+      <category term="dev" scheme="http://yoursite.com/tags/dev/"/>
     
   </entry>
   
