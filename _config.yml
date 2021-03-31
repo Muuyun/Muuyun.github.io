@@ -84,7 +84,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Muuyun/Muuyun.github.io.git
+  repo: git@github.com:godnoshadow/godnoshadow.github.io.git
   branch: master
 
 live2d:
